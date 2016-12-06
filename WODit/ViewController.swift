@@ -10,16 +10,35 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        titleLbl.addShadow()
     }
 
 
+
+}
+
+
+extension UIView {
+    
+    func addShadow(){
+        
+        let shadowPath = UIBezierPath(rect: bounds)
+        layer.masksToBounds = false
+        layer.shadowColor = UIColor.white.cgColor
+        layer.shadowRadius = 20
+        //layer.shadowOffset = CGSize(width: 0.0, height: 5.0)
+        layer.shadowOpacity = 0.5
+        layer.shadowPath = shadowPath.cgPath
+        //self.setNeedsLayout()  //Indica que esta view precisa de ser actualizada no próximo ciclo de actualização
+        //self.layoutIfNeeded()  //Verifica se a view precisa de ser actualizada (linha acima) e chama o layoutSubview se precisar. É assim que o layout Subviews deve ser chamado
+        
+    }
+    
 }
 
