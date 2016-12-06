@@ -8,22 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BC0FB3AB1DF4AC4600774A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3AA1DF4AC4600774A38 /* AppDelegate.swift */; };
-		BC0FB3AD1DF4AC4600774A38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3AC1DF4AC4600774A38 /* ViewController.swift */; };
+		BC0FB3AD1DF4AC4600774A38 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3AC1DF4AC4600774A38 /* MainViewController.swift */; };
 		BC0FB3B01DF4AC4600774A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3AE1DF4AC4600774A38 /* Main.storyboard */; };
 		BC0FB3B31DF4AC4600774A38 /* WODit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3B11DF4AC4600774A38 /* WODit.xcdatamodeld */; };
 		BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */; };
 		BC0FB3B81DF4AC4600774A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3B61DF4AC4600774A38 /* LaunchScreen.storyboard */; };
+		BC5940601DF76AA700716735 /* WodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59405F1DF76AA700716735 /* WodCell.swift */; };
+		BC5940621DF76E1F00716735 /* WodLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940611DF76E1F00716735 /* WodLibraryVC.swift */; };
+		BC5940641DF76EE200716735 /* WOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940631DF76EE200716735 /* WOD.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BC0FB3C91DF4BEC100774A38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC0FB39F1DF4AC4600774A38 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC0FB3C31DF4BEC100774A38;
-			remoteInfo = MyCostumShadowTitles;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		BC0FB3D01DF4BEC100774A38 /* Embed Frameworks */ = {
@@ -40,25 +33,20 @@
 
 /* Begin PBXFileReference section */
 		BC0FB3AA1DF4AC4600774A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC0FB3AC1DF4AC4600774A38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC0FB3AC1DF4AC4600774A38 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BC0FB3AF1DF4AC4600774A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC0FB3B21DF4AC4600774A38 /* WODit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WODit.xcdatamodel; sourceTree = "<group>"; };
 		BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC0FB3B71DF4AC4600774A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC0FB3B91DF4AC4600774A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC59405A1DF622D700716735 /* WODit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = WODit.app; path = "/Users/nuno/Documents/WODit/build/Debug-iphoneos/WODit.app"; sourceTree = "<absolute>"; };
-		BC59405B1DF622D700716735 /* MyCostumShadowTitles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyCostumShadowTitles.framework; path = "/Users/nuno/Documents/WODit/build/Debug-iphoneos/MyCostumShadowTitles.framework"; sourceTree = "<absolute>"; };
+		BC59405F1DF76AA700716735 /* WodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WodCell.swift; sourceTree = "<group>"; };
+		BC5940611DF76E1F00716735 /* WodLibraryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WodLibraryVC.swift; sourceTree = "<group>"; };
+		BC5940631DF76EE200716735 /* WOD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BC0FB3A41DF4AC4600774A38 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC0FB3C01DF4BEC100774A38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +66,10 @@
 		BC0FB3A91DF4AC4600774A38 /* WODit */ = {
 			isa = PBXGroup;
 			children = (
+				BC59405C1DF767EF00716735 /* Model */,
+				BC59405D1DF767FB00716735 /* VIew */,
+				BC59405E1DF7680200716735 /* Controller */,
 				BC0FB3AA1DF4AC4600774A38 /* AppDelegate.swift */,
-				BC0FB3AC1DF4AC4600774A38 /* ViewController.swift */,
 				BC0FB3AE1DF4AC4600774A38 /* Main.storyboard */,
 				BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */,
 				BC0FB3B61DF4AC4600774A38 /* LaunchScreen.storyboard */,
@@ -89,17 +79,32 @@
 			path = WODit;
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		BC0FB3C11DF4BEC100774A38 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+		BC59405C1DF767EF00716735 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC5940631DF76EE200716735 /* WOD.swift */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			name = Model;
+			sourceTree = "<group>";
 		};
-/* End PBXHeadersBuildPhase section */
+		BC59405D1DF767FB00716735 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				BC59405F1DF76AA700716735 /* WodCell.swift */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		BC59405E1DF7680200716735 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC0FB3AC1DF4AC4600774A38 /* MainViewController.swift */,
+				BC5940611DF76E1F00716735 /* WodLibraryVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		BC0FB3A61DF4AC4600774A38 /* WODit */ = {
@@ -114,30 +119,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				BC0FB3CA1DF4BEC100774A38 /* PBXTargetDependency */,
 			);
 			name = WODit;
 			productName = WODit;
 			productReference = BC59405A1DF622D700716735 /* WODit.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BC0FB3C31DF4BEC100774A38 /* MyCostumShadowTitles */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC0FB3CD1DF4BEC100774A38 /* Build configuration list for PBXNativeTarget "MyCostumShadowTitles" */;
-			buildPhases = (
-				BC0FB3BF1DF4BEC100774A38 /* Sources */,
-				BC0FB3C01DF4BEC100774A38 /* Frameworks */,
-				BC0FB3C11DF4BEC100774A38 /* Headers */,
-				BC0FB3C21DF4BEC100774A38 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyCostumShadowTitles;
-			productName = MyCostumShadowTitles;
-			productReference = BC59405B1DF622D700716735 /* MyCostumShadowTitles.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -152,12 +138,6 @@
 					BC0FB3A61DF4AC4600774A38 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = QLW338ZPAQ;
-						ProvisioningStyle = Automatic;
-					};
-					BC0FB3C31DF4BEC100774A38 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = QLW338ZPAQ;
-						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -176,7 +156,6 @@
 			projectRoot = "";
 			targets = (
 				BC0FB3A61DF4AC4600774A38 /* WODit */,
-				BC0FB3C31DF4BEC100774A38 /* MyCostumShadowTitles */,
 			);
 		};
 /* End PBXProject section */
@@ -192,13 +171,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC0FB3C21DF4BEC100774A38 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,28 +178,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC0FB3AD1DF4AC4600774A38 /* ViewController.swift in Sources */,
+				BC5940641DF76EE200716735 /* WOD.swift in Sources */,
+				BC0FB3AD1DF4AC4600774A38 /* MainViewController.swift in Sources */,
+				BC5940621DF76E1F00716735 /* WodLibraryVC.swift in Sources */,
 				BC0FB3AB1DF4AC4600774A38 /* AppDelegate.swift in Sources */,
+				BC5940601DF76AA700716735 /* WodCell.swift in Sources */,
 				BC0FB3B31DF4AC4600774A38 /* WODit.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC0FB3BF1DF4BEC100774A38 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BC0FB3CA1DF4BEC100774A38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BC0FB3C31DF4BEC100774A38 /* MyCostumShadowTitles */;
-			targetProxy = BC0FB3C91DF4BEC100774A38 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC0FB3AE1DF4AC4600774A38 /* Main.storyboard */ = {
@@ -370,55 +330,6 @@
 			};
 			name = Release;
 		};
-		BC0FB3CE1DF4BEC100774A38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QLW338ZPAQ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MyCostumShadowTitles/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Nuno.MyCostumShadowTitles;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BC0FB3CF1DF4BEC100774A38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QLW338ZPAQ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MyCostumShadowTitles/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Nuno.MyCostumShadowTitles;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -436,15 +347,6 @@
 			buildConfigurations = (
 				BC0FB3BD1DF4AC4600774A38 /* Debug */,
 				BC0FB3BE1DF4AC4600774A38 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC0FB3CD1DF4BEC100774A38 /* Build configuration list for PBXNativeTarget "MyCostumShadowTitles" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC0FB3CE1DF4BEC100774A38 /* Debug */,
-				BC0FB3CF1DF4BEC100774A38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

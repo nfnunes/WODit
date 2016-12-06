@@ -6,13 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WODit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="WODit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -48,6 +49,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fls-00-Bmr">
                                                 <rect key="frame" x="0.0" y="10" width="35" height="35"/>
                                                 <state key="normal" image="iconWOD"/>
+                                                <connections>
+                                                    <segue destination="0Xy-A3-OcB" kind="show" id="I6Z-C0-PBc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxm-sH-bdn">
                                                 <rect key="frame" x="93.5" y="10" width="35" height="35"/>
@@ -92,10 +96,10 @@
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
         </scene>
-        <!--View Controller-->
+        <!--Wod LibraryVC-->
         <scene sceneID="q6a-Na-rua">
             <objects>
-                <viewController id="0Xy-A3-OcB" sceneMemberID="viewController">
+                <viewController id="0Xy-A3-OcB" customClass="WodLibraryVC" customModule="WODit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZTc-Jt-D1T"/>
                         <viewControllerLayoutGuide type="bottom" id="sRg-OV-Ua3"/>
@@ -180,19 +184,49 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="0RN-ap-6aP"/>
                                 </constraints>
+                                <color key="barTintColor" red="0.2196078431372549" green="0.2196078431372549" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KC4-LG-Sgb">
                                 <rect key="frame" x="0.0" y="114" width="375" height="498"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="fmU-F1-Vcv">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wodCell" rowHeight="55" id="fmU-F1-Vcv" customClass="WodCell" customModule="WODit" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fmU-F1-Vcv" id="xGE-St-d6n">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q44-57-16B">
+                                                    <rect key="frame" x="28" y="17" width="270" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="a7D-MV-GGn"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                                    <color key="textColor" red="0.94901960784313721" green="0.37647058823529411" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcf-Sa-SLJ">
+                                                    <rect key="frame" x="325" y="10" width="35" height="35"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="35" id="QdN-bA-fZ0"/>
+                                                        <constraint firstAttribute="height" constant="35" id="s3x-wM-FPc"/>
+                                                    </constraints>
+                                                    <state key="normal" image="iconGo"/>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="gcf-Sa-SLJ" secondAttribute="trailing" constant="15" id="4WH-Vi-LF0"/>
+                                                <constraint firstItem="q44-57-16B" firstAttribute="centerY" secondItem="xGE-St-d6n" secondAttribute="centerY" id="J9w-Mz-q0w"/>
+                                                <constraint firstItem="gcf-Sa-SLJ" firstAttribute="centerY" secondItem="xGE-St-d6n" secondAttribute="centerY" id="LGj-1J-7Ne"/>
+                                                <constraint firstItem="q44-57-16B" firstAttribute="leading" secondItem="xGE-St-d6n" secondAttribute="leadingMargin" constant="20" id="pHM-9R-924"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.10980392156862745" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="wodNameLbl" destination="q44-57-16B" id="0Su-bz-A6B"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -214,6 +248,9 @@
                             <constraint firstItem="3Dv-O8-Er6" firstAttribute="leading" secondItem="oSv-Uu-2S1" secondAttribute="leading" id="wPi-VF-LPq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="wodtableView" destination="KC4-LG-Sgb" id="mf6-Df-Y67"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ms-MV-BjO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -223,6 +260,7 @@
     <resources>
         <image name="iconBack" width="15" height="21"/>
         <image name="iconExercisesc" width="35" height="35"/>
+        <image name="iconGo" width="35" height="35"/>
         <image name="iconSettings" width="35" height="35"/>
         <image name="iconTimers" width="35" height="35"/>
         <image name="iconWOD" width="35" height="35"/>
