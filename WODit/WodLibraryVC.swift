@@ -27,11 +27,10 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         let jsonData = NSData(contentsOfFile: path!) as Data!
         let readableJSON = JSON(data: jsonData!)
         
-        if let name = readableJSON[0]["name"].string {
-            //Now you got your value
-            wods.append(WOD(name: name))
+        for (_,subJson):(String,JSON) in readableJSON{
+            let name = subJson["name"].string
+            wods.append(WOD(name: name!))
         }
- 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
