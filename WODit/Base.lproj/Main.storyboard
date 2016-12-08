@@ -125,6 +125,9 @@
                                             <constraint firstAttribute="width" constant="13" id="ZHq-02-hsv"/>
                                         </constraints>
                                         <state key="normal" image="iconBack"/>
+                                        <connections>
+                                            <action selector="backBtn:" destination="0Xy-A3-OcB" eventType="touchUpInside" id="ODv-TL-u73"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZI-L6-4bf">
                                         <rect key="frame" x="322" y="33" width="30" height="30"/>

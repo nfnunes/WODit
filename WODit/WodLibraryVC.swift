@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -17,22 +18,20 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let p1 = WOD(name: "wod1")
-        let p2 = WOD(name: "wod2")
-        let p3 = WOD(name: "wod3")
-        let p4 = WOD(name: "wod4")
-        let p5 = WOD(name: "wod5")
-        
-        wods.append(p1)
-        wods.append(p2)
-        wods.append(p3)
-        wods.append(p4)
-        wods.append(p5)
-        
         wodtableView.delegate = self
         wodtableView.dataSource = self
 
         // Do any additional setup after loading the view.
+        
+        let path = Bundle.main.path(forResource: "WODs", ofType: "json")
+        let jsonData = NSData(contentsOfFile: path!) as Data!
+        let readableJSON = JSON(data: jsonData!)
+        
+        if let name = readableJSON[0]["name"].string {
+            //Now you got your value
+            wods.append(WOD(name: name))
+        }
+ 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -48,7 +47,6 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         else{
             return UITableViewCell()
         }
-        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -63,6 +61,9 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         return 55
     }
     
+    @IBAction func backBtn(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 
 
 }
