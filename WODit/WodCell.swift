@@ -27,13 +27,10 @@ class WodCell: UITableViewCell {
     
     func updateUI(wod: WOD){
         
-        var scores = ""
         wodNameLbl.text = wod.name
         for item in wod.score{
-           scores += wod.score[item]
-            wodScoreLbl.text = scores + "\r\n"
+            wodScoreLbl.text = wodScoreLbl.text! + item + "\r\n"
         }
-        //wodScoreLbl.text = wod.score[0]
         
     }
     
