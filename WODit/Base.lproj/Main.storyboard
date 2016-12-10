@@ -190,19 +190,19 @@
                                 <color key="barTintColor" red="0.2196078431372549" green="0.2196078431372549" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KC4-LG-Sgb">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="157" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KC4-LG-Sgb">
                                 <rect key="frame" x="0.0" y="114" width="375" height="498"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wodCell" rowHeight="55" id="fmU-F1-Vcv" customClass="WodCell" customModule="WODit" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="55"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wodCell" rowHeight="157" id="fmU-F1-Vcv" customClass="WodCell" customModule="WODit" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="157"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fmU-F1-Vcv" id="xGE-St-d6n">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="157"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q44-57-16B">
-                                                    <rect key="frame" x="28" y="17" width="270" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q44-57-16B">
+                                                    <rect key="frame" x="28" y="17" width="49" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="a7D-MV-GGn"/>
                                                     </constraints>
@@ -218,17 +218,25 @@
                                                     </constraints>
                                                     <state key="normal" image="iconGo"/>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAo-un-9aQ">
+                                                    <rect key="frame" x="54" y="60" width="235" height="63"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.94901960780000005" green="0.37647058820000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="gcf-Sa-SLJ" secondAttribute="trailing" constant="15" id="4WH-Vi-LF0"/>
-                                                <constraint firstItem="q44-57-16B" firstAttribute="centerY" secondItem="xGE-St-d6n" secondAttribute="centerY" id="J9w-Mz-q0w"/>
-                                                <constraint firstItem="gcf-Sa-SLJ" firstAttribute="centerY" secondItem="xGE-St-d6n" secondAttribute="centerY" id="LGj-1J-7Ne"/>
+                                                <constraint firstItem="gcf-Sa-SLJ" firstAttribute="centerY" secondItem="q44-57-16B" secondAttribute="centerY" id="FoM-8Z-4Li"/>
+                                                <constraint firstItem="gcf-Sa-SLJ" firstAttribute="top" secondItem="xGE-St-d6n" secondAttribute="top" constant="10" id="Xhv-12-JX9"/>
                                                 <constraint firstItem="q44-57-16B" firstAttribute="leading" secondItem="xGE-St-d6n" secondAttribute="leadingMargin" constant="20" id="pHM-9R-924"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.10980392156862745" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="wodNameLbl" destination="q44-57-16B" id="0Su-bz-A6B"/>
+                                            <outlet property="wodScoreLbl" destination="qAo-un-9aQ" id="Lpc-Wt-baE"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

@@ -10,13 +10,19 @@ import Foundation
 
 class WOD {
     private var _name: String!
+    private var _score: [String]!
     
     var name: String{
         return _name
     }
     
-    init(name: String){
+    var score: [String]{
+        return _score
+    }
+    
+    init(name: String, score: [String]){
         
         _name = name
+        _score = score
     }
 }

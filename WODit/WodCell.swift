@@ -12,6 +12,7 @@ class WodCell: UITableViewCell {
 
 
     @IBOutlet weak var wodNameLbl: UILabel!
+    @IBOutlet weak var wodScoreLbl: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -26,7 +27,13 @@ class WodCell: UITableViewCell {
     
     func updateUI(wod: WOD){
         
+        var scores = ""
         wodNameLbl.text = wod.name
+        for item in wod.score{
+           scores += wod.score[item]
+            wodScoreLbl.text = scores + "\r\n"
+        }
+        //wodScoreLbl.text = wod.score[0]
         
     }
     
