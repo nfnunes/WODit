@@ -17,7 +17,7 @@
 		BC5940601DF76AA700716735 /* WodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59405F1DF76AA700716735 /* WodCell.swift */; };
 		BC5940621DF76E1F00716735 /* WodLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940611DF76E1F00716735 /* WodLibraryVC.swift */; };
 		BC5940641DF76EE200716735 /* WOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940631DF76EE200716735 /* WOD.swift */; };
-		BCAA27891DF78D7800A9F37D /* WODs.json in Resources */ = {isa = PBXBuildFile; fileRef = BCAA27881DF78D7800A9F37D /* WODs.json */; };
+		BCA629F41E035414004F839B /* WODs.json in Resources */ = {isa = PBXBuildFile; fileRef = BCA629F31E035414004F839B /* WODs.json */; };
 		BCAA278B1DF9A81300A9F37D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +48,8 @@
 		BC59405F1DF76AA700716735 /* WodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WodCell.swift; sourceTree = "<group>"; };
 		BC5940611DF76E1F00716735 /* WodLibraryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WodLibraryVC.swift; sourceTree = "<group>"; };
 		BC5940631DF76EE200716735 /* WOD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOD.swift; sourceTree = "<group>"; };
+		BCA629F31E035414004F839B /* WODs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WODs.json; path = "../../../../../Volumes/VMware Shared Folders/sharedVM/WODs.json"; sourceTree = "<group>"; };
 		BCAA27861DF7873900A9F37D /* WODit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WODit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCAA27881DF78D7800A9F37D /* WODs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WODs.json; path = ../WODs.json; sourceTree = "<group>"; };
 		BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/WODit-bruhtocnkmuaqiequhhochmullet/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,7 +139,7 @@
 		BCAA27871DF78CED00A9F37D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BCAA27881DF78D7800A9F37D /* WODs.json */,
+				BCA629F31E035414004F839B /* WODs.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			files = (
 				BC0FB3B81DF4AC4600774A38 /* LaunchScreen.storyboard in Resources */,
 				BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */,
-				BCAA27891DF78D7800A9F37D /* WODs.json in Resources */,
+				BCA629F41E035414004F839B /* WODs.json in Resources */,
 				BC0FB3B01DF4AC4600774A38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +319,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -368,6 +369,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

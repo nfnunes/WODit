@@ -13,6 +13,8 @@ class WodCell: UITableViewCell {
 
     @IBOutlet weak var wodNameLbl: UILabel!
     @IBOutlet weak var wodScoreLbl: UILabel!
+    @IBOutlet weak var wodGoBtn: UIButton!
+    @IBOutlet weak var wodExerciseLbl: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,11 +29,20 @@ class WodCell: UITableViewCell {
     
     func updateUI(wod: WOD){
         
+        wodScoreLbl.text = ""
+        wodExerciseLbl.text = ""
         wodNameLbl.text = wod.name
         for item in wod.score{
             wodScoreLbl.text = wodScoreLbl.text! + item + "\r\n"
         }
         
+        for item in wod.exercise{
+            wodExerciseLbl.text = wodExerciseLbl.text! + item + "\r\n"
+        }
+        
+        
+        //print(wodNameLbl.requiredHeight() + wodScoreLbl.requiredHeight())
+       // wodScoreLbl.requiredHeight()
     }
     
 

@@ -182,23 +182,23 @@
                                     <constraint firstAttribute="height" constant="55" id="qCy-kh-1nM"/>
                                 </constraints>
                             </view>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Pz4-zG-KTa">
-                                <rect key="frame" x="0.0" y="70" width="375" height="44"/>
+                            <searchBar contentMode="redraw" placeholder="Search for WODs" translatesAutoresizingMaskIntoConstraints="NO" id="Pz4-zG-KTa">
+                                <rect key="frame" x="0.0" y="118" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="0RN-ap-6aP"/>
                                 </constraints>
                                 <color key="barTintColor" red="0.2196078431372549" green="0.2196078431372549" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="157" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KC4-LG-Sgb">
-                                <rect key="frame" x="0.0" y="114" width="375" height="498"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="117" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KC4-LG-Sgb">
+                                <rect key="frame" x="0.0" y="162" width="375" height="498"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wodCell" rowHeight="157" id="fmU-F1-Vcv" customClass="WodCell" customModule="WODit" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="157"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wodCell" rowHeight="117" id="fmU-F1-Vcv" customClass="WodCell" customModule="WODit" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="117"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fmU-F1-Vcv" id="xGE-St-d6n">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="157"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="116"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q44-57-16B">
@@ -218,48 +218,187 @@
                                                     </constraints>
                                                     <state key="normal" image="iconGo"/>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAo-un-9aQ">
-                                                    <rect key="frame" x="54" y="60" width="235" height="63"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.94901960780000005" green="0.37647058820000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAo-un-9aQ">
+                                                    <rect key="frame" x="57" y="55" width="302" height="25"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
+                                                    <color key="textColor" red="0.30588235294117649" green="0.71764705882352942" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcR-3L-VQL">
+                                                    <rect key="frame" x="64" y="55" width="295" height="25"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
+                                                    <color key="textColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="gcf-Sa-SLJ" secondAttribute="trailing" constant="15" id="4WH-Vi-LF0"/>
+                                                <constraint firstItem="zcR-3L-VQL" firstAttribute="top" secondItem="qAo-un-9aQ" secondAttribute="bottom" constant="-25" id="E7t-AE-AGT"/>
                                                 <constraint firstItem="gcf-Sa-SLJ" firstAttribute="centerY" secondItem="q44-57-16B" secondAttribute="centerY" id="FoM-8Z-4Li"/>
+                                                <constraint firstItem="qAo-un-9aQ" firstAttribute="top" secondItem="gcf-Sa-SLJ" secondAttribute="bottom" constant="10" id="JDS-8L-w1r"/>
+                                                <constraint firstItem="qAo-un-9aQ" firstAttribute="leading" secondItem="xGE-St-d6n" secondAttribute="leading" constant="57" id="Vsh-hM-mrz"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="zcR-3L-VQL" secondAttribute="trailing" constant="8" id="W8b-Fb-zS7"/>
                                                 <constraint firstItem="gcf-Sa-SLJ" firstAttribute="top" secondItem="xGE-St-d6n" secondAttribute="top" constant="10" id="Xhv-12-JX9"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="qAo-un-9aQ" secondAttribute="trailing" constant="8" id="ZOA-Jq-ziU"/>
+                                                <constraint firstItem="zcR-3L-VQL" firstAttribute="leading" secondItem="xGE-St-d6n" secondAttribute="leadingMargin" constant="56" id="a5F-6k-8oz"/>
                                                 <constraint firstItem="q44-57-16B" firstAttribute="leading" secondItem="xGE-St-d6n" secondAttribute="leadingMargin" constant="20" id="pHM-9R-924"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.10980392156862745" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
+                                            <outlet property="wodExerciseLbl" destination="zcR-3L-VQL" id="JbI-uU-21G"/>
+                                            <outlet property="wodGoBtn" destination="gcf-Sa-SLJ" id="UYf-xk-tP7"/>
                                             <outlet property="wodNameLbl" destination="q44-57-16B" id="0Su-bz-A6B"/>
                                             <outlet property="wodScoreLbl" destination="qAo-un-9aQ" id="Lpc-Wt-baE"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oJB-PI-bMO">
+                                <rect key="frame" x="0.0" y="70" width="375" height="48"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="NxV-gT-Sse">
+                                        <rect key="frame" x="20" y="0.0" width="340" height="48"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oBT-jw-pG3">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="48"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="All">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.94901960780000005" green="0.37647058820000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <state key="selected">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="All">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.94901960784313721" green="0.37647058823529411" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E9K-R1-qE2">
+                                                <rect key="frame" x="74" y="0.0" width="42" height="48"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Girls">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.94901960780000005" green="0.37647058820000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <state key="selected">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Girls">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.94901960784313721" green="0.37647058823529411" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mGD-1n-FE8">
+                                                <rect key="frame" x="160" y="0.0" width="65" height="48"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Heroes">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.94901960780000005" green="0.37647058820000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <state key="selected">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Heroes">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.94901960784313721" green="0.37647058823529411" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y2G-JY-4Ty">
+                                                <rect key="frame" x="269" y="0.0" width="71" height="48"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Custom">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.94901960780000005" green="0.37647058820000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <state key="selected">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Custom">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.94901960784313721" green="0.37647058823529411" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2196078431372549" green="0.2196078431372549" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="NxV-gT-Sse" secondAttribute="bottom" id="5z0-WC-afT"/>
+                                    <constraint firstAttribute="height" constant="48" id="Su2-xp-Ytj"/>
+                                    <constraint firstAttribute="trailing" secondItem="NxV-gT-Sse" secondAttribute="trailing" constant="15" id="c7u-UJ-elj"/>
+                                    <constraint firstItem="NxV-gT-Sse" firstAttribute="top" secondItem="oJB-PI-bMO" secondAttribute="top" id="i6r-im-HTt"/>
+                                    <constraint firstItem="NxV-gT-Sse" firstAttribute="leading" secondItem="oJB-PI-bMO" secondAttribute="leading" constant="20" id="zg9-wn-Sky"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.10980392156862745" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="KC4-LG-Sgb" secondAttribute="trailing" id="2UE-an-rY5"/>
+                            <constraint firstAttribute="trailing" secondItem="oJB-PI-bMO" secondAttribute="trailing" id="4Sj-1D-SbB"/>
                             <constraint firstItem="7k4-E8-VI0" firstAttribute="leading" secondItem="oSv-Uu-2S1" secondAttribute="leading" id="9ay-bB-QJz"/>
                             <constraint firstItem="KC4-LG-Sgb" firstAttribute="leading" secondItem="oSv-Uu-2S1" secondAttribute="leading" id="Aqa-5n-vJ2"/>
                             <constraint firstAttribute="trailing" secondItem="Pz4-zG-KTa" secondAttribute="trailing" id="FzQ-J2-rIS"/>
-                            <constraint firstItem="Pz4-zG-KTa" firstAttribute="top" secondItem="3Dv-O8-Er6" secondAttribute="bottom" id="JG1-7q-2Gi"/>
                             <constraint firstItem="7k4-E8-VI0" firstAttribute="top" secondItem="KC4-LG-Sgb" secondAttribute="bottom" id="Kbe-OH-yxI"/>
                             <constraint firstItem="Pz4-zG-KTa" firstAttribute="leading" secondItem="oSv-Uu-2S1" secondAttribute="leading" id="PBW-qK-Ufr"/>
                             <constraint firstItem="KC4-LG-Sgb" firstAttribute="top" secondItem="Pz4-zG-KTa" secondAttribute="bottom" id="Uup-lA-G0d"/>
                             <constraint firstItem="3Dv-O8-Er6" firstAttribute="top" secondItem="oSv-Uu-2S1" secondAttribute="top" id="VG6-KC-3AB"/>
+                            <constraint firstItem="Pz4-zG-KTa" firstAttribute="top" secondItem="oJB-PI-bMO" secondAttribute="bottom" id="aG8-B5-cFg"/>
+                            <constraint firstItem="oJB-PI-bMO" firstAttribute="top" secondItem="3Dv-O8-Er6" secondAttribute="bottom" id="be6-rr-xbg"/>
                             <constraint firstItem="sRg-OV-Ua3" firstAttribute="top" secondItem="7k4-E8-VI0" secondAttribute="bottom" id="beg-6N-L1C"/>
                             <constraint firstAttribute="trailing" secondItem="7k4-E8-VI0" secondAttribute="trailing" id="eFp-cd-4bi"/>
                             <constraint firstAttribute="trailing" secondItem="3Dv-O8-Er6" secondAttribute="trailing" id="em8-f5-qaT"/>
+                            <constraint firstItem="oJB-PI-bMO" firstAttribute="leading" secondItem="oSv-Uu-2S1" secondAttribute="leading" id="kGG-H2-WW1"/>
                             <constraint firstItem="3Dv-O8-Er6" firstAttribute="leading" secondItem="oSv-Uu-2S1" secondAttribute="leading" id="wPi-VF-LPq"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="searchBar" destination="Pz4-zG-KTa" id="bJq-aL-MLI"/>
+                        <outlet property="wodSearchController" destination="Pz4-zG-KTa" id="vcI-m5-x0U"/>
                         <outlet property="wodtableView" destination="KC4-LG-Sgb" id="mf6-Df-Y67"/>
                     </connections>
                 </viewController>
