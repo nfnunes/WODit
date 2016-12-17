@@ -21,10 +21,16 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     var inSearchMode = false
     
-    var wodSearchController: UISearchController!
+    //var wodSearchController: UISearchController!
     
     var filteredWods = [WOD]()
     var shouldShowSearchResults = false
+    
+    var girlsSelected = false
+    var girlsWods = [WOD]()
+    
+    var heroesSelected = false
+    var heroesWods = [WOD]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +54,19 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             }
 
             wods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod ))
+        
+            if (subJson["type"].string == "Girls"){
+                
+                girlsWods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod ))
+                
+            }
+            
+            if (subJson["type"].string == "Heroes"){
+                
+                heroesWods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod ))
+                
+            }
+       
             scoresWod.removeAll()
             exercisesWod.removeAll()
         }
@@ -65,6 +84,14 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 cell.updateUI(wod: wod)
                 
             }
+            else if girlsSelected{
+                wod = girlsWods[indexPath.row]
+                cell.updateUI(wod: wod)
+            }
+            else if heroesSelected{
+                wod = heroesWods[indexPath.row]
+                cell.updateUI(wod: wod)
+            }
             else{
                 wod = wods[indexPath.row]
                 cell.updateUI(wod: wod)
@@ -81,6 +108,12 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if inSearchMode{
             return filteredWods.count
+        }
+        else if girlsSelected{
+            return girlsWods.count
+        }
+        else if heroesSelected{
+            return heroesWods.count
         }
         else{
             return wods.count
@@ -138,7 +171,16 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             inSearchMode = true
             
             let entry = searchBar.text!.lowercased()
-            filteredWods = wods.filter({$0.name.lowercased().range(of: entry) != nil })
+            if !girlsSelected && !heroesSelected{
+                filteredWods = wods.filter({$0.name.lowercased().range(of: entry) != nil })
+            }
+            else if girlsSelected{
+                filteredWods = girlsWods.filter({$0.name.lowercased().range(of: entry) != nil })
+            }
+            else if heroesSelected{
+                filteredWods = heroesWods.filter({$0.name.lowercased().range(of: entry) != nil })
+            }
+            
             wodtableView.reloadData()
         }
         
@@ -150,5 +192,23 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         dismiss(animated: true, completion: nil)
     }
 
+    @IBAction func selectAllBtn(_ sender: Any) {
+        girlsSelected = false
+        heroesSelected = false
+        wodtableView.reloadData()
+    }
+    
+    @IBAction func selectGirlsBtn(_ sender: Any) {
+        girlsSelected = true
+        heroesSelected = false
+        wodtableView.reloadData()
+    }
+    
+    
+    @IBAction func selectHeroesBtn(_ sender: Any) {
+        girlsSelected = false
+        heroesSelected = true
+        wodtableView.reloadData()
+    }
 
 }

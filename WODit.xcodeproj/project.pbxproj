@@ -14,10 +14,10 @@
 		BC0FB3B31DF4AC4600774A38 /* WODit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3B11DF4AC4600774A38 /* WODit.xcdatamodeld */; };
 		BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */; };
 		BC0FB3B81DF4AC4600774A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3B61DF4AC4600774A38 /* LaunchScreen.storyboard */; };
+		BC15A0251E04B3DA000C3C45 /* WODs.json in Resources */ = {isa = PBXBuildFile; fileRef = BC15A0241E04B3DA000C3C45 /* WODs.json */; };
 		BC5940601DF76AA700716735 /* WodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59405F1DF76AA700716735 /* WodCell.swift */; };
 		BC5940621DF76E1F00716735 /* WodLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940611DF76E1F00716735 /* WodLibraryVC.swift */; };
 		BC5940641DF76EE200716735 /* WOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940631DF76EE200716735 /* WOD.swift */; };
-		BCA629F41E035414004F839B /* WODs.json in Resources */ = {isa = PBXBuildFile; fileRef = BCA629F31E035414004F839B /* WODs.json */; };
 		BCAA278B1DF9A81300A9F37D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,10 +45,10 @@
 		BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC0FB3B71DF4AC4600774A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC0FB3B91DF4AC4600774A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC15A0241E04B3DA000C3C45 /* WODs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WODs.json; sourceTree = "<group>"; };
 		BC59405F1DF76AA700716735 /* WodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WodCell.swift; sourceTree = "<group>"; };
 		BC5940611DF76E1F00716735 /* WodLibraryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WodLibraryVC.swift; sourceTree = "<group>"; };
 		BC5940631DF76EE200716735 /* WOD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOD.swift; sourceTree = "<group>"; };
-		BCA629F31E035414004F839B /* WODs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WODs.json; path = "../../../../../Volumes/VMware Shared Folders/sharedVM/WODs.json"; sourceTree = "<group>"; };
 		BCAA27861DF7873900A9F37D /* WODit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WODit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/WODit-bruhtocnkmuaqiequhhochmullet/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,7 +139,7 @@
 		BCAA27871DF78CED00A9F37D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BCA629F31E035414004F839B /* WODs.json */,
+				BC15A0241E04B3DA000C3C45 /* WODs.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			files = (
 				BC0FB3B81DF4AC4600774A38 /* LaunchScreen.storyboard in Resources */,
 				BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */,
-				BCA629F41E035414004F839B /* WODs.json in Resources */,
+				BC15A0251E04B3DA000C3C45 /* WODs.json in Resources */,
 				BC0FB3B01DF4AC4600774A38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
