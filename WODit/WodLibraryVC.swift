@@ -22,6 +22,10 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     var inSearchMode = false
     
     //var wodSearchController: UISearchController!
+
+    @IBOutlet weak var allBtn: UIButton!
+    @IBOutlet weak var girlsBtn: UIButton!
+    @IBOutlet weak var heroesBtn: UIButton!
     
     var filteredWods = [WOD]()
     var shouldShowSearchResults = false
@@ -71,6 +75,8 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             exercisesWod.removeAll()
         }
        // wodtableView.rowHeight = UITableViewAutomaticDimension
+        
+        allBtn.isSelected = true
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -193,12 +199,22 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
 
     @IBAction func selectAllBtn(_ sender: Any) {
+        
+        allBtn.isSelected = true
+        girlsBtn.isSelected = false
+        heroesBtn.isSelected = false
+        
         girlsSelected = false
         heroesSelected = false
         wodtableView.reloadData()
     }
     
     @IBAction func selectGirlsBtn(_ sender: Any) {
+        
+        allBtn.isSelected = false
+        girlsBtn.isSelected = true
+        heroesBtn.isSelected = false
+        
         girlsSelected = true
         heroesSelected = false
         wodtableView.reloadData()
@@ -206,6 +222,11 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     
     @IBAction func selectHeroesBtn(_ sender: Any) {
+        
+        allBtn.isSelected = false
+        girlsBtn.isSelected = false
+        heroesBtn.isSelected = true
+        
         girlsSelected = false
         heroesSelected = true
         wodtableView.reloadData()

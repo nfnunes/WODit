@@ -15,9 +15,15 @@
 		BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */; };
 		BC0FB3B81DF4AC4600774A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3B61DF4AC4600774A38 /* LaunchScreen.storyboard */; };
 		BC15A0251E04B3DA000C3C45 /* WODs.json in Resources */ = {isa = PBXBuildFile; fileRef = BC15A0241E04B3DA000C3C45 /* WODs.json */; };
+		BC1C90381E073A3900A9E2D8 /* AmrapEditProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C90371E073A3900A9E2D8 /* AmrapEditProtocol.swift */; };
+		BC3683561E04DAD0006645E6 /* ForTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3683551E04DAD0006645E6 /* ForTimeController.swift */; };
+		BC3683581E057199006645E6 /* AmrapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3683571E057199006645E6 /* AmrapController.swift */; };
+		BC36835A1E05FB77006645E6 /* editAmrapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3683591E05FB77006645E6 /* editAmrapController.swift */; };
 		BC5940601DF76AA700716735 /* WodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59405F1DF76AA700716735 /* WodCell.swift */; };
 		BC5940621DF76E1F00716735 /* WodLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940611DF76E1F00716735 /* WodLibraryVC.swift */; };
 		BC5940641DF76EE200716735 /* WOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940631DF76EE200716735 /* WOD.swift */; };
+		BC59D9E41E075F8F00445FCD /* EmomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59D9E31E075F8F00445FCD /* EmomController.swift */; };
+		BC59D9E61E07739000445FCD /* TimerMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59D9E51E07739000445FCD /* TimerMenuController.swift */; };
 		BCAA278B1DF9A81300A9F37D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +52,15 @@
 		BC0FB3B71DF4AC4600774A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC0FB3B91DF4AC4600774A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC15A0241E04B3DA000C3C45 /* WODs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WODs.json; sourceTree = "<group>"; };
+		BC1C90371E073A3900A9E2D8 /* AmrapEditProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmrapEditProtocol.swift; sourceTree = "<group>"; };
+		BC3683551E04DAD0006645E6 /* ForTimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForTimeController.swift; sourceTree = "<group>"; };
+		BC3683571E057199006645E6 /* AmrapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmrapController.swift; sourceTree = "<group>"; };
+		BC3683591E05FB77006645E6 /* editAmrapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editAmrapController.swift; sourceTree = "<group>"; };
 		BC59405F1DF76AA700716735 /* WodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WodCell.swift; sourceTree = "<group>"; };
 		BC5940611DF76E1F00716735 /* WodLibraryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WodLibraryVC.swift; sourceTree = "<group>"; };
 		BC5940631DF76EE200716735 /* WOD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOD.swift; sourceTree = "<group>"; };
+		BC59D9E31E075F8F00445FCD /* EmomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmomController.swift; sourceTree = "<group>"; };
+		BC59D9E51E07739000445FCD /* TimerMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerMenuController.swift; sourceTree = "<group>"; };
 		BCAA27861DF7873900A9F37D /* WODit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WODit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/WODit-bruhtocnkmuaqiequhhochmullet/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,7 +143,13 @@
 			isa = PBXGroup;
 			children = (
 				BC0FB3AC1DF4AC4600774A38 /* MainViewController.swift */,
+				BC3683591E05FB77006645E6 /* editAmrapController.swift */,
+				BC3683551E04DAD0006645E6 /* ForTimeController.swift */,
 				BC5940611DF76E1F00716735 /* WodLibraryVC.swift */,
+				BC3683571E057199006645E6 /* AmrapController.swift */,
+				BC1C90371E073A3900A9E2D8 /* AmrapEditProtocol.swift */,
+				BC59D9E31E075F8F00445FCD /* EmomController.swift */,
+				BC59D9E51E07739000445FCD /* TimerMenuController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -271,11 +289,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5940641DF76EE200716735 /* WOD.swift in Sources */,
+				BC59D9E41E075F8F00445FCD /* EmomController.swift in Sources */,
+				BC59D9E61E07739000445FCD /* TimerMenuController.swift in Sources */,
 				BC0FB3AD1DF4AC4600774A38 /* MainViewController.swift in Sources */,
+				BC3683561E04DAD0006645E6 /* ForTimeController.swift in Sources */,
 				BC5940621DF76E1F00716735 /* WodLibraryVC.swift in Sources */,
 				BC0FB3AB1DF4AC4600774A38 /* AppDelegate.swift in Sources */,
+				BC36835A1E05FB77006645E6 /* editAmrapController.swift in Sources */,
+				BC3683581E057199006645E6 /* AmrapController.swift in Sources */,
 				BC5940601DF76AA700716735 /* WodCell.swift in Sources */,
 				BC0FB3B31DF4AC4600774A38 /* WODit.xcdatamodeld in Sources */,
+				BC1C90381E073A3900A9E2D8 /* AmrapEditProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
