@@ -13,6 +13,7 @@ class EmomController: UIViewController, editAmrapControllerDelegate {
     @IBOutlet weak var emonMainDisplay: UILabel!
     @IBOutlet weak var emonMinuteDisplay: UILabel!
     @IBOutlet weak var emonToggleBtn: UIButton!
+    @IBOutlet weak var EmonSelected: UIButton!
     
     
     var timer: Timer?
@@ -21,6 +22,8 @@ class EmomController: UIViewController, editAmrapControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        EmonSelected.isSelected = true
 
         let minutes = String(format: "%02d", self.currentTime / 60)
         let seconds = String(format: "%02d", self.currentTime % 60)
@@ -85,6 +88,18 @@ class EmomController: UIViewController, editAmrapControllerDelegate {
         if let editAmrapController = segue.destination as? editAmrapController{
             editAmrapController.delegate = self
         }
+    }
+    
+    @IBAction func goWODsBtnPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "WODs") as UIViewController
+        present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func goWODsBtn2Pressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "WODs") as UIViewController
+        present(vc, animated: true, completion: nil)
     }
 
 }

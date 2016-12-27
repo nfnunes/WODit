@@ -11,6 +11,8 @@ import SwiftyJSON
 
 class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
+    weak var delegate: goWODControllerDelegate?
+    
     var wods = [WOD]()
     var scoresWod = [String]()
     var exercisesWod = [String]()
@@ -103,6 +105,13 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 cell.updateUI(wod: wod)
             }
             
+            cell.tapAction = { (cell) in
+                self.delegate?.setGoWODForTime(wod.name, wod.exercise)
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc = storyboard.instantiateViewController(withIdentifier: "WODForTime") as UIViewController
+                self.present(vc, animated: true, completion: nil)
+            }
+            
             return cell
             
         }
@@ -192,8 +201,6 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
     }
     
-
-    
     @IBAction func backBtn(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -220,7 +227,6 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         wodtableView.reloadData()
     }
     
-    
     @IBAction func selectHeroesBtn(_ sender: Any) {
         
         allBtn.isSelected = false
@@ -230,6 +236,12 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         girlsSelected = false
         heroesSelected = true
         wodtableView.reloadData()
+    }
+    
+    @IBAction func goTimersBtnPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Timers", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Timers") as UIViewController
+        present(vc, animated: true, completion: nil)
     }
 
 }

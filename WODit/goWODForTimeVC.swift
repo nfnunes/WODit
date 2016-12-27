@@ -1,30 +1,29 @@
 //
-//  ForTimeController.swift
+//  goWODForTimeVC.swift
 //  WODit
 //
-//  Created by Nuno on 17/12/2016.
+//  Created by Nuno on 24/12/2016.
 //  Copyright © 2016 Nuno. All rights reserved.
 //
 
 import UIKit
 
-class ForTimeController: UIViewController {
+class goWODForTimeVC: UIViewController, goWODControllerDelegate {
     
     var timer: Timer?
     var currentTime = 0
-
+    
+    @IBOutlet weak var wodNameLbl: UILabel!
+    @IBOutlet weak var wodExercisesLbl: UILabel!
     @IBOutlet weak var stopWatchDisplay: UILabel!
     @IBOutlet weak var stopWatchToggleBtn: UIButton!
     
-    @IBOutlet weak var ForTimeSelected: UIButton!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        ForTimeSelected.isSelected = true
+        
     }
-
-
+    
     @IBAction func stopWatchToggleBtnPressed(_ sender: Any) {
         if timer != nil{
             stopWatchToggleBtn.setImage(#imageLiteral(resourceName: "iconStart"), for: .normal)
@@ -43,7 +42,6 @@ class ForTimeController: UIViewController {
     }
     
     @IBAction func resetBtnPressed(_ sender: Any) {
-        
         stopWatchToggleBtn.setImage(#imageLiteral(resourceName: "iconStart"), for: .normal)
         timer?.invalidate()
         timer = nil
@@ -51,18 +49,23 @@ class ForTimeController: UIViewController {
         stopWatchDisplay.text = "00 : 00"
     }
     
-    
-    @IBAction func goWODsBtnPressed(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "WODs") as UIViewController
-        present(vc, animated: true, completion: nil)
+    func setGoWODForTime( _ wodName: String, _ wodExercises: [String]) {
+        print("entrei")
+        wodNameLbl.text = wodName
+    }
+
+    @IBAction func backBtnPressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     
-    @IBAction func goWODsBtn2Pressed(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "WODs") as UIViewController
-        present(vc, animated: true, completion: nil)
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let goWODForTimeVC = segue.destination as! goWODForTimeVC
+        
+        goWODForTimeVC.delegate = self
+        
     }
-    
+
 }

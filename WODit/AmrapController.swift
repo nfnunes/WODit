@@ -15,10 +15,12 @@ class AmrapController: UIViewController, editAmrapControllerDelegate {
 
     @IBOutlet weak var amrapDisplay: UILabel!
     @IBOutlet weak var amrapToggleBtn: UIButton!
+    @IBOutlet weak var AmrapSelected: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        AmrapSelected.isSelected = true
 
         let minutes = String(format: "%02d", self.currentTime / 60)
         let seconds = String(format: "%02d", self.currentTime % 60)
@@ -70,6 +72,18 @@ class AmrapController: UIViewController, editAmrapControllerDelegate {
         if let editAmrapController = segue.destination as? editAmrapController{
             editAmrapController.delegate = self
         }
+    }
+    
+    @IBAction func goWODsBtnPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "WODs") as UIViewController
+        present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func goWODsBtn2Pressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "WODs") as UIViewController
+        present(vc, animated: true, completion: nil)
     }
 
 }

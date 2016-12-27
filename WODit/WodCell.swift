@@ -13,8 +13,9 @@ class WodCell: UITableViewCell {
 
     @IBOutlet weak var wodNameLbl: UILabel!
     @IBOutlet weak var wodScoreLbl: UILabel!
-    @IBOutlet weak var wodGoBtn: UIButton!
     @IBOutlet weak var wodExerciseLbl: UILabel!
+    
+    var tapAction: ((UITableViewCell) -> Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -45,5 +46,9 @@ class WodCell: UITableViewCell {
        // wodScoreLbl.requiredHeight()
     }
     
+    
+    @IBAction func goBtnPressed(_ sender: Any) {
+        tapAction?(self)
+    }
 
 }
