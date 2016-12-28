@@ -11,7 +11,7 @@ import SwiftyJSON
 
 class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
-    weak var delegate: goWODControllerDelegate?
+    var instanceOfForTimeVC = goWODForTimeVC()
     
     var wods = [WOD]()
     var scoresWod = [String]()
@@ -106,10 +106,12 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             }
             
             cell.tapAction = { (cell) in
-                self.delegate?.setGoWODForTime(wod.name, wod.exercise)
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let vc = storyboard.instantiateViewController(withIdentifier: "WODForTime") as UIViewController
-                self.present(vc, animated: true, completion: nil)
+                let vc = storyboard.instantiateViewController(withIdentifier: "WODForTime") as! goWODForTimeVC
+                self.present(vc, animated: true, completion: {
+                    vc.WodLabel = wod.name
+                    vc.SetupView()
+                })
             }
             
             return cell

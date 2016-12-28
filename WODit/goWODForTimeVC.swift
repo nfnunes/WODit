@@ -8,7 +8,7 @@
 
 import UIKit
 
-class goWODForTimeVC: UIViewController, goWODControllerDelegate {
+class goWODForTimeVC: UIViewController {
     
     var timer: Timer?
     var currentTime = 0
@@ -18,11 +18,31 @@ class goWODForTimeVC: UIViewController, goWODControllerDelegate {
     @IBOutlet weak var stopWatchDisplay: UILabel!
     @IBOutlet weak var stopWatchToggleBtn: UIButton!
     
+    private var _wodLabel: String = ""
+    
+    var WodLabel: String
+        {
+        set
+        {
+            _wodLabel = newValue
+        }
+        get {
+            return _wodLabel
+        }
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        SetupView()
+        
     }
+    
+    func SetupView() {
+        wodNameLbl.text = _wodLabel
+    }
+    
     
     @IBAction func stopWatchToggleBtnPressed(_ sender: Any) {
         if timer != nil{
@@ -49,23 +69,14 @@ class goWODForTimeVC: UIViewController, goWODControllerDelegate {
         stopWatchDisplay.text = "00 : 00"
     }
     
-    func setGoWODForTime( _ wodName: String, _ wodExercises: [String]) {
+  /*  func setGoWODForTime( _ wodName: String, _ wodExercises: [String]) {
         print("entrei")
         wodNameLbl.text = wodName
-    }
+    }*/
 
     @IBAction func backBtnPressed(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    
-    
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        let goWODForTimeVC = segue.destination as! goWODForTimeVC
-        
-        goWODForTimeVC.delegate = self
-        
-    }
 
 }
