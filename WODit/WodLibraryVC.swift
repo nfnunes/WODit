@@ -58,18 +58,21 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             for item in subJson["exercise"].arrayValue{
                 exercisesWod.append("\(item)")
             }
+            
+            let timer = subJson["timer"].string
+            let time = subJson["time"].int
 
-            wods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod ))
+            wods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod, timer: timer!, time: time! ))
         
             if (subJson["type"].string == "Girls"){
                 
-                girlsWods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod ))
+                girlsWods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod, timer: timer!, time: time! ))
                 
             }
             
             if (subJson["type"].string == "Heroes"){
                 
-                heroesWods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod ))
+                heroesWods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod, timer: timer!, time: time! ))
                 
             }
        
@@ -106,12 +109,30 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             }
             
             cell.tapAction = { (cell) in
+                print(wod.timer)
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let vc = storyboard.instantiateViewController(withIdentifier: "WODForTime") as! goWODForTimeVC
-                self.present(vc, animated: true, completion: {
-                    vc.WodLabel = wod.name
-                    vc.SetupView()
-                })
+                if wod.timer == "For Time"{
+                    let vc = storyboard.instantiateViewController(withIdentifier: "WODForTime") as! goWODForTimeVC
+                    self.present(vc, animated: true, completion: {
+                        vc.WodName = wod.name
+                        for item in wod.exercise{
+                            vc.WodExercises = vc.WodExercises + item + "\r\n"
+                        }
+                        vc.SetupView()
+                    })
+                }
+                else if wod.timer == "AMRAP"{
+                    let vc = storyboard.instantiateViewController(withIdentifier: "WODAmrap") as! goWODAmrapVC
+                    self.present(vc, animated: true, completion: {
+                        vc.WodName = wod.name
+                        for item in wod.exercise{
+                            vc.WodExercises = vc.WodExercises + item + "\r\n"
+                        }
+                        vc.CurrentTime = wod.time
+                        vc.SetupView()
+                    })
+                }
+                
             }
             
             return cell

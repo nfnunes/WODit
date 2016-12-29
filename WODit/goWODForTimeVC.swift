@@ -14,20 +14,32 @@ class goWODForTimeVC: UIViewController {
     var currentTime = 0
     
     @IBOutlet weak var wodNameLbl: UILabel!
-    @IBOutlet weak var wodExercisesLbl: UILabel!
+    @IBOutlet weak var wodExercisesLbl: UITextView!
     @IBOutlet weak var stopWatchDisplay: UILabel!
     @IBOutlet weak var stopWatchToggleBtn: UIButton!
     
-    private var _wodLabel: String = ""
+    private var _wodName: String = ""
+    private var _wodExercises: String = ""
     
-    var WodLabel: String
+    var WodName: String
         {
         set
         {
-            _wodLabel = newValue
+            _wodName = newValue
         }
         get {
-            return _wodLabel
+            return _wodName
+        }
+    }
+    
+    var WodExercises: String
+        {
+        set
+        {
+            _wodExercises = newValue
+        }
+        get {
+            return _wodExercises
         }
     }
     
@@ -40,7 +52,8 @@ class goWODForTimeVC: UIViewController {
     }
     
     func SetupView() {
-        wodNameLbl.text = _wodLabel
+        wodNameLbl.text = _wodName
+        wodExercisesLbl.text = _wodExercises
     }
     
     
@@ -68,15 +81,11 @@ class goWODForTimeVC: UIViewController {
         currentTime = 0
         stopWatchDisplay.text = "00 : 00"
     }
-    
-  /*  func setGoWODForTime( _ wodName: String, _ wodExercises: [String]) {
-        print("entrei")
-        wodNameLbl.text = wodName
-    }*/
 
     @IBAction func backBtnPressed(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
+
 
 
 }
