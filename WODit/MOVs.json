@@ -2,292 +2,96 @@
 
 {
   "name": "Air Squat",
-  "description": "description",
-  "url": "https://youtu.be/JKtOS-xIbhg?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
+  "url": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/a_fb6Kz7FQg\" frameborder=\"0\" allowfullscreen></iframe>"
+},
+
+{
+  "name": "American Kettlebell Swing",
+  "url": "https://youtu.be/E6GoQYuZZT4"
+},
+
+{
+  "name": "Back Extension",
+  "url": "https://youtu.be/Bw9YuQTTc58"
+},
+
+{
+  "name": "Back Squats",
+  "url": "https://youtu.be/ultWZbUMPL8"
 },
 
 {
   "name": "Barbell Thruster",
-  "description": "description",
   "url": "https://youtu.be/88jwDZtP35c?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
 },
 
 {
+  "name": "Bar Muscle-Up",
+  "url": "https://youtu.be/Al2P0nR2lB8"
+},
+
+{
+  "name": "Bar-Facing Burpee",
+  "url": "https://youtu.be/KR65vNxss-4"
+},
+
+{
   "name": "Bear Crawl",
-  "description": "description",
-  "url": "https://youtu.be/2yAWjVCT1VQ?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
+  "url": "https://youtu.be/2yAWjVCT1VQ"
+},
+
+{
+  "name": "Bench Press",
+  "url": "https://youtu.be/FgVDxCxXkmc"
+},
+
+{
+  "name": "Body Blaster",
+  "url": "https://youtu.be/a3Gmjz5hh7Y"
 },
 
 {
   "name": "Box Jump",
-  "description": "description",
-  "url": "https://youtu.be/q7JREGIYOHU?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
+  "url": "https://youtu.be/IxrzCG_7FH4"
+},
+
+{
+  "name": "Box Step-Up",
+  "url": "https://youtu.be/-wm1O2DUg7I"
 },
 
 {
   "name": "Broad-Jump",
-  "description": "description",
   "url": "https://youtu.be/MwiI72uFzNI?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
 },
 
 {
+  "name": "Buddy Carry",
+  "url": "https://youtu.be/DXZ-p9ItJnY"
+},
+
+{
   "name": "Burpee",
-  "description": "description",
-  "url": "https://youtu.be/TX60BcsO_wE?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
+  "url": "https://youtu.be/TU8QYVW0gDU"
 },
 
 {
-  "name": "Clapping Push-Up",
-  "description": "description",
-  "url": "https://youtu.be/sH6IGmw_dDg?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
+  "name": "Burpee Bar Muscle-Up",
+  "url": "https://youtu.be/iAUzkrTsCDk"
 },
 
 {
-  "name": "Clean",
-  "description": "description",
-  "url": "https://youtu.be/7J8MnL7syDY?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
+  "name": "Burpee Box Jump",
+  "url": "https://youtu.be/bG2XsR2VqQw"
 },
 
 {
-  "name": "Deadlift",
-  "description": "description",
-  "url": "https://youtu.be/lh4rvSvmaFQ?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Diamond Push-Up",
-  "description": "description",
-  "url": "https://youtu.be/s8Ft6xyN5fw?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Dumbbell Burpee",
-  "description": "description",
-  "url": "https://youtu.be/L_QjiZGhZcM?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Dumbbell Jumping Lunge",
-  "description": "description",
-  "url": "https://youtu.be/grID4CMcPdA?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Dumbbell Push Press",
-  "description": "description",
-  "url": "https://youtu.be/mnVAuakHUr0?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Flutter Kicks",
-  "description": "description",
-  "url": "https://youtu.be/VoHnFoltddg?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Front Squat",
-  "description": "description",
-  "url": "https://youtu.be/z-R-_123Zz8?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "GHD Sit-Up",
-  "description": "description",
-  "url": "https://youtu.be/IxO5enwOEbQ?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Hand-release Push-Up",
-  "description": "description",
-  "url": "https://youtu.be/kHtt49_Pljw?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Handstand Push-Up",
-  "description": "description",
-  "url": "https://youtu.be/_z6JgP219T8?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Holding Squat",
-  "description": "description",
-  "url": "https://youtu.be/2IRnH8ygjXs?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Handstand Walk",
-  "description": "description",
-  "url": "https://youtu.be/nUEbp-cV_gA?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Kettlebell Snatch",
-  "description": "description",
-  "url": "https://youtu.be/QGpR2aTX_-o?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Kettlebell Swing",
-  "description": "description",
-  "url": "https://youtu.be/zBIWpPfc6NY?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Knees to Chest",
-  "description": "description",
-  "url": "https://youtu.be/SaQ1tfm3Y5Q?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "L-Sit",
-  "description": "description",
-  "url": "https://youtu.be/LCoq2cTggQQ?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Man Maker",
-  "description": "description",
-  "url": "https://youtu.be/iMNnvhg1JcM?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Med Ball Clean",
-  "description": "description",
-  "url": "https://youtu.be/-0TMFnoE9Cw?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Mountain Climb",
-  "description": "description",
-  "url": "https://youtu.be/1J4hRICVjRo?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "One-arm Dumbbell Power Snatch",
-  "description": "description",
-  "url": "https://youtu.be/GhIJ5zORQ6I?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "One Armed Overhead Squat",
-  "description": "description",
-  "url": "https://youtu.be/nB7jNvT7mYE?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Overhead Squat",
-  "description": "description",
-  "url": "https://youtu.be/mrLUG_UyvV0?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Pistol Squat",
-  "description": "description",
-  "url": "https://youtu.be/8tqKpdY7_vE?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Press",
-  "description": "description",
-  "url": "https://youtu.be/03qM1CEvybc?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Pull-Up",
-  "description": "description",
-  "url": "https://youtu.be/YKJvwfZ4sWo?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Push Jerk",
-  "description": "description",
-  "url": "https://youtu.be/Pu39bDr-ojk?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Push Press",
-  "description": "description",
-  "url": "https://youtu.be/1wXjOGmjb6Y?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Push-Up",
-  "description": "description",
-  "url": "https://youtu.be/oo0O4L5CUgk?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Ring Dip",
-  "description": "description",
-  "url": "https://youtu.be/DaNedgnJjB0?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Ring Row",
-  "description": "description",
-  "url": "https://youtu.be/LdmS3EsYtmM?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Rowing",
-  "description": "description",
-  "url": "https://youtu.be/1ZgTTDL1gNk?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Scissor Lunge",
-  "description": "description",
-  "url": "https://youtu.be/jdUOoK27dYc?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Sit-Up",
-  "description": "description",
-  "url": "https://youtu.be/EhG_x1bLHwE?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Slamball",
-  "description": "description",
-  "url": "https://youtu.be/7gLEmS4nwi0?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-
-{
-  "name": "Snatch",
-  "description": "description",
-  "url": "https://youtu.be/cS7KkO2CaTI?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Sumo Deadlift High-Pull",
-  "description": "description",
-  "url": "https://youtu.be/CfyB8jAZTyw?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Toes to Bar",
-  "description": "description",
-  "url": "https://youtu.be/tGzQqiS9OYI?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Walking Lunge",
-  "description": "description",
-  "url": "https://youtu.be/JRh6_4rq-b8?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Wall Ball",
-  "description": "description",
-  "url": "https://youtu.be/UUo2ONp4iGc?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
-},
-
-{
-  "name": "Wall Walk",
-  "description": "description",
-  "url": "https://youtu.be/Aprh33Qfmys?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
+  "name": "Burpee Pull-Up",
+  "url": "https://youtu.be/jVzrLDIRqnE"
 }
+
+
+
 
 
 

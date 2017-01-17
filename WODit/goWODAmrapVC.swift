@@ -23,6 +23,7 @@ class goWODAmrapVC: UIViewController {
     private var _wodName: String = ""
     private var _wodExercises: String = ""
     private var currentTime: Int = 0
+    private var initTime: Int = 0
     
     var WodName: String
         {
@@ -60,7 +61,6 @@ class goWODAmrapVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        // AmrapSelected.isSelected = true
-   
         
         SetupView()
     }
@@ -93,7 +93,7 @@ class goWODAmrapVC: UIViewController {
         amrapToggleBtn.setImage(#imageLiteral(resourceName: "iconStart"), for: .normal)
         timer?.invalidate()
         timer = nil
-        currentTime = 1200
+        currentTime = initTime
         let minutes = String(format: "%02d", self.currentTime / 60)
         let seconds = String(format: "%02d", self.currentTime % 60)
         self.amrapDisplay.text = "\(minutes) : \(seconds)"
@@ -105,6 +105,7 @@ class goWODAmrapVC: UIViewController {
         let minutes = String(format: "%02d", self.currentTime / 60)
         let seconds = String(format: "%02d", self.currentTime % 60)
         self.amrapDisplay.text = "\(minutes) : \(seconds)"
+        initTime = currentTime
     }
     
     

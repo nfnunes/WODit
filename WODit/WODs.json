@@ -1005,66 +1005,5443 @@
   "type": "Heroes",
   "timer": "For Time",
   "time": 0
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "name": "CRAIN",
+  "score": [
+      "2 Rounds For Time:"
+      ],
+  "exercise": [
+    "34 Push-Ups",
+    "46 Meter Sprint",
+    "34 Deadlifts (61/43 kg)",
+    "46 Meter Sprint",
+    "34 Box Jumps (61/51 cm)",
+    "50 yard Sprint",
+    "34 Clean-and-Jerks (43/19 kg)",
+    "50 yard Sprint",
+    "34 Burpees",
+    "50 yard Sprint",
+    "34 Wall Ball Shots (9/6 kg)",
+    "50 yard Sprint",
+    "34 Pull-Ups",
+    "50 yard Sprint"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DAE HAN",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "800 Meter Run (20.4 kg Barbell)",
+    "3 Rope Climb (4.6 m)",
+    "12 Thrusters (61 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DAN",
+  "score": [
+      "4 Rounds for Load and Time:",
+      "Athlete selects the weight for overhead squats. Score is load and time as lbs per second (ex: 135/13:05 = 135/785 = .172 lbs/sec)"
+      ],
+  "exercise": [
+    "21 Overhead Squats",
+    "400 Meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DANIEL",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "50 Pull-Ups",
+    "400 Meter Run",
+    "21 Thrusters (43/20 kg)",
+    "800 Meter Run",
+    "21 Thrusters (43/20 kg)",
+    "400 Meter Run",
+    "50 Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DANNY",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "30 Box Jumps (61/51 cm)",
+    "20 Push Press (35/23 kg)",
+    "30 Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "DEATH BY…ANYTHING",
+  "score": [
+      "Choose any single movement (pull-ups, thrusters, burpees, cleans, snatches, etc.) and perform the movement the prescribed number of times each minute, until you can no longer complete the number of reps prescribed in under one minute. Score is the last full round completed plus number of reps completed in the last round"
+      ],
+  "exercise": [
+    "1 Rep in the first minute",
+    "2 Rep in the second minute",
+    "3 Rep in the third minute",
+    "etc"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DEE",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "40 Air Squats",
+    "30 Hand-Release Push-Ups",
+    "20 Burpees",
+    "400 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DEL",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "25 Burpees",
+    "400 Meter Run (9/6 kg medicine ball)",
+    "25 Weighted Pull-Ups (9/7 kg dumbbell)",
+    "400 Meter Run (9/6 kg medicine ball)",
+    "25 Handstand Push-Ups",
+    "400 Meter Run (9/6 kg medicine ball)",
+    "25 Chest-to-Bar Pull-Ups",
+    "400 Meter Run (9/6 kg medicine ball)",
+    "25 Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DESFORGES",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "12 Deadlifts (102/70 kg)",
+    "20 Pull-Ups",
+    "12 Clean-and-Jerks (61/43 kg)",
+    "20 Knees-to-Elbows"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DG",
+  "score": [
+      "AMRAP in 10 minutes:"
+      ],
+  "exercise": [
+    "8 Toes-to-Bar",
+    "8 Dumbbell Thrusters (16/11 kg)",
+    "12 Dumbbell Walking Lunges (16/11 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 600
+},
+
+{
+  "name": "DIANE",
+  "score": [
+      "21-15-9 Reps For Time:"
+      ],
+  "exercise": [
+    "Deadlift (225/155 lbs)",
+    "Handstand Push-Ups"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DIRTY THIRTY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "30 Box Jumps (61/51 cm)",
+    "30 Jumping Pull-Ups",
+    "30 Kettlebell Swings (16/12 kg)",
+    "30 Lunges",
+    "30 Knees-to-Elbows",
+    "30 Push Press (20/16 kg)",
+    "30 Back Extensions",
+    "30 Wall Balls (9/6 kg)",
+    "30 Burpees",
+    "30 Double-Unders"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DOBOGAI",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "8 Muscle-Ups",
+    "20 meter Farmer Carry (23 kg dumbells)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DONNY",
+  "score": [
+      "21-15-9-9-15-21 Reps For Time:"
+      ],
+  "exercise": [
+    "Deadlifts (225/155 lbs)",
+    "Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DOUBLE DT",
+  "score": [
+      "10 Rounds For Time:"
+      ],
+  "exercise": [
+    "12 Deadlifts (70/48 kg)",
+    "9 Hang Power Cleans (70/48 kg)",
+    "6 Push Jerks (70/48 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DOUBLE GRACE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "60 Clean and Jerk (61/43 kg)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DRAGON",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "5000 meter Run",
+    "4 minutes to find 4 rep max Deadlift",
+    "5000 meter Run",
+    "4 minutes to find 4 rep max Push Jerk"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "DREAM CRUSHER",
+  "score": [
+      "AMRAP in 10 minutes:"
+      ],
+  "exercise": [
+    "6 Thrusters (61/43 kg)",
+    "9 Power Snatches (61/43 kg)",
+    "12 Power Cleans (61/43 kg)",
+    "15 Pull-Ups",
+    "18 American Kettlebell Swings (24/16 kg)",
+    "21 Handstand Push-Ups",
+    "18 American Kettlebell Swings (24/16 kg)",
+    "15 Pull-Ups",
+    "12 Power Cleans (61/43 kg)",
+    "9 Power Snatch (61/43 kg)",
+    "6 Thrusters (61/43 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 600
+},
+
+{
+  "name": "DT",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "12 Deadlifts (155/105 lbs)",
+    "9 Hang Power Cleans (155/105 lbs)",
+    "6 Push Jerks (155/105 lbs)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ELIZABETH",
+  "score": [
+      "21-15-9 Reps For Time:"
+      ],
+  "exercise": [
+    "Squat Cleans (61/43 kg)",
+    "Ring Dips"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ERIN",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "15 Dumbbell Split Cleans (18 kg)",
+    "21 Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "EVA",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "800 Meter Run",
+    "30 Kettlebell Swings (32 kg)",
+    "30 Pull-Ups"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FALKEL",
+  "score": [
+      "AMRAP in 25 minutes:"
+      ],
+  "exercise": [
+    "8 Handstand Push-Ups",
+    "8 Box Jump (76 cm)",
+    "1 Rope Climb (4.6 m)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1500
+},
+
+{
+  "name": "FAT AMY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "50 Air Squats",
+    "10 Burpees",
+    "40 Sit-Ups",
+    "10 Burpees",
+    "30 Lunges (alternating legs)",
+    "10 Burpees",
+    "20 Kettlebell Swings (24/16 kg)",
+    "10 Burpees",
+    "10 meter Bear Crawl",
+    "10 Burpees",
+    "20 Kettlebell Swings (24/16 kg)",
+    "10 Burpees",
+    "30 Lunges (alternating legs)",
+    "10 Burpees",
+    "40 Sit-Ups",
+    "10 Burpees",
+    "50 Air Squats"
+
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FATAL 40",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "400 meter run",
+    "40 Wall Balls (9/6 lbs)",
+    "400 meter run",
+    "40 Hang Cleans (43/29 kg)",
+    "400 meter run",
+    "40 Pull-Ups",
+    "400 meter run",
+    "40 Deadlifts (43/29.5 kg)",
+    "400 meter run",
+    "40 Push-Ups",
+    "400 meter run",
+    "40 Box Jumps (61/51 cm)",
+    "400 meter run",
+    "40 Kettlebell Swings (24/16 kg)",
+    "400 meter run",
+    "40 Toes-to-Bar",
+    "400 meter run",
+    "40 Air Squats",
+    "400 meter run",
+    "40 Hang Snatches (43/29 kg)",
+    "400 meter run",
+    "40 Double-Unders",
+    "400 meter run",
+    "40 Sit-Ups",
+    "400 meter run",
+    "40 Burpees",
+    "400 meter run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+{
+  "name": "FEEKS",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "2x 100m Shuttle Sprint",
+    "2 Squat Clean Thrusters (29.5 kg dumbbells)",
+    "4x 100m Shuttle Sprint",
+    "4 Squat Clean Thrusters (29.5 kg Dumbbells)",
+    "6x 100m Shuttle Sprint",
+    "6 Squat Clean Thrusters (29.5 kg Dumbbells)",
+    "8x 100m Shuttle Sprint",
+    "8 Squat Clean Thrusters (29.5 kg Dumbbells)",
+    "10x 100m Shuttle Sprint",
+    "10 Squat Clean Thrusters (29.5 kg Dumbbells)",
+    "12x 100m Shuttle Sprint",
+    "12 Dumbbell Squat Clean Thrusters (29.5 kg Dumbbells)",
+    "14x 100m Shuttle Sprint",
+    "14 Squat Clean Thrusters (29.5 kg dumbbells)",
+    "16x 100m Shuttle Sprint",
+    "16 Dumbbell Squat Clean Thrusters (29.5 kg Dumbbells)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FELIX THE CAT",
+  "score": [
+      "6 Rounds for Time:"
+      ],
+  "exercise": [
+    "9 Burpees",
+    "9 Box Jumps (61/51 cm)",
+    "9 Pull-Ups",
+    "9 Thrusters (40/20 kg)",
+    "9 Toes-to-Bar"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FIGHT GONE BAD",
+  "score": [
+      "3 Rounds, For Total Reps in 17 minutes:"
+      ],
+  "exercise": [
+    "1 minute Wall Balls (9/6 kg)",
+    "1 minute Sumo Deadlift High-Pulls (34/25 kg)",
+    "1 minute Box Jumps (51 cm)",
+    "1 minute Push Press (34/55 kg)",
+    "1 minute Row",
+    "1 minute Rest"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1020
+},
+
+{
+  "name": "FILTHY FIFTY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "50 Box Jumps (61/51 cm)",
+    "50 Jumping Pull-Ups",
+    "50 Kettlebell Swings (16/12 kg)",
+    "50 Walking Lunges",
+    "50 Knees-to-Elbows",
+    "50 Push Press (20/16 kg)",
+    "50 Back Extensions",
+    "50 Wall Balls (9/6 kg)",
+    "50 Burpees",
+    "50 Double-Unders"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FITCOPS DALLAS 5",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "1600 meter Run",
+    "100 Elbow Plank Push-Ups",
+    "150 Sit-Ups",
+    "100 Burpees",
+    "150 Lunges"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FLY HIGH 22",
+  "score": [
+      "AMRAP in 13 minutes with a Partner:"
+      ],
+  "exercise": [
+    "22 calorie Row",
+    "22 Power Cleans (43/29.5 kg)",
+    "22 Wall Balls (9/6 kg)",
+    "22 Toes-to-Bar"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 780
+},
+
+{
+  "name": "FOO",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "7 Chest-To-Bar Pull-Ups",
+    "77 Double-Unders",
+    "2 Squat Clean Thrusters (77/57 kg)",
+    "28 Sit-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "FORREST",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "20 L-Pull-Ups",
+    "30 Toes-to-Bar",
+    "40 Burpees",
+    "800 Meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FRACTURED FRAN",
+  "score": [
+      "5 Rounds for Time:"
+      ],
+  "exercise": [
+    "9 Thrusters (43/29.5 kg)",
+    "9 Pull-Ups"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FRAN",
+  "score": [
+      "21-15-9 Reps For Time:"
+      ],
+  "exercise": [
+    "9 Thrusters (43/29.5 kg)",
+    "9 Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FRANZILLA",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "21 Thrusters (43/29.5 kg)",
+    "21 Pull-Ups",
+    "15 Thrusters (52/34 kg)",
+    "15 Chest-to-Bar Pull-Ups",
+    "9 Thrusters (61/43 kg)",
+    "9 Bar Muscle-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FREDDY’S REVENGE",
+  "score": [
+      "5 Rounds for Time:"
+      ],
+  "exercise": [
+    "5 Shoulder to Overhead (185/135 lbs)",
+    "10 Burpees"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "FRELEN",
+  "score": [
+      "5 Rounds for Time:"
+      ],
+  "exercise": [
+    "800m Run",
+    "15 Dumbbell Thrusters (20/16 kg)",
+    "15 Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "G.I. JANE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "100 Burpee Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GALLANT",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "1600 meter Run (20 lb)",
+    "60 Burpee Pull-Ups",
+    "800 Meter Run (20 lb)",
+    "30 Burpee Pull-Ups",
+    "400 Meter Run (20 lb)",
+    "15 Burpee Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GAME PLAN",
+  "score": [
+      "Every 2 Minutes in 10 minutes:",
+      "Work up to a max weight. Athlete is allowed 2 attempts at each weight"
+      ],
+  "exercise": [
+    "1 Hang Squat Snatch",
+    "2 Overhead Squats"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GARRETT",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "75 Air Squats",
+    "25 Ring Handstand Push-Ups",
+    "25 L-Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GAS PEDAL",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "750 meter Row",
+    "100 Double-Unders",
+    "30 Burpees over the Rower"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GATOR",
+  "score": [
+      "8 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Front Squat (185 lbs)",
+    "26 Ring Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GAZA",
+  "score": [
+      "5 Rounds for Time:"
+      ],
+  "exercise": [
+    "35 Kettlebell Swings (24/16 kg)",
+    "30 Push-Ups",
+    "25 Pull-Ups",
+    "20 Box Jumps (76/61 cm)",
+    "1600 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GLEN",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "30 Clean-and-Jerk (61/43 kg)",
+    "1600 meter Run",
+    "10 Rope Climb (4.6 m)",
+    "1600 meter Run",
+    "100 Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GODZILLA",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "1 Legless Rope Climb (4.6 m)",
+    "2 Squat Snatches (102/66 kg)",
+    "3 Back Squats (165.5/111 kg)",
+    "4 Deficit Handstand Push-Ups (33/23 cm)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GRACE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "30 Clean-and-Jerks (61/43 kg)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GRANITE GAMES QUAL. 15.1",
+  "score": [
+      "AMRAP in 10 minutes:"
+      ],
+  "exercise": [
+    "5 Hang Squat Cleans (155/105 lbs)",
+    "7 Bar-Facing Burpees"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 600
+},
+
+{
+  "name": "GRANITE GAMES QUAL. 15.3",
+  "score": [
+      "AMRAP in 17 minutes:"
+      ],
+  "exercise": [
+    "50 calorie Row",
+    "50 Wall Ball Shots (9/6 kg)",
+    "50 Shoulder to Overhead (52/38.5 kg)",
+    "50 Box Jumps (61/51 cm)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1020
+},
+
+{
+  "name": "GRANITE GAMES QUAL. 15.4",
+  "score": [
+      "AMRAP in 13 minutes:"
+      ],
+  "exercise": [
+    "10 Deadlifts (102/70 kg)",
+    "5 Ring Muscle-Ups",
+    "10 Deadlifts (115.5/79 kg)",
+    "5 Ring Muscle-Ups",
+    "10 Deadlifts (129/88.5 kg)",
+    "5 Ring Muscle-Ups",
+    "10 Deadlifts (143/97.5 kg)",
+    "5 Ring Muscle-Ups",
+    "10 Deadlifts (156.5/106.5 kg)",
+    "5 Ring Muscle-Ups",
+    "10 Deadlifts (170/115.5 kg)",
+    "Max Reps of Ring Muscle-Ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 780
+},
+
+{
+  "name": "GRANITE GAMES QUAL. 16.1",
+  "score": [
+      "AMRAP in 15 minutes:"
+      ],
+  "exercise": [
+    "10 Squat Clean-and-Jerks (61/38.5 kg)",
+    "15 Bar-Facing Burpees",
+    "8 Squat Clean-and-Jerks (84/52 kg)",
+    "15 Bar-Facing Burpees",
+    "6 Squat Clean-and-Jerks (102/66 kg)",
+    "15 Bar-Facing Burpees",
+    "4 Squat Clean-and-Jerks (125/79 kg)",
+    "15 Bar-Facing Burpees",
+    "2 Squat Clean-and-Jerks (138/91 kg)",
+    "15 Bar-Facing Burpees",
+    "Max Reps of Squat Clean-and-Jerks (143/93 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 900
+},
+
+{
+  "name": "GRANITE GAMES QUAL. 16.2",
+  "score": [
+      "AMRAP in 17 minutes:"
+      ],
+  "exercise": [
+    "50 calorie Row",
+    "50 Wall Ball Shots (9/6 kg)",
+    "50 Shoulder to Overhead (52/38.5 kg)",
+    "50 Box Jumps (61/51 cm)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1020
+},
+
+{
+  "name": "GRANITE GAMES QUAL. 16.3",
+  "score": [
+      "AMRAP in 12 minutes:"
+      ],
+  "exercise": [
+    "12 Chest-to-Bar Pull-Ups",
+    "8 Deadlifts (111/75 kg)",
+    "12 Handstand Push-Ups",
+    "8 Deadlifts (111/75 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 720
+},
+
+{
+  "name": "GRANITE GAMES QUAL. 16.4",
+  "score": [
+      "For Time 5–10–15–20–15–10–5 Reps of:"
+      ],
+  "exercise": [
+    "Overhead Squats (52/34 kg)",
+    "Toes-to-Bar"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GRANITE GAMES QUAL. 16.5",
+  "score": [
+      "AMRAP in 14 minutes:"
+      ],
+  "exercise": [
+    "70 Double-Unders",
+    "7 Ring Muscle-Ups",
+    "7 Snatches (70/48 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 840
+},
+
+{
+  "name": "GRIFF",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "800 Meter Run",
+    "400 Meter Run (backwards)",
+    "800 Meter Run",
+    "400 Meter Run (backwards)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GS 24",
+  "score": [
+      "4 Rounds For Time with a partner:"
+      ],
+  "exercise": [
+    "800 meter Run",
+    "50 Wall Balls (9/6 kg)",
+    "50 Burpees",
+    "50 Pull Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "GUT BUSTER",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "150 Sit-Ups",
+    "1000 meter Row",
+    "150 Sit-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+
+{
+  "name": "HALL",
+  "score": [
+      "5 Rounds for Time:"
+      ],
+  "exercise": [
+    "3 Cleans (102/70 kg)",
+    "200 meter Sprint",
+    "20 Kettlebell Snatches (24/16 kg) (10 each arm)",
+    "2 minutes Rest"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+
+{
+  "name": "HAMMER",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Power Clean (61/43 kg)",
+    "10 Front Squat (61/43 kg)",
+    "5 Jerk (61/43 kg)",
+    "20 Pull-Ups",
+    "90 Seconds Rest"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+
+{
+  "name": "HANSEN",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+      "30 Kettlebell Swing (32 kg)",
+      "30 Burpees",
+      "30 Glute-ham (GHD) Sit-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HARD CINDY",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "5 Weighted Pull-Ups (16/11 kg)",
+    "10 Incline Push-Ups (feet on 76/61 cm box)",
+    "15 Air Squats (with 20/16 kg plate)"
+  ],
+  "type": "Girls",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "HARPER",
+  "score": [
+      "AMRAP in 23 minutes:"
+      ],
+  "exercise": [
+    "9 Chest-to-Bar Pull-Ups",
+    "15 Power Cleans (61/43 kg)",
+    "21 Air Squats",
+    "400 meter Weighted Run (20/16 kg Plate)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1380
+},
+
+{
+  "name": "HEATHER",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "550 meter Row",
+    "12 Deadlifts (225/155 lbs)",
+    "21 Rings Dips"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HEAVY DT",
+  "score": [
+      "5 Rounds for Time:"
+      ],
+  "exercise": [
+    "12 Deadlifts (93/66 kg)",
+    "9 Hang Power Cleans (93/66 kg)",
+    "6 Push Jerks (93/66 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HEAVY FRAN",
+  "score": [
+      "15-12-9 Reps For Time:"
+      ],
+  "exercise": [
+    "Thrusters (61/43 kg)",
+    "Weighted Pull-Ups (20/13.6 kg)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HELEN",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "400 meter Run",
+    "21 Kettlebell Swings (24/16 kg)",
+    "12 Pull-Ups"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HELTON",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "800 meter Run",
+    "30 Dumbbell Squat Cleans (23/16 kg)",
+    "30 Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HIDALGO",
+  "score": [
+      "For Time:",
+      "If you’ve got a 9 kg vest or body armor, wear it."
+      ],
+  "exercise": [
+    "3200 meter Run",
+    "2 Minutes Rest",
+    "20 Squat Cleans (61 kg)",
+    "20 Box Jumps (61 cm)",
+    "20 Overhead Walking Lunges (20 kg plate)",
+    "20 Box Jumps (61 cm)",
+    "20 Squat Cleans (61 kg)",
+    "2 Minutes Rest",
+    "3200 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HILDY",
+  "score": [
+      "For Time:",
+      "If you’ve got a 9kg vest or body armor, wear it"
+      ],
+  "exercise": [
+    "100 calorie Row",
+    "75 Thrusters (20/16 kg barbell)",
+    "50 Pull-Ups",
+    "75 Wall Ball Shots (16/6 kg)",
+    "100 calorie Row"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HITMAN",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Back Squats (102/70 lbs)",
+    "400 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HOLBROOK",
+  "score": [
+      "10 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Thrusters (52 kg)",
+    "10 Pull-Ups",
+    "100 Meter Sprint",
+    "1 Minute Rest"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HOLLEYMAN",
+  "score": [
+      "30 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Wall Balls (9/6 kg)",
+    "3 Handstand Push-Ups",
+    "1 Power Clean (102/70 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HOLLYWOOD",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "2 km Run",
+    "22 Wall-Ball shots (13.6/9 kg)",
+    "22 Muscle-Ups",
+    "22 Wall-Ball shots (13.6/9 kg)",
+    "22 Power Cleans (84/61 kg)",
+    "22 Wall-Ball shots (13.6/9 kg)",
+    "2 km Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HOPE",
+  "score": [
+      "3 Rounds, For Total Reps in 17 minutes:"
+      ],
+  "exercise": [
+    "1 Minute Burpees",
+    "1 Minute Power Snatch (34/25 lbs)",
+    "1 Minute Box Jump (61/51 cm)",
+    "1 Minute Thruster (34/25 lbs)",
+    "1 Minute Chest-to-Bar Pull-Ups",
+    "1 Minute Rest"
+  ],
+  "type": "",
+  "timer": "EMOM",
+  "time": 1020
+},
+
+{
+  "name": "HOPE FOR KENYA",
+  "score": [
+      "AMRAP in 12 minutes:"
+      ],
+  "exercise": [
+    "50 Air Squats",
+    "30 Push-Ups",
+    "15 Pull-Ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 720
+},
+
+{
+  "name": "HORTMAN",
+  "score": [
+      "AMRAP in 45 minutes:"
+      ],
+  "exercise": [
+    "800 meter Run",
+    "80 Air Squats",
+    "8 Muscle-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 2700
+},
+
+{
+  "name": "HORTON",
+  "score": [
+      "9 Rounds for Time - With a Partner:"
+      ],
+  "exercise": [
+    "9 Bar Muscle-Ups",
+    "11 Clean-and-Jerks (70/52 kg)",
+    "46 meter Buddy Carry"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "HOTSHOTS 19",
+  "score": [
+      "6 Rounds For Time:"
+      ],
+  "exercise": [
+    "30 Air Squats",
+    "19 Power Cleans (61/43 kg)",
+    "7 Strict Pull-Ups",
+    "400 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ICON 3",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "12 Front Squats (102/70 kg)",
+    "9 Clean-and-Jerks (102/70 kg)",
+    "6 Snatches (102/70 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "INCREDIBLE HULK",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "5 Deadlifts (52/34 kg)",
+    "5 Hang Power Cleans (52/34 kg)",
+    "5 Front Squats (52/34 kg)",
+    "5 Push Press (52/34 kg)",
+    "5 Back Squat (52/34 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "ISABEL",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "30 Snatches (61/43 kg)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "IVAN THE TERRIBLE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "90 Seconds Jump Rope",
+    "50 Lunges",
+    "50 Push-Ups",
+    "50 Sit Ups",
+    "90 Seconds Jump Rope",
+    "40 Lunges",
+    "40 Push-Ups",
+    "40 Sit-Ups",
+    "90 Seconds Jump Rope",
+    "30 Lunges",
+    "30 Push-Ups",
+    "30 Sit-Ups",
+    "90 Seconds Jump Rope",
+    "20 Lunges",
+    "20 Push-Ups",
+    "20 Sit-Ups",
+    "90 Seconds Jump Rope",
+    "10 Lunges",
+    "10 Push-Ups",
+    "10 Sit-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "J.J.",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "1 Squat Clean (84/61 kg)",
+    "10 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "2 Squat Cleans (84/61 kg)",
+    "9 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "3 Squat Cleans (84/61 kg)",
+    "8 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "4 Squat Cleans (84/61 kg)",
+    "7 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "5 Squat Cleans (84/61 kg)",
+    "6 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "6 Squat Cleans (84/61 kg)",
+    "5 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "7 Squat Cleans (84/61 kg)",
+    "4 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "8 Squat Cleans (84/61 kg)",
+    "3 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "9 Squat Cleans (84/61 kg)",
+    "2 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "10 Squat Cleans (84/61 kg)",
+    "1 Parallette Handstand Push-Up (15 cm Deficit)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JACK",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "10 Push Press (52 kg)",
+    "10 Kettlebell Swings (24 kg)",
+    "10 Box Jumps (61 cm)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "JACKIE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "1000 Meter Row",
+    "50 Thrusters (20 kg bar)",
+    "30 Pull-Ups"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JAG 28",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "800 Meter Run",
+    "28 Kettlebell Swings (32/24 kg)",
+    "28 Strict Pull-Ups",
+    "28 Kettlebell Clean-and-Jerk (32/24 kg)",
+    "28 Strict Pull-Ups",
+    "800 Meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JAMES WRIGHT",
+  "score": [
+      "For Points in 20 minutes:",
+      "Perform any combination of the prescribed movements as many times as possible, to accumulate as many points as possible. Count reps of each movement during the workout. Calculate score by multiplying reps by points for each movement and totaling them all."
+      ],
+  "exercise": [
+    "Overhead Squat (10 points) (60/40kg barbell)",
+    "Thruster (5 points) (60/40kg barbell)",
+    "Squat Clean (3 points) (60/40kg barbell)",
+    "Deadlift (1 point) (60/40kg barbell)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "JARED",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "800 Meter Run",
+    "40 Pull-Ups",
+    "70 Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JASON",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "100 Air Squats",
+    "5 Muscle-Ups",
+    "75 Air Squats",
+    "10 Muscle-Ups",
+    "50 Air Squats",
+    "15 Muscle-Ups",
+    "25 Air Squats",
+    "20 Muscle-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JAY",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "22 Air Squats",
+    "12 Toes-to-Bar",
+    "9 Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "JBO",
+  "score": [
+      "AMRAP in 28 minutes:"
+      ],
+  "exercise": [
+    "9 Overhead Squats (52/34 kg)",
+    "1 Legless Rope Climb (4.6 m rope, from seated position)",
+    "12 Bench Presses (52/34 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1680
+},
+
+{
+  "name": "JENNIFER",
+  "score": [
+      "AMRAP in 26 minutes::"
+      ],
+  "exercise": [
+    "10 Pull-Ups",
+    "15 Kettlebell Swings (24/16 kg)",
+    "20 Box Jumps (61/51 cm)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1560
+},
+
+{
+  "name": "JENNY",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "20 Overhead Squats (20/16 kg bar)",
+    "20 Back Squats (20/16 kg bar)",
+    "400 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "JERRY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "1600 meter Run",
+    "2000 Meter Row",
+    "1600 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JERRY SWINGER",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "30 Wall Ball Shots (9/6 kg)",
+    "30 Kettlebell swings (32/24 kg)",
+    "60 Box Jumps (61/51 cm)",
+    "30 Kettlebell Swings (32/24 kg)",
+    "30 Wall Ball Shots (9/6 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JOHNSON",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "9 Deadlifts (111/75 kg)",
+    "8 Muscle-Ups",
+    "9 Squat Clean (70/48 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "JONAH LOMU",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "1975 meter Run",
+    "11 Sandbag Ground-to-Over-Shoulder (25/20 kg)",
+    "11 Thrusters (61/43 kg)",
+    "11 Handstand Push-Ups",
+    "11 Hang Squat Cleans (61/43 kg)",
+    "11 Chest-to-Bar Pull-Ups",
+    "11 Shoulder-to-Overhead (61/43 kg)",
+    "11 Back Squats (61/43 kg)",
+    "11 Power Cleans (61/43 kg)",
+    "37 Wall Balls (20/14 kg)",
+    "40 Kettlebell Swings (24/16 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JONESWORTHY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "80 Air Squats",
+    "40 Kettlebell Swings (24/16 kg)",
+    "20 Pull-Ups",
+    "64 Air Squats",
+    "32 Kettlebell Swings (24/16 kg)",
+    "16 Pull-Ups",
+    "50 Air Squats",
+    "25 Kettlebell Swings (24/16 kg)",
+    "12 Pull-Ups",
+    "32 Air Squats",
+    "16 Kettlebell Swings (24/16 kg)",
+    "8 Pull-Ups",
+    "16 Air Squats",
+    "8 Kettlebell Swings (24/16 kg)",
+    "4 Pull-Ups",
+    "8 Air Squats",
+    "4 Kettlebell Swings (24/16 kg)",
+    "2 Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JONNY BOI",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "50 Sit-Ups",
+    "21 Strict Pull-Ups",
+    "21 Push Press (43/29.5 kg)",
+    "400 meter Run",
+    "15 Strict Pull-Ups",
+    "15 Push Press (52/38.5 kg)",
+    "800 meter Run",
+    "9 Strict Pull-Ups",
+    "9 Push Press (61/48 kg)",
+    "1600 meter Run",
+    "50 Sit-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JORGE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "30 GHD Sit-Ups",
+    "15 Squat Cleans (70/48 kg)",
+    "24 GHD Sit-Ups",
+    "12 Squat Cleans (70/48 kg)",
+    "18 GHD Sit-Ups",
+    "9 Squat Cleans (70/48 kg)",
+    "12 GHD Sit-Ups",
+    "6 Squat Cleans (70/48 kg)",
+    "6 GHD Sit-Ups",
+    "3 Squat Cleans (70/48 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JOSH",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "21 Overhead Squats (43 kg)",
+    "42 Pull-Ups",
+    "15 Overhead Squats (43 kg)",
+    "30 Pull-Ups",
+    "9 Overhead Squats (43 kg)",
+    "18 Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JOSHIE",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "21 Dumbbell Snatches, Right Arm (18 kg)",
+    "21 L Pull-Ups",
+    "21 Dumbbell Snatches, Left Arm (18 kg)",
+    "21 L Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JT",
+  "score": [
+      "21-15-9 Reps For Time:"
+      ],
+  "exercise": [
+    "Handstand Push-Ups",
+    "Ring Dips",
+    "Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "JUSTIN",
+  "score": [
+      "30-20-10 Reps for Time:"
+      ],
+  "exercise": [
+    "Back Squats (Bodyweight)",
+    "Bench Presses (Bodyweight)",
+    "Strict Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KALSU",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "100 Thrusters (61/43 kg)",
+    "5 Burpees at the top of every minute"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KARABEL",
+  "score": [
+      "10 Rounds For Time:"
+      ],
+  "exercise": [
+    "3 Power Snatches (61/43 kg)",
+    "15 Wallball Shots (9/6 kg)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KAREN",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "150 Wall Ball Shots (9/6 kg)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KELLY",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "400 Meter Run",
+    "30 Box Jumps (61/51 cm)",
+    "30 Wall Ball Shots (9/6 kg)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KEVIN",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "32 Deadlifts (84/61 kg)",
+    "32 Hanging Hip Touches (alternating arms)",
+    "800m Running Farmer Carry (7 kg dumbbells)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KEVIN A. HOUSTON",
+  "score": [
+      "3 Rounds For Time:",
+      "If you have a weight vest wear it (except during the run)."
+      ],
+  "exercise": [
+    "200 meter Run",
+    "50 meter Farmers Walk (16 kg sandbag, each hand)",
+    "10 Burpees",
+    "10 meter Bear Crawl (forward and backwards)",
+    "400 meter Run",
+    "100 meter Farmers Walk (16 kg sandbag, each hand)",
+    "20 Burpees",
+    "10 meter Bear Crawl (forward and backwards)",
+    "600 meter Run",
+    "150 meter Farmers Walk (16 kg sandbag, each hand)",
+    "30 Burpees",
+    "30 meter Bear Crawl (forward and backwards)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KIANA",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "2 Squat Cleans (84/57 kg)",
+    "15 Push-Ups",
+    "99 Double Unders",
+    "12 Sit-Ups",
+    "23 Deadlifts (84/57 kg)",
+    "13 Box Jumps"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KING KONG",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "1 Deadlift (206.4/134 kg)",
+    "2 Muscle-Ups",
+    "3 Squat Cleans (113.4/75 kg)",
+    "4 Handstand Push Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KLEPTO",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "27 Box Jumps (61/51 cm)",
+    "20 Burpees",
+    "11 Squat Cleans (66/45 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "KUTSCHBACH",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "11 Back Squats (84/61 kg)",
+    "10 Jerks (61/43 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "L.A.G.",
+  "score": [
+      "19 Rounds For Time:",
+      "with a Partner"
+      ],
+  "exercise": [
+    "2 Legless Rope Climbs",
+    "6 Kettlebell Swings (32/24 kg)",
+    "16 GHD Sit-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LAST ASCENT",
+  "score": [
+      "5-10-15 Rounds for Time:"
+      ],
+  "exercise": [
+    "Back Squats (102/70 kg)",
+    "Box Jumps (61/51 cm)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LEDESMA",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "5 Parallette Handstand Push-Ups (15 cm Deficit)",
+    "10 Toes Through Rings",
+    "15 Medicine Ball Cleans (9 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "LEE",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "400 Meter Run",
+    "1 Deadlift (156.5/102 kg)",
+    "3 Squat Clean (84/61 kg)",
+    "5 Push Jerk (84/61 kg)",
+    "3 Muscle-Ups",
+    "1 Rope Climb (4.6 m)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LEGION 8",
+  "score": [
+      "8 Rounds For Time:"
+      ],
+  "exercise": [
+    "8 Thrusters (34/25 kg)",
+    "8 Chest-to-Bar Pull-Ups",
+    "8 Clapping Push-Ups",
+    "8 Power Snatches (34/25 kg)",
+    "8 Knees-to-Elbows",
+    "8 Sumo Deadlift High-Pulls (34/25 kg)",
+    "8 Handstand Push-Ups",
+    "8 Toes-to-Bar",
+    "Then 800 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LIFT UP LUKE",
+  "score": [
+      "AMRAP in 5 minutes:"
+      ],
+  "exercise": [
+    "4 Power Cleans (70/48 kg)",
+    "24 Double Unders",
+    "10 Pull-Ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 300
+},
+
+{
+  "name": "LINCHPIN TEST 2",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Muscle-Ups",
+    "10 Squat Cleans (61/43 kg)",
+    "20 Box Jumps (61/51 cm)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 3",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "21 Wall Balls (9/6 kg)",
+    "14 Handstand Push-Ups",
+    "7 Deadlifts (143/93 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 4",
+  "score": [
+      "2 Rounds For Time:"
+      ],
+  "exercise": [
+    "18 calorie Row",
+    "15 Thrusters (43/29.5 kg)",
+    "12 Chest-to-Bar Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 5",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "20 Back Squats (102/70 kg)",
+    "3200 meter Run",
+    "20 Back Squats (102/70 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 6",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "21 Wall Balls (9/6 kg)",
+    "18 Pull-Ups",
+    "15 Kettlebell Swings (24/16 kg)",
+    "12 Handstand Push-ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 7",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "4 Power Cleans (93/66 kg)",
+    "4 Front Squats (93/66 kg)",
+    "4 Shoulder to Overhead (93/66 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 8",
+  "score": [
+      "3 Rounds For Time:",
+      "Use one barbell, no rack"
+      ],
+  "exercise": [
+    "21 Deadlifts (84/61 kg)",
+    "7 Overhead Squats (84/61 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 9",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "15 meter Handstand Walk",
+    "5 Squat Cleans (102/70 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 10",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "15 Wall Balls (9/6 kg)",
+    "15 Power Cleans (43/29.5 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 11",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "7 Squat Snatch (84/61 kg)",
+    "11 Muscle-ups",
+    "100 Double-Unders",
+    "11 Muscle-Ups",
+    "7 Squat Snatch (84/61 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINCHPIN TEST 12",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "400 meter Run",
+    "15 Clean-and-Jerks (61/43 kg)",
+    "3 Rope Climbs (15 ft)",
+    "400 meter Run",
+    "12 Clean-and-Jerks (61/43 kg)",
+    "2 Rope Climbs",
+    "400 meter run",
+    "9 Clean-and-Jerks (61/43 kg)",
+    "1 Rope Climb"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LINDA (AKA: ‘3 BARS OF DEATH’)",
+  "score": [
+      "10-9-8-7-6-5-4-3-2-1 Reps For Time:"
+      ],
+  "exercise": [
+    "Deadlift (1.5 BW)",
+    "Bench Press (BW)",
+    "Clean (3/4 BW)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LOLA",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "30 Double Unders",
+    "20 Knees-to-Elbows",
+    "10 Handstand Push-Ups"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LOOP, SWOOP, PULL AND PUSH",
+  "score": [
+      "AMRAP in 10 minutes:",
+      "Your score is your total accumulated Clean & Jerks. There is no separate score for the run."
+      ],
+  "exercise": [
+    "1600 meter Run",
+    "Max Clean and Jerks (75/48 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 600
+},
+
+{
+  "name": "LOREDO",
+  "score": [
+      "6 Rounds For Time:"
+      ],
+  "exercise": [
+    "24 Air Squats",
+    "24 Push-Ups",
+    "24 Walking Lunges",
+    "400 Meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LUCE",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "1000 Meter Run",
+    "10 Muscle-Ups",
+    "100 Air Squats"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LUCY",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Pull-ups",
+    "10 Burpees",
+    "400 Meter Run"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LUKE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "400 meter Run",
+    "15 Clean and Jerks (70/48 kg)",
+    "400 meter Run",
+    "30 Toes-to-Bars",
+    "400 meter Run",
+    "45 Wall Ball Shots (9/6 kg)",
+    "400 meter Run",
+    "45 Kettlebell Swings (24/16 kg)",
+    "400 meter Run",
+    "30 Ring Dips",
+    "400 meter Run",
+    "15 Weighted Lunge Steps (70/48 kg)",
+    "400 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LUMBERJACK 20",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "20 Deadlifts (125/84 kg)",
+    "400 Meter Run",
+    "20 Kettlebell Swings (32/24 kg)",
+    "400 Meter Run",
+    "20 Overhead Sqauts (52/34 kg)",
+    "400 Meter Run",
+    "20 Burpees",
+    "400 Meter Run",
+    "20 Chest-to-Bar Pull-Ups",
+    "400 Meter Run",
+    "20 Box Jumps (61/51 cm)",
+    "400 Meter Run",
+    "20 Dumbbell Squat Cleans (20/16 kg)",
+    "400 Meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LUMPY",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "250 meter Row",
+    "6 Power Cleans (61/43 kg)",
+    "6 Thrusters (61/43 kg)",
+    "9 Deadlifts (61/43 kg)",
+    "9 Sumo Deadlift High-Pulls (61/43 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LURONG 50’S CHIPPER",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "50 Wall Ball Shots (9/6 kg)",
+    "50 Dumbbell Snatches (32/23 kg) (alternating arms)",
+    "50 Pistols (alternating legs)",
+    "50 Chest-to-Bar Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "LURONG THE OLYMPIAN",
+  "score": [
+      "AMRAP in 9 minutes:"
+      ],
+  "exercise": [
+    "20 Ground-to-Overhead (43/29.5 kg)",
+    "7 Bar-Facing Burpees",
+    "15 Ground-to-Overhead (61/43 kg)",
+    "7 Bar-Facing Burpees",
+    "10 Ground-to-Overhead (70/48 kg)",
+    "7 Bar-Facing Burpees",
+    "5 Ground-to-Overhead (84/29.5 kg)",
+    "7 Bar-Facing Burpees",
+    "Max Ground-to-Overhead (102/70 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 540
+},
+
+{
+  "name": "LYNNE",
+  "score": [
+      "5 Rounds for Max Reps:"
+      ],
+  "exercise": [
+    "Bench Press (BW)",
+    "Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MACHO MAN",
+  "score": [
+      "EMOM for as Long as Possible:"
+      ],
+  "exercise": [
+    "3 Power Cleans (84/61 kg)",
+    "3 Front Squats (84/61 kg)",
+    "3 Jerks (84/61 kg)"
+  ],
+  "type": "",
+  "timer": "EMOM",
+  "time": 3599
+},
+
+{
+  "name": "MADDIE",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "4 Squat Cleans (61/43 kg)",
+    "11 Burpee Box Jump Overs (61/51 cm)",
+    "20 Double-Unders"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 960
+},
+
+{
+  "name": "MAGGIE",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "20 Handstand Push-Ups",
+    "40 Pull-Ups",
+    "60 Pistols (Alternating Legs)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MAGPIE",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "800 meter Run",
+    "20 Knees-to-Elbows",
+    "30 Kettlebell Swings (24/16 kg)",
+    "40 Sumo Deadlift High-Pulls (40/30 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MAKIMBA",
+  "score": [
+      "15-10-5 Reps for Time:"
+      ],
+  "exercise": [
+    "Dumbbell Thrusters (4.5 kg)",
+    "Air Squats",
+    "Burpees"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MAMBA",
+  "score": [
+      "AMRAP in 18 minutes:"
+      ],
+  "exercise": [
+    "5 Ring Muscle-Ups",
+    "8 Power Cleans (84/57 kg)",
+    "24 Box Jumps (76/61 cm)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1080
+},
+
+{
+  "name": "MANION",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "7 Rounds For Time",
+    "400 meter Run",
+    "29 Back Squats (135/95 lbs)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MARATHON MONDAY",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "4 Squat Clean-and-Jerks (185/135 lbs)",
+    "15 Chest-to-Bar Pull-ups",
+    "13 Burpee Lateral Jumps",
+    "Then: 800 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MARCO",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "21 Pull-Ups",
+    "15 Handstand Push-Ups",
+    "9 Thrusters (61/43 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MARGUERITA",
+  "score": [
+      "50 Rounds For Time:"
+      ],
+  "exercise": [
+    "1 Burpee",
+    "1 Push-Up",
+    "1 Jumping-Jack",
+    "1 Sit-Up",
+    "1 Handstand"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MARK 35",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Bench Press (102/70 kg)",
+    "5 Power Cleans (102/70 kg)",
+    "35 Double-Unders"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MARSTON",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "1 Deadlift (184/129 kg)",
+    "10 Toes-to-Bar",
+    "15 Bar Facing Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "MARY",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "5 Handstand Push-Ups",
+    "10 Pistols (alternating legs)",
+    "15 Pull-Ups"
+  ],
+  "type": "Girls",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "MARY XXX",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "10 Handstand Push-Ups",
+    "20 Pistols (alternating legs)",
+    "30 Pull-Ups",
+    "15 Handstand Push-Ups",
+    "30 Pistols (alternating legs)",
+    "45 Pull-Ups",
+    "20 Handstand Push-Ups",
+    "40 Pistols (alternating legs)",
+    "60 Pull-Ups",
+    "25 Handstand Push-Ups",
+    "50 Pistols (alternating legs)",
+    "75 Pull-Ups",
+    "30 Handstand Push-Ups",
+    "60 Pistols (alternating legs)",
+    "90 Pull-Ups"
+  ],
+  "type": "Girls",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "MATT 16",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "16 Deadlifts (125 kg)",
+    "16 Hang Power Cleans (84 kg)",
+    "16 Push Presses (61 kg)",
+    "800 meter Run",
+    "16 Deadlifts (125 kg)",
+    "16 Hang Power Cleans (84 kg)",
+    "16 Push Presses (61 kg)",
+    "800 meter Run",
+    "16 Deadlifts (125 kg)",
+    "16 Hang Power Cleans (84 kg)",
+    "16 Push Presses (61 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MATT B.",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Burpees",
+    "10 Chest-to-Bar Pull-Ups",
+    "20 Wall Ball Shots (9/6 kg)",
+    "30 Push-Ups",
+    "400 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MAUPIN",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "800 meter Run",
+    "49 Push-Ups",
+    "49 Sit-Ups",
+    "49 Air Squats"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MCCLUSKEY",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "9 Muscle-Ups",
+    "15 Burpee Pull-Ups",
+    "21 Pull-Ups",
+    "800 Meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MCDONALD & GALAGHER",
+  "score": [
+      "2 Rounds For Time:"
+      ],
+  "exercise": [
+    "200 meter Run",
+    "16 Kettlebell Swings (24/16 kg)",
+    "16 Pull-Ups",
+    "16 Front Squats (50/32 kg)",
+    "200 meter Run",
+    "14 Kettlebell Swings (24/16 kg)",
+    "14 Pull-Ups",
+    "14 Front Squats (50/32 kg)",
+    "200 meter Run",
+    "12 Kettlebell Swings (24/16 kg)",
+    "12 Pull-Ups",
+    "12 Front Squats (50/32 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MCFLURRY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "400 meter Run",
+    "21 Cleans (84/61 kg)",
+    "21 Pull-Ups",
+    "400 meter Run",
+    "15 Dumbbell Thrusters (23/16 kg)",
+    "15 Pull-Ups",
+    "400 meter Run",
+    "9 Cleans (84/61 kg)",
+    "9 Pull-Ups",
+    "400 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MEADOWS",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "20 Muscle-Ups",
+    "25 Lowers from Inverted Hang on the Rings",
+    "30 Ring Handstand Push-Ups",
+    "35 Ring Rows",
+    "40 Ring Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MEGAN",
+  "score": [
+      "21-15-9 Rounds for Time:"
+      ],
+  "exercise": [
+    "Burpees",
+    "Kettlebell Swings (24/16 kg)",
+    "Double-Unders"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MIAGI",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "50 Deadlifts (61/43 kg)",
+    "50 Double Kettlebell Swings (24/16 kg)",
+    "50 Push-Ups",
+    "50 Clean-and-Jerks (61/43 kg",
+    "50 Pull-Ups",
+    "50 Kettlebell Taters (24/16 kg)",
+    "50 Box Jumps (61/51 cm)",
+    "50 Wall Climbs",
+    "50 Knee-to-Elbows",
+    "50 Double-Unders"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MICHAEL",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "800 meter Run",
+    "50 Back Extensions",
+    "50 Sit-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MIDLINE MARCH",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "25 GHD Sit-Ups",
+    "50 foot Handstand Walk",
+    "50 foot Overhead Walking Lunge (70/48 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MIRACLE MILE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "400m Run",
+    "25 Kettlebell Swings (25/16 kg)",
+    "200m Farmers Walk (25,18/16,13.6 kg)",
+    "200m Waiters Walk (18/13.6 kg)",
+    "25 Box Jumps (61/51 cm)",
+    "100m Sprint",
+    "100m Walking Lunge",
+    "100m Sprint",
+    "100m Walking Lunge",
+    "5 Burpees",
+    "400m Run w/ Medicine Ball (9/6 cm)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MOBLOKO",
+  "score": [
+      "AMRAP in 8 minutes:"
+      ],
+  "exercise": [
+    "30 Chest-to-Bar Pull-Ups",
+    "25 Thrusters (52/34 kg)",
+    "20 Chest-to-Bar Pull-ups",
+    "15 Thrusters (52/34 kg)",
+    "10 Bar Muscle-Ups",
+    "5 Thrusters (52/34 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MONTI",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "50 Box Step-Ups (20.4/16 kg barbells, 51 cm box)",
+    "15 Cleans (61/43 kg)",
+    "50 Box Step-Ups (20.4/16 kg barbells, 51 cm box)",
+    "10 Snatches (61/43 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MOON",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Hang Split Snatch, Right Arm (18 kg)",
+    "1 Rope Climb (4.6 m)",
+    "10 Hang Split Snatch, Left Arm (18 kg)",
+    "1 Rope Climb (4.6 m)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MOORE",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "1 Rope Climb (4.6 m)",
+    "400 Meter Run",
+    "Max Reps Handstand Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "MORRISON",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Back Squats (102/70 lbs)",
+    "400 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MOSZER",
+  "score": [
+      "50-40-30-20-10 Reps For Time:"
+      ],
+  "exercise": [
+    "Wall Ball Shots (9/6 kg)",
+    "Box Jumps (61/51 cm)",
+    "Kettlebell Swings (24/16 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MR. JOSHUA",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "400 Meter Run",
+    "30 Glute-Ham (GHD) Sit-Ups",
+    "15 Deadifts (113.4/75 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "MURPH",
+  "score": [
+      "For Time:",
+      "Partition the Pull-Ups, Push-Ups, and Squats as needed. Start and finish with a Mile run. If you’ve got a 20 pound vest or body armor, wear it."
+      ],
+  "exercise": [
+    "1 Mile Run",
+    "100 Pull-Ups",
+    "200 Push-Ups",
+    "300 Air Squats",
+    "1 Mile Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "NANCY",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "400 meter Run",
+    "15 Overhead Squats (43/29.5 kg)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "NASTY GIRLS",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "50 Air Squats",
+    "7 Muscle-Ups",
+    "10 Hang Power Cleans (61/43 kg)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "NATE",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "2 Muscle-Ups",
+    "4 Handstand Push-Ups",
+    "8 Kettlebell Swings (32/24 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "NAUTICAL NANCY",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "400 meter Row",
+    "15 Overhead Squats (43/29.5 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "NED",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "11 Back Squats (BW)",
+    "1,000 Meter Row"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "NEVER FORGET",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "100 meter Sandbag Carry (61/41 kg)",
+    "9 Handstand Push-Ups",
+    "11 Overhead Squats (52/34 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "NICK",
+  "score": [
+      "12 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Dumbbell Hang Squat Clean (20.4/16 kg)",
+    "6 Handstand Push-Ups on Dumbbells"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "NICKMAN",
+  "score": [
+      "10 Rounds For Time:"
+      ],
+  "exercise": [
+    "200 meter Farmers Carry (25 kg dumbbells)",
+    "10 Weighted Pull-Ups (16 kg)",
+    "20 Dumbbell Power Snatches (25 kg) (alternating arms)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "NICOLE",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "400 Meter Run",
+    "Max Pull-Ups"
+  ],
+  "type": "Girls",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "NUTTS",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "10 Handstand Push-Ups",
+    "15 Deadlifts (113/61 kg)",
+    "25 Box Jumps (76/61 cm)",
+    "50 Pull-Ups",
+    "100 Wall Ball Shots (9 kg, 3 m/6 kg, 2.7 m)",
+    "200 Double-Unders",
+    "400 Meter Run (with 20/16 kg plate)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "OGAR",
+  "score": [
+      "AMRAP in 14 minutes:"
+      ],
+  "exercise": [
+    "3 Snatches (61/43 kg)",
+    "1 Muscle-Up",
+    "12 Wall Balls (9/6 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 840
+},
+
+{
+  "name": "OH NO CURTIS P",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "100 Curtis P's (48/32 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "OLAF",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Squat Cleans (70/48 kg)",
+    "25 Pushups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "OMAR",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "10 Thrusters (43 kg)",
+    "15 Bar-Facing Burpees",
+    "20 Thrusters (43 kg)",
+    "25 Bar-Facing Burpees",
+    "30 Thrusters (43 kg)",
+    "35 Bar-Facing Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ONE BAR, THREE GIRLS",
+  "score": [
+      "21-15-9 Reps for Time:"
+      ],
+  "exercise": [
+    "Thrusters (61/43 kg)",
+    "Pull-Ups",
+    "Squat Cleans (61/43 kg)",
+    "Ring Dips",
+    "Deadlifts (61/43 kg)",
+    "Handstand Push-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "OPEN 11.1",
+  "score": [
+      "AMRAP in 10 minutes:"
+      ],
+  "exercise": [
+    "30 Double-Unders",
+    "15 Power Snatches (34/25 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 600
+},
+
+{
+  "name": "OPEN 11.2",
+  "score": [
+      "AMRAP in 15 minutes:"
+      ],
+  "exercise": [
+    "9 Deadlifts (70/45 kg)",
+    "12 Push-Ups",
+    "15 Box Jumps (61/51 cm)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 900
+},
+
+{
+  "name": "OPEN 11.3",
+  "score": [
+      "AMRAP in 5 minutes:"
+      ],
+  "exercise": [
+    "Squat Clean (75/50 kg)",
+    "Jerk (75/50 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 300
+},
+
+{
+  "name": "OPEN 11.4",
+  "score": [
+      "AMRAP in 10 minutes:"
+      ],
+  "exercise": [
+    "60 Bar Facing Burpees",
+    "30 Overhead Squats (54/41 kg)",
+    "10 Muscle-Ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 600
+},
+
+{
+  "name": "OPEN 11.5",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "5 Power Cleans (66/48 kg)",
+    "10 Toes-To-Bars",
+    "15 Wall Balls (9/6 kg) (3 m)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "OPEN 11.6",
+  "score": [
+      "AMRAP in 7 minutes:",
+      "If you complete the round of 9, complete a round of 12, then go on to 15, etc."
+      ],
+  "exercise": [
+    "3 Thrusters (45/29.5 kg)",
+    "3 Chest-to-Bar Pull-ups",
+    "6 Thrusters (45/29.5 kg)",
+    "6 Chest-to-Bar Pull-ups",
+    "9 Thrusters (45/29.5 kg)",
+    "9 Chest-to-Bar Pull-ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 420
+},
+
+{
+  "name": "OPEN 12.1",
+  "score": [
+      "AMRAP in 7 minutes:"
+      ],
+  "exercise": [
+    "Burpees"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 420
+},
+
+{
+  "name": "OPEN 12.2",
+  "score": [
+      "AMRAP in 10 minutes:"
+      ],
+  "exercise": [
+    "30 Snatches (34/20 kg)",
+    "30 Snatches (61/34 kg)",
+    "30 Snatches (75/45 kg)",
+    "30 Snatches (95/54 kg)",
+    "Continue at this weight until time is up"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 600
+},
+
+{
+  "name": "OPEN 12.3",
+  "score": [
+      "AMRAP in 18 minutes:"
+      ],
+  "exercise": [
+    "15 Box Jumps (61/51 cm)",
+    "12 Push Press (52/34 kg)",
+    "9 Toes-to-Bar"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1080
+},
+
+{
+  "name": "OPEN 12.4",
+  "score": [
+      "AMRAP in 12 minutes:"
+      ],
+  "exercise": [
+    "150 Wall Balls (9/6 kg)",
+    "90 Double-Unders",
+    "30 Muscle-Ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 720
+},
+
+{
+  "name": "OPEN 13.1",
+  "score": [
+      "AMRAP in 17 minutes:"
+      ],
+  "exercise": [
+    "40 Burpees",
+    "30 Snatches (34/20 kg)",
+    "30 Burpees",
+    "30 Snatches (61/34 kg)",
+    "20 Burpees",
+    "30 Snatches (75/45 kg)",
+    "10 Burpees",
+    "AMRAP Snatch (95/54 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1020
+},
+
+{
+  "name": "OPEN 13.2",
+  "score": [
+      "AMRAP in 10 minutes:"
+      ],
+  "exercise": [
+    "5 Shoulder-to-Overheads (52/34 kg)",
+    "10 Deadlifts (52/34 kg)",
+    "15 Box Jumps (61/51 cm)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 600
+},
+
+{
+  "name": "OPEN 13.4",
+  "score": [
+      "AMRAP in 7 minutes:",
+      "If you complete the round of 12, go on to 15. If you complete 15, go on the 18, etc."
+      ],
+  "exercise": [
+    "3 Clean-and-Jerks (61/43 kg)",
+    "3 Toes-to-Bars",
+    "6 Clean-and-Jerks (61/43 kg)",
+    "6 Toes-to-Bars",
+    "9 Clean-and-Jerks (61/43 kg)",
+    "9 Toes-to-Bars",
+    "12 Clean-and-Jerks (61/43 kg)",
+    "12 Toes-to-Bars"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 420
+},
+
+{
+  "name": "OPEN 13.5",
+  "score": [
+      "AMRAP in 4 minutes:"
+      ],
+  "exercise": [
+    "15 Thrusters (45/29.5 kg)",
+    "15 Chest-to-Bar Pull-ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 240
+},
+
+{
+  "name": "OPEN 14.3",
+  "score": [
+      "AMRAP in 8 minutes:"
+      ],
+  "exercise": [
+    "10 Deadlifts (61/43 kg)",
+    "15 Box Jumps (61/51 cm)",
+    "15 Deadlifts (84/61 kg)",
+    "15 Box Jumps (61/51 cm)",
+    "20 Deadlifts (102/70 kg)",
+    "15 Box Jumps (61/51 cm)",
+    "25 Deadlifts (125/84 kg)",
+    "15 Box Jumps (61/51 cm)",
+    "30 Deadlifts (143/93 kg)",
+    "15 Box Jumps (61/51 cm)",
+    "35 Deadlifts (166/102 kg)",
+    "15 Box Jumps (61/51 cm)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 480
+},
+
+{
+  "name": "OPEN 14.4",
+  "score": [
+      "AMRAP in 14 minutes:"
+      ],
+  "exercise": [
+    "60 Calorie Row",
+    "50 Toes-to-Bars",
+    "40 Wall-Ball Shots (9/6 kg) (3/2.7 m)",
+    "30 Cleans (61 lb)",
+    "20 Muscle-Ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 840
+},
+
+{
+  "name": "OPEN 15.3",
+  "score": [
+      "AMRAP in 14 minutes:"
+      ],
+  "exercise": [
+    "7 Muscle-Ups",
+    "50 Wall Balls (9/6 kg)",
+    "100 Double-Unders"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 840
+},
+
+{
+  "name": "OPEN 15.4",
+  "score": [
+      "AMRAP in 8 minutes:"
+      ],
+  "exercise": [
+    "3 Handstand Push-Ups",
+    "3 Cleans (84/57 kg)",
+    "6 Handstand Push-Ups",
+    "3 Cleans (84/57 kg)",
+    "9 Handstand Push-Ups",
+    "3 Cleans (84/57 kg)",
+    "12 Handstand Push-Ups",
+    "6 Cleans (84/57 kg)",
+    "15 Handstand Push-Ups",
+    "6 Cleans (84/57 kg)",
+    "18 Handstand Push-Ups",
+    "6 Cleans (84/57 kg)",
+    "21 Handstand Push-Ups",
+    "9 Cleans (84/57 kg)",
+    "Etc., following same pattern until time is up"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 480
+},
+
+{
+  "name": "OPEN 15.5",
+  "score": [
+      "27-21-15-9 Reps for Time:"
+      ],
+  "exercise": [
+    "Row (calories)",
+    "Thrusters (43/29.5 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "OPEN 16.1",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "7.6 meter Overhead Walking Lunges (43/29.5 kg)",
+    "8 Bar-Facing Burpees",
+    "7.6 meter Overhead Walking Lunges (43/29.5 kg)",
+    "8 Chest-to-Bar Pull-Ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "OPEN 16.3",
+  "score": [
+      "AMRAP in 7 minutes:"
+      ],
+  "exercise": [
+    "10 Power Snatches (34/25 kg)",
+    "3 Bar Muscle-Ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 420
+},
+
+{
+  "name": "OPEN 16.4",
+  "score": [
+      "AMRAP in 13 minutes:"
+      ],
+  "exercise": [
+    "55 Deadlifts (102/70 kg)",
+    "55 Wall-Balls (9/6 kg)",
+    "55 calorie Row",
+    "55 Handstand Push-Ups"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 780
+},
+
+{
+  "name": "OPEN 16.5",
+  "score": [
+      "21-18-15-12-9-6-3 Reps For Time:"
+      ],
+  "exercise": [
+    "Thrusters (43/29.5 kg)",
+    "Bar-Facing Burpees"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "OZZY",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "11 Deficit Handstand Push-Ups (15/10 cm)",
+    "1,000 Meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PAINSTORM X",
+  "score": [
+      "For Time:",
+      "Pick your own weights for the carries (Farmers Walk, Sandbag Carry, Suitcase Walk, Waiter Walk)"
+      ],
+  "exercise": [
+    "200 meter Farmers Walk",
+    "100 Pull-Ups",
+    "100 Thrusters (20/16 kg)",
+    "200 meter Sand Bag Carry",
+    "75 Burpees",
+    "75 Hang Power Snatch (20/16 kg)",
+    "200 meter Suitcase Walk",
+    "50 Kettlebell Swings (24/16 kg)",
+    "50 Bear Complex (20/16 kg)",
+    "200 meter Waiter Walk",
+    "25 Muscle-Ups",
+    "25 Handstand Push-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PAINSTORM XI",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "100 meter Run",
+    "10 Muscle-Ups",
+    "200 meter Run",
+    "20 Handstand Push-Ups",
+    "300 meter Run",
+    "30 Overhead Squats (20/16 kg bar)",
+    "400 meter Run",
+    "40 Sumo Deadlift High Pull (20/16 kg bar)",
+    "500 meter Run",
+    "50 Pull-Ups",
+    "600 meter Run",
+    "60 Push-Ups",
+    "700 meter Run",
+    "70 Kettlebell Swings (1/.75 pood)",
+    "800 meter Run",
+    "80 Burpees",
+    "900 meter Run",
+    "90 Thrusters (20/16 kg bar)",
+    "1000 meter Run",
+    "100 Air Squats"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PAINSTORM XII",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "400 meter Run",
+    "50 Back Squats",
+    "50 Front Squats",
+    "50 Overhead Squats",
+    "400 meter Run",
+    "50 Shoulder Presses",
+    "50 Push Presses",
+    "50 Push Jerks",
+    "400 meter Run",
+    "50 Hang Power Cleans",
+    "50 Hang Power Snatches",
+    "400 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PAINSTORM XV",
+  "score": [
+      "7 Rounds For Time:",
+      "Pick your own weight; use same dumbbells throughout"
+      ],
+  "exercise": [
+    "10 Man Makers",
+    "20 Dumbbell Deadlifts",
+    "30 Single-Arm Dumbbell Snatches (15 per side)",
+    "40 Single Overhead Lunges (20 per side)",
+    "50 Dumbbell Swings"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PAINSTORM XIX",
+  "score": [
+      "AMRAP in 40 minutes:"
+      ],
+  "exercise": [
+    "5 Deadlifts (32/23 kg)",
+    "5 Hang Power Cleans (32/23 kg)",
+    "5 Front Squats (32/23 kg)",
+    "5 Push Presses (32/23 kg)",
+    "5 Back Squats (32/23 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 2400
+},
+
+{
+  "name": "PAINSTORM XXI",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "30 Burpees",
+    "30 Deadlifts",
+    "30 Burpees",
+    "30 Cleans",
+    "30 Burpees",
+    "30 Strict Presses",
+    "30 Burpees",
+    "30 Push Presses",
+    "30 Burpees",
+    "30 Jerks",
+    "30 Burpees",
+    "30 Swings",
+    "30 Burpees",
+    "30 Sumo Deadlift HIgh-Pulls",
+    "30 Burpees",
+    "30 Snatches (Left Hand)",
+    "30 Burpees",
+    "30 Snatches (Right Hand)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PAINSTORM XXIV",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "100 meter Run",
+    "50 Burpees",
+    "200 meter Run",
+    "100 Push-Ups",
+    "300 meter Run",
+    "150 Lunges",
+    "400 meter Run",
+    "200 Air Squats",
+    "300 meter Run",
+    "150 Lunges",
+    "200 meter Run",
+    "100 Push-Ups",
+    "100 meter Run",
+    "50 Burpees"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PATTON",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "25 Deadlifts (70/48 kg)",
+    "400 meter Run",
+    "10 Strict Pull-Ups",
+    "10 Clean-and-Jerks (70/48 kg)",
+    "800 meter Run",
+    "10 Strict Pull-Ups",
+    "10 Clean-and-Jerks (70/48 kg)",
+    "10 Strict Pull-Ups",
+    "800 meter Run",
+    "10 Clean-and-Jerks (70/48 kg)",
+    "10 Strict Pullups",
+    "400 meter Run",
+    "25 Deadlifts (70/48 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PAUL",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "50 Double Unders",
+    "35 Knees-to-Elbows",
+    "20 Yard Overhead Walk (84 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PAUL 4179",
+  "score": [
+      "9 Rounds For Time:"
+      ],
+  "exercise": [
+    "4 Strict Pull-Ups",
+    "1 Deadlift (125/84 kg)",
+    "7 Burpees",
+    "9 Double Unders",
+    "100 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PHEEZY",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Front Squat (75/48 kg)",
+    "18 Pull-Ups",
+    "5 Deadlifts (102/70 kg)",
+    "18 Toes-to-Bar",
+    "5 Push Jerks (75/48 kg)",
+    "18 Hand-Release Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PIKE",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "20 Thrusters (34/25 kg)",
+    "10 Strict Ring Dips",
+    "20 Push-Ups",
+    "10 Strict Handstand Push-Ups",
+    "50 meter Bear Crawl"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PILCHUCK",
+  "score": [
+      "6 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Front Squats (102/70 kg)",
+    "24 Kettlebell Swings (32/24 kg)",
+    "14 Burpee Box Jump Overs (61/51 cm)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "PK",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Back Squats (102/48 kg)",
+    "10 Deadlifts (125/84 lbs)",
+    "400 meter Sprint",
+    "2 minutes Rest"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "POPEYE",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "5 Chest-to-Bar Pull-Ups",
+    "10 Wall Balls (9/6 kg)",
+    "15 Kettlebell Swings (24/16 kg)"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "PR FOR PAT",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "6 Power Cleans (84/61 kg)",
+    "12 Burpees",
+    "14 Toes-to-Bar",
+    "50 foot Handstand Walk"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "PUKIE BREWSTER",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "150 Burpees"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "QUARTER GONE BAD",
+  "score": [
+      "5 Rounds, For Total Reps in 18 minutes:"
+      ],
+  "exercise": [
+    "15 Seconds Thrusters (61/43 kg)",
+    "45 Seconds Rest",
+    "15 Seconds Weighted Pull-Up (23 kg)",
+    "45 Seconds Rest",
+    "15 Seconds Burpees",
+    "45 Seconds Rest"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1080
+},
+
+{
+  "name": "RAHOI",
+  "score": [
+      "AMRAP in 12 minutes:"
+      ],
+  "exercise": [
+    "12 Box Jumps (61/51 cm)",
+    "6 Thrusters (43/29.5 kg)",
+    "6 Bar-Facing Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 720
+},
+
+{
+  "name": "RALPH",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "8 Deadlifts (113/75 kg)",
+    "16 Burpees",
+    "3 Rope Climbs (4.6 m)",
+    "600 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "RANDY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "75 Power Snatches (23/17 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "RANKEL",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "6 Deadlifts (102 kg)",
+    "7 Burpee Pull-Ups",
+    "10 Kettlebell Swings (32 kg)",
+    "200 Meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "RENÉ",
+  "score": [
+      "7 Rounds For Time:",
+      "If you have a weight vest (9 kg) or body armor, wear it."
+      ],
+  "exercise": [
+    "400 meter Run",
+    "21 Walking Lunges",
+    "15 Pull-Ups",
+    "9 Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "RICKY",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "10 Pull-Ups",
+    "5 Dumbbell Deadlifts (34 kg)",
+    "8 Push-Press (61 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "RILEY",
+  "score": [
+      "For Time:",
+      "If you have a weight vest (9 kg) or body armor, wear it"
+      ],
+  "exercise": [
+    "2400 meter Run",
+    "150 Burpees",
+    "2400 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "RJ",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "800 Meter Run",
+    "5 Rope Climb (4.6 m)",
+    "50 Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ROAMING DIANE",
+  "score": [
+      "21-15-9 Reps for Time:"
+      ],
+  "exercise": [
+    "Deadlift (102/70 kg)",
+    "Handstand Walk (in meters)"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ROBBIE",
+  "score": [
+      "AMRAP in 25 minutes:"
+      ],
+  "exercise": [
+    "8 Freestanding Handstand Push-Ups",
+    "1 L-Sit Rope Climb (4.6 m)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1500
+},
+
+{
+  "name": "ROCKET",
+  "score": [
+      "AMRAP in 30 minutes:"
+      ],
+  "exercise": [
+    "50 Meter Swim",
+    "10 Push-Ups",
+    "15 Air Squats"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1800
+},
+
+{
+  "name": "RONEY",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "200 Meter Run",
+    "11 Thruster (61 kg)",
+    "200 Meter Run",
+    "11 Push Press (61 kg)",
+    "200 Meter Run",
+    "11 Bench Press (61 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ROSA",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Handstand Push-Ups",
+    "400 meter Run"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ROY",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "15 Deadlift (102/70 lbs)",
+    "20 Box Jumps (61/51 in)",
+    "25 Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "RUN AND GET FRAN",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "400m Run",
+    "21 Thrusters (41/29.5 kg)",
+    "21 Pull-Ups",
+    "400m Run",
+    "15 Thrusters (41/29.5 kg)",
+    "15 Pull-Ups",
+    "400m Run",
+    "9 Thrusters (41/29.5 kg)",
+    "9 Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "RUNNING JACKIE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "800 Meter Run",
+    "50 Thrusters (20 kg)",
+    "30 Pull-Ups"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "RYAN",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "7 Muscle-Ups",
+    "21 Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SAGE AT 20",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "20 Thrusters (61/43 kg)",
+    "20 Pull-ups",
+    "20 Burpees"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "SAN FRAN CRIPPLER",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "30 Back Squats (Bodyweight)",
+    "1,000 meter Row"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SANTIAGO",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "18 Dumbbell Hang Squat Clean (16 kg)",
+    "18 Pull-Ups",
+    "10 Power Clean (61 kg)",
+    "10 Handstand Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SATAN’S WHISKERS",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Chest-to-Bar Pull-Ups",
+    "10 Front Squats (75/52 kg)",
+    "10 Burpees"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SCOTTIE",
+  "score": [
+      "10 Rounds:"
+      ],
+  "exercise": [
+    "10 meter Farmers Carry (32/24 kg)",
+    "5 Strict Chin-Ups",
+    "10 meter Farmers Carry (32/24 kg)",
+    "5 Burpees",
+    "5 Deadlifts (120/84 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SEAN",
+  "score": [
+      "10 Rounds For Time:"
+      ],
+  "exercise": [
+    "11 Chest-to-Bar Pull-Ups",
+    "22 Front Squat (34 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SEVEN DEADLY SINS",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "10 Chest-to-Bar Pull-Ups",
+    "20 Toes-to-Bars",
+    "30 Deadlifts (84/61 kg)",
+    "100 Double-Unders",
+    "30 Box Jumps (61/51 cm)",
+    "20 Burpees",
+    "10 Cleans (84/61 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SEVERIN",
+  "score": [
+      "For Time:",
+      "If you’ve got a 9 kg vest or body armor, wear it"
+      ],
+  "exercise": [
+    "50 Strict Pull-Ups",
+    "100 Hand-Release Push-Ups",
+    "5000 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SHAM",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "11 Deadlifts (BW)",
+    "100 Meter Sprint"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SHIP",
+  "score": [
+      "9 Rounds For Time:"
+      ],
+  "exercise": [
+    "7 Squat Clean (84/61 kg)",
+    "8 Burpee Box Jump (91/76 cm)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SISSON",
+  "score": [
+      "AMRAP in 20 minutes:",
+      "If you have a weight vest (9 kg) or body armor, wear it"
+      ],
+  "exercise": [
+    "1 Rope Climb (4.6 m)",
+    "5 Burpees",
+    "200 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "SMALL",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "1000 Meter Row",
+    "50 Burpees",
+    "50 Box Jumps (61 cm)",
+    "800 Meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SMYKOWSKI",
+  "score": [
+      "For Time:",
+      "If you’ve got a 13.6 kg vest or body armor, wear it."
+      ],
+  "exercise": [
+    "6000 meter Run",
+    "60 Burpee Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SPECIAL MARY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "5 Handstand Push-Ups",
+    "10 Pistols (Alternating Legs)",
+    "15 Pull-Ups",
+    "10 Handstand Push-Ups",
+    "20 Pistols (Alternating Legs)",
+    "30 Pull-Ups",
+    "15 Handstand Push-Ups",
+    "30 Pistols (Alternating Legs)",
+    "45 Pull-Ups",
+    "10 Handstand Push-Ups",
+    "20 Pistols (Alternating Legs)",
+    "30 Pull-Ups",
+    "5 Handstand Push-Ups",
+    "10 Pistols (Alternating Legs)",
+    "15 Pull-Ups"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SPEHAR",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "100 Thrusters (61/43 kg)",
+    "100 Chest-to-Bar Pull-Ups",
+    "9600 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SQT",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Ground to Overhead (43/29.5 kg)",
+    "180 meter Shuttle Sprint (45 meter there and back, twice)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "STANKY LEGS",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "535 meter Run",
+    "15 Overhead Squats (61/43 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "STANLEY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "50 Deadlifts (Bodyweight)",
+    "50 Incline Push-Ups (61/51 cm)",
+    "50 Box Jumps (61/51 cm)",
+    "1600 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "STEPHEN",
+  "score": [
+      "30-25-20-15-10-5 Reps, For Time:"
+      ],
+  "exercise": [
+    "GHD Sit-Ups",
+    "Back Extensions",
+    "Knees-to-Elbows",
+    "Romanian Deadlifts (43 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "STRANGE",
+  "score": [
+      "8 Rounds For Time:"
+      ],
+  "exercise": [
+    "600 Meter Run",
+    "11 Weighted Pull-Ups (24/16 kg)",
+    "11 Walking Lunges (24/16 kg)",
+    "11 Thrusters (24/16 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "SWASEY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "32 Chest-to-Bar Pull-Ups",
+    "32 Wall Balls (20/14 lbs)",
+    "32 Cleans (135/85 lbs)",
+    "5100 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "T.J.",
+  "score": [
+      "For Time:",
+      "Repeat until you have completed 100 Thrusters."
+      ],
+  "exercise": [
+    "10 Bench Presses (84/61 kg)",
+    "10 Strict Pull-Ups",
+    "Max Thrusters (61/43 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "T.U.P.",
+  "score": [
+      "15-12-9-6-3 Reps For Time:"
+      ],
+  "exercise": [
+    "Power Cleans (61/43 kg)",
+    "Pull-Ups",
+    "Front Squats (61/43 kg)",
+    "Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TAYLOR",
+  "score": [
+      "4 Rounds For Time:",
+      "If you have a weight vest (9 kg) or body armor, wear it."
+      ],
+  "exercise": [
+    "400 meter Run",
+    "5 Burpee Muscle-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TERRY",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "1600 meter Run",
+    "100 Push-Ups",
+    "100 meter Bear Crawl",
+    "1600 meter Run",
+    "100 meter Bear Crawl",
+    "100 Push-Ups",
+    "1600 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE 29",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "29 Kettlebell Swings (24/16 kg)",
+    "29 Sit-Ups",
+    "29 Box Jumps (61/51 cm)",
+    "29 Knees-to-Elbows",
+    "29 Burpees"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE 300",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "25 Pull-Ups",
+    "50 Deadlifts (61/43 kg)",
+    "50 Push-Ups",
+    "50 Box Jumps (61/51 cm)",
+    "50 Floor Wipers",
+    "50 Kettlebell Clean-and-Press (16/12 kg) (Alternating Arms)",
+    "25 Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE 540",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "50 Overhead Lunges (20/11 kg)",
+    "40 Pull-Ups",
+    "30 Thrusters (43/29.5 kg)",
+    "20 Burpees",
+    "10 Squat Cleans (61/43 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE BEN ROGERS",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "800 meter Run",
+    "50 Hang Power Cleans (52/34 kg)",
+    "600 meter Run",
+    "30 Hang Power Cleans (70/48 kg)",
+    "400 meter Run",
+    "10 Hang Power Cleans (84/57 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE CRIPPLER",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "30 Back Squats (102/70 kg)",
+    "1600 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE DON",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "66 Deadlifts (50/34 kg)",
+    "66 Box Jump (61/51 cm)",
+    "66 Kettlebell swings (24/16 kg)",
+    "66 Knees-to-Elbows",
+    "66 Sit-Ups",
+    "66 Pull-Ups",
+    "66 Thruster (25/16 kg)",
+    "66 Wall Ball Shots (9/6 kg)",
+    "66 Burpees",
+    "66 Double-Unders"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE LEGEND",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "4 Pistols",
+    "25 Kettlebell Swings (24.5/16 kg)",
+    "50 Push-Ups",
+    "75 Pull-Ups",
+    "50 Push-Ups",
+    "25 Kettlebell Swings (24.5/16 kg)",
+    "4 Pistols"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE LONGEST MILE",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Burpees",
+    "100 meter Run",
+    "10 Air Squats",
+    "100 meter Run",
+    "10 Push-Ups",
+    "100 meter Run",
+    "10 Sit-Ups",
+    "100 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE QUICK AND THE DEAD",
+  "score": [
+      "3-9-15-21-15-9-3 For Time:"
+      ],
+  "exercise": [
+    "Deadlifts (93/66 kg)",
+    "Box Jumps (61/51 cm)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE RECKONING",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "1600 meter Run",
+    "100 Body Blasters",
+    "1600 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE SEVEN",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "7 Handstand Push-Ups",
+    "7 Thrusters (61/43 kg)",
+    "7 Knees-to-Elbows",
+    "7 Deadlifts (111/75 kg)",
+    "7 Burpees",
+    "7 Kettlebell Swings (32/24 kg)",
+    "7 Pull-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THE TRIPLET",
+  "score": [
+      "AMRAP in 10 minutes:"
+      ],
+  "exercise": [
+    "6 Squat Cleans (54/29.5 kg)",
+    "12 Pull-Ups",
+    "12 Double Unders"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 600
+},
+
+{
+  "name": "THE TWINS",
+  "score": [
+      "Two rounds of each couplet For Time:"
+      ],
+  "exercise": [
+    "750 meter Row",
+    "20 Handstand Push-ups",
+    " ",
+    "20 Thrusters (52/34 kg)",
+    "20 L-Pull-ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "THOMPSON",
+  "score": [
+      "10 Rounds For Time:"
+      ],
+  "exercise": [
+    "1 Rope Climb (4.6 m)",
+    "29 Back Squats (43 kg)",
+    "10 Meter Barbell Farmer Carry (61 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TILLMAN",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "7 Deadlifts (315/205 lbs)",
+    "200 meter Sprint",
+    "15 Pull Ups",
+    "45 seconds Rest"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TK",
+  "score": [
+      "AMRAP in 20 minutes:"
+      ],
+  "exercise": [
+    "8 Strict Pull-Ups",
+    "8 Box Jumps (91 cm)",
+    "12 Kettlebell Swings (32 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1200
+},
+
+{
+  "name": "TOM",
+  "score": [
+      "AMRAP in 25 minutes:"
+      ],
+  "exercise": [
+    "7 Muscle-Ups",
+    "11 Thrusters (70/48 kg)",
+    "14 Toes-to-Bar"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1500
+},
+
+{
+  "name": "TOMMY MAC",
+  "score": [
+      "2 Rounds For Time:"
+      ],
+  "exercise": [
+    "12 Burpees",
+    "12 Thrusters (52/34 kg)",
+    "12 Burpees",
+    "12 Power Snatch (52/34 kg)",
+    "12 Burpees",
+    "12 Push Jerks (52/34 kg)",
+    "12 Burpees",
+    "12 Hang Squat Clean (52/34 kg)",
+    "12 Burpees",
+    "12 Overhead Squat (52/34 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TOMMY V",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "21 Thrusters (52/34 kg)",
+    "12 Rope Climbs (4.6 m)",
+    "15 Thrusters (52/34 kg)",
+    "9 Rope Climbs (4.6 m)",
+    "9 Thrusters (52/34 kg)",
+    "6 Rope Climbs (4.6 m)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TOP GUN",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "20 Thrusters (61/43 kg)",
+    "20 Sumo Deadlift High Pulls (61/43 kg)",
+    "20 Push Jerks (61/43 kg)",
+    "20 Overhead Squats (61/43 kg)",
+    "20 Front Squats (61/43 kg)",
+    "4 Burpees at the top of each minute"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TRIPLE 3",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "3,000 Meter Row",
+    "300 Double-Unders",
+    "4800 meter Run"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TULLY",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "200 Meter Swim",
+    "23 Dumbell Squat Cleans (18 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TUMILSON",
+  "score": [
+      "8 Rounds For Time:"
+      ],
+  "exercise": [
+    "200 Meter Run",
+    "11 Dumbbell Burpee Deadlifts (27 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "TYLER",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "7 Muscle-Ups",
+    "21 Sumo-Deadlift High-Pulls (43/29.5 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "UPSIDE-DOWN ANGIE",
+  "score": [
+      "For Time:"
+      ],
+  "exercise": [
+    "100 Air Squats",
+    "100 Sit-ups",
+    "100 Push-ups",
+    "100 Pull-ups"
+  ],
+  "type": "Girls",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "VICTORIA",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 Thrusters (43/29.5 kg)",
+    "14 Box Jumps (61/51 cm)",
+    "12 Sumo Deadlift High Pulls (43/29.5 kg)",
+    "12 Burpees",
+    "27 Kettlebell Swings (24/16 kg)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "VIOLA",
+  "score": [
+      "AMRAP in 25 minutes:",
+      "3, 6, 9, 12, 15, 18 Reps and so on"
+      ],
+  "exercise": [
+    "Thrusters (43/29.5 kg)",
+    "Pull-ups",
+    "Over the Bar Burpees"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1500
+},
+
+{
+  "name": "VOLKSWAGEN",
+  "score": [
+      "21-15-9 Reps, For Time:"
+      ],
+  "exercise": [
+    "Bench Press (Bodyweight)",
+    "Pull-Ups"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WADE",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "11 One-Arm Dumbbell Power Snatches (23 kg)",
+    "12 One-Arm Dumbbell Thrusters (23 kg)",
+    "11 Weighted Pull-Ups (23 kg dumbbell)"
+  ],
+  "type": "",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WALSH",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "22 Burpee Pull-Ups",
+    "22 Back Squats (84 kg)",
+    "200 Meter Run (20 kg plate overhead)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WAR FRANK",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "25 Muscle-Ups",
+    "100 Air Squats",
+    "35 GHD Sit-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WEAVER",
+  "score": [
+      "4 Rounds For Time:"
+      ],
+  "exercise": [
+    "10 L-Pull-Ups",
+    "15 Push-Ups",
+    "15 Chest-to-Bar Pull-Ups",
+    "15 Push-Ups",
+    "20 Pull-Ups",
+    "15 Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WEIJDT",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "19 Chest-to-Bar Pull-Ups",
+    "12 Box Jumps (76/61 cm)",
+    "8 Squat Cleans (75/45 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WESTON",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "1000 meter Row",
+    "200 meter Farmer Carry (20 kg dumbbells)",
+    "50 meter Waiter Walk, Right Arm (20 kg dumbbell)",
+    "50 meter Waiter Walk, Left Arm (20 kg dumbbell)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WETTERLING",
+  "score": [
+      "AMRAP in 19 minutes:"
+      ],
+  "exercise": [
+    "8 Burpee Box Jumps (61/51 cm)",
+    "9 Power Cleans (43/29.5 kg)",
+    "11 calorie Row"
+  ],
+  "type": "",
+  "timer": "AMRAP",
+  "time": 1140
+},
+
+{
+  "name": "WHITE",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "3 Rope Climbs (4.6 m)",
+    "10 Toes-to-Bar",
+    "21 Overhead Walking Lunges (20 kg plate)",
+    "400 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WHITTEN",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "22 Kettlebell Swings (32/24 kg)",
+    "22 Box Jumps (61/51 cm)",
+    "400m Run",
+    "22 Burpees",
+    "22 Wall Ball Shots (9/6 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WILLY",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "800 Meter Run",
+    "5 Front Squats (102/70 kg)",
+    "200 Meter Run",
+    "11 Chest-to-Bar Pull-Ups",
+    "400 Meter Run",
+    "12 Kettlebell Swings (32/24 kg)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WILMOT",
+  "score": [
+      "6 Rounds For Time:"
+      ],
+  "exercise": [
+    "50 Air Squats",
+    "25 Ring Dips"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WITTMAN",
+  "score": [
+      "7 Rounds For Time:"
+      ],
+  "exercise": [
+    "15 Kettlebell Swings (24/16 kg)",
+    "15 Power Cleans (43/29.5 kg)",
+    "15 Box Jumps (61/51 cm)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WOOD",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "400 Meter Run",
+    "10 Burpee Box Jumps (61 cm)",
+    "10 Sumo-Deadlift High-pull (43 kg)",
+    "10 Thruster (43 kg)",
+    "1 Minute Rest"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "WYK",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "5 Front Squats (102/70 kg)",
+    "5 Rope Climbs (4.6 m)",
+    "400 meter Run (20/16 kg plate)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ZEMBIEC",
+  "score": [
+      "5 Rounds For Time:"
+      ],
+  "exercise": [
+    "11 Back Squats (84/61 kg)",
+    "7 Burpee Pull-Ups (Strict)",
+    "400 meter Run"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ZEUS",
+  "score": [
+      "3 Rounds For Time:"
+      ],
+  "exercise": [
+    "30 Wall Ball Shots (9/6 kg)",
+    "30 Sumo Deadlift High-Pull (34/25 kg)",
+    "30 Box Jump (51 cm)",
+    "30 Push Presses (34/25 kg)",
+    "30 calorie Row",
+    "30 Push-Ups",
+    "10 Back Squat (Bodyweight)"
+  ],
+  "type": "Heroes",
+  "timer": "For Time",
+  "time": 0
+},
+
+{
+  "name": "ZIMMERMAN",
+  "score": [
+      "AMRAP in 25 minutes:"
+      ],
+  "exercise": [
+    "11 Chest-to-Bar Pull-Ups",
+    "2 Deadlifts (315/205lbs)",
+    "10 Handstand Push-Ups"
+  ],
+  "type": "Heroes",
+  "timer": "AMRAP",
+  "time": 1500
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ]

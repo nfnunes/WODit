@@ -30,7 +30,6 @@ class MovCell: UITableViewCell {
     func updateUI(mov: EXERCISE){
         
         movNameLbl.text = mov.name
-        movDescriptionLbl.text = mov.description
     }
     
     

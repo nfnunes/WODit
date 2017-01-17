@@ -132,6 +132,17 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                         vc.SetupView()
                     })
                 }
+                else if wod.timer == "EMOM"{
+                    let vc = storyboard.instantiateViewController(withIdentifier: "WODEmom") as! goWodEmomVC
+                    self.present(vc, animated: true, completion: {
+                        vc.WodName = wod.name
+                        for item in wod.exercise{
+                            vc.WodExercises = vc.WodExercises + item + "\r\n"
+                        }
+                        vc.CurrentTime = wod.time
+                        vc.SetupView()
+                    })
+                }
                 
             }
             

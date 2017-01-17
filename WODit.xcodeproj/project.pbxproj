@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		41356DED8C971A092F6B9F2A /* Pods_WODit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373B74C6FD45577AC24D574F /* Pods_WODit.framework */; };
-		BC02B69D1E1479320026C07D /* WODs.json in Resources */ = {isa = PBXBuildFile; fileRef = BC02B69C1E1479320026C07D /* WODs.json */; };
 		BC0FB3AB1DF4AC4600774A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3AA1DF4AC4600774A38 /* AppDelegate.swift */; };
 		BC0FB3AD1DF4AC4600774A38 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3AC1DF4AC4600774A38 /* MainViewController.swift */; };
 		BC0FB3B01DF4AC4600774A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3AE1DF4AC4600774A38 /* Main.storyboard */; };
@@ -27,14 +26,17 @@
 		BC5940641DF76EE200716735 /* WOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940631DF76EE200716735 /* WOD.swift */; };
 		BC59D9E41E075F8F00445FCD /* EmomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59D9E31E075F8F00445FCD /* EmomController.swift */; };
 		BC59D9E61E07739000445FCD /* TimerMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59D9E51E07739000445FCD /* TimerMenuController.swift */; };
+		BC656E631E19406C00B5CB1F /* goWodEmomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC656E621E19406C00B5CB1F /* goWodEmomVC.swift */; };
+		BC866FCC1E25A90E00A8D54E /* WODs.json in Resources */ = {isa = PBXBuildFile; fileRef = BC866FCB1E25A90E00A8D54E /* WODs.json */; };
 		BC980E4D1E146ED70038B867 /* goWODAmrapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC980E4C1E146ED70038B867 /* goWODAmrapVC.swift */; };
 		BCAA278B1DF9A81300A9F37D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */; };
 		BCBFE5A21E089C520056BC1F /* TabataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBFE5A11E089C520056BC1F /* TabataController.swift */; };
 		BCD1EE8A1E0B4C2000C104D7 /* TabataEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE891E0B4C2000C104D7 /* TabataEditVC.swift */; };
 		BCD1EE8C1E0B4CF200C104D7 /* TabataEditProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE8B1E0B4CF200C104D7 /* TabataEditProtocol.swift */; };
 		BCD1EE901E0EDE5000C104D7 /* goWODForTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */; };
+		BCF194681E2AB7CA00A3652D /* movVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF194671E2AB7CA00A3652D /* movVideoVC.swift */; };
+		BCF1946A1E2AD57900A3652D /* MOVs.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF194691E2AD57900A3652D /* MOVs.json */; };
 		BCF8740D1E0B2A0D00AEDFFD /* Timers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF8740C1E0B2A0D00AEDFFD /* Timers.storyboard */; };
-		BCFB02361E17EF0C003268F1 /* MOVs.json in Resources */ = {isa = PBXBuildFile; fileRef = BCFB02351E17EF0C003268F1 /* MOVs.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,7 +56,6 @@
 		28666140455E419EFE7DE825 /* Pods-WODit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WODit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WODit/Pods-WODit.debug.xcconfig"; sourceTree = "<group>"; };
 		373B74C6FD45577AC24D574F /* Pods_WODit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WODit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62964E44B31D0F873894E537 /* Pods-WODit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WODit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WODit/Pods-WODit.release.xcconfig"; sourceTree = "<group>"; };
-		BC02B69C1E1479320026C07D /* WODs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WODs.json; sourceTree = "<group>"; };
 		BC0FB3AA1DF4AC4600774A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC0FB3AC1DF4AC4600774A38 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BC0FB3AF1DF4AC4600774A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,6 +75,8 @@
 		BC5940631DF76EE200716735 /* WOD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOD.swift; sourceTree = "<group>"; };
 		BC59D9E31E075F8F00445FCD /* EmomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmomController.swift; sourceTree = "<group>"; };
 		BC59D9E51E07739000445FCD /* TimerMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerMenuController.swift; sourceTree = "<group>"; };
+		BC656E621E19406C00B5CB1F /* goWodEmomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goWodEmomVC.swift; sourceTree = "<group>"; };
+		BC866FCB1E25A90E00A8D54E /* WODs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WODs.json; sourceTree = "<group>"; };
 		BC980E4C1E146ED70038B867 /* goWODAmrapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goWODAmrapVC.swift; sourceTree = "<group>"; };
 		BCAA27861DF7873900A9F37D /* WODit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WODit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/WODit-bruhtocnkmuaqiequhhochmullet/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
@@ -81,8 +84,9 @@
 		BCD1EE891E0B4C2000C104D7 /* TabataEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabataEditVC.swift; sourceTree = "<group>"; };
 		BCD1EE8B1E0B4CF200C104D7 /* TabataEditProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabataEditProtocol.swift; sourceTree = "<group>"; };
 		BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goWODForTimeVC.swift; sourceTree = "<group>"; };
+		BCF194671E2AB7CA00A3652D /* movVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movVideoVC.swift; sourceTree = "<group>"; };
+		BCF194691E2AD57900A3652D /* MOVs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOVs.json; sourceTree = "<group>"; };
 		BCF8740C1E0B2A0D00AEDFFD /* Timers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timers.storyboard; sourceTree = "<group>"; };
-		BCFB02351E17EF0C003268F1 /* MOVs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOVs.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,8 @@
 				BCD1EE891E0B4C2000C104D7 /* TabataEditVC.swift */,
 				BC980E4C1E146ED70038B867 /* goWODAmrapVC.swift */,
 				BC3F46301E17E37100B2DCBA /* MovLibraryVC.swift */,
+				BC656E621E19406C00B5CB1F /* goWodEmomVC.swift */,
+				BCF194671E2AB7CA00A3652D /* movVideoVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -194,8 +200,8 @@
 		BCAA27871DF78CED00A9F37D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BCFB02351E17EF0C003268F1 /* MOVs.json */,
-				BC02B69C1E1479320026C07D /* WODs.json */,
+				BCF194691E2AD57900A3652D /* MOVs.json */,
+				BC866FCB1E25A90E00A8D54E /* WODs.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -264,11 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC02B69D1E1479320026C07D /* WODs.json in Resources */,
+				BC866FCC1E25A90E00A8D54E /* WODs.json in Resources */,
 				BC0FB3B81DF4AC4600774A38 /* LaunchScreen.storyboard in Resources */,
 				BCF8740D1E0B2A0D00AEDFFD /* Timers.storyboard in Resources */,
 				BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */,
-				BCFB02361E17EF0C003268F1 /* MOVs.json in Resources */,
+				BCF1946A1E2AD57900A3652D /* MOVs.json in Resources */,
 				BC0FB3B01DF4AC4600774A38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,10 +342,12 @@
 				BC3F46311E17E37100B2DCBA /* MovLibraryVC.swift in Sources */,
 				BCD1EE901E0EDE5000C104D7 /* goWODForTimeVC.swift in Sources */,
 				BC3683561E04DAD0006645E6 /* ForTimeController.swift in Sources */,
+				BC656E631E19406C00B5CB1F /* goWodEmomVC.swift in Sources */,
 				BC5940621DF76E1F00716735 /* WodLibraryVC.swift in Sources */,
 				BCBFE5A21E089C520056BC1F /* TabataController.swift in Sources */,
 				BC0FB3AB1DF4AC4600774A38 /* AppDelegate.swift in Sources */,
 				BC36835A1E05FB77006645E6 /* editAmrapController.swift in Sources */,
+				BCF194681E2AB7CA00A3652D /* movVideoVC.swift in Sources */,
 				BC3F462F1E17E2C200B2DCBA /* MovCell.swift in Sources */,
 				BC3683581E057199006645E6 /* AmrapController.swift in Sources */,
 				BCD1EE8C1E0B4CF200C104D7 /* TabataEditProtocol.swift in Sources */,

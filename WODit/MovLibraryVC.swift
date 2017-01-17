@@ -13,6 +13,9 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     var movs = [EXERCISE]()
     var selectedCellIndexPath: IndexPath?
+    var filteredMovs = [EXERCISE]()
+    
+    var inSearchMode = false
 
     @IBOutlet weak var movSearchBar: UISearchBar!
     @IBOutlet weak var movTableView: UITableView!
@@ -31,11 +34,10 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
         for (_,subJson):(String,JSON) in readableJSON{
             let name = subJson["name"].string
-            let description = subJson["description"].string
             
             let url = subJson["url"].string
             
-            movs.append(EXERCISE(name: name!, description: description!, url: url! ))
+            movs.append(EXERCISE(name: name!, url: url! ))
         }
     }
     
@@ -45,8 +47,16 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             
             let mov: EXERCISE!
             
-            mov = movs[indexPath.row]
-            cell.updateUI(mov: mov)
+            if inSearchMode {
+                mov = filteredMovs[indexPath.row]
+                cell.updateUI(mov: mov)
+                
+            }
+            else{
+                mov = movs[indexPath.row]
+                cell.updateUI(mov: mov)
+            }
+            
             return cell
             
         }
@@ -56,7 +66,13 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if inSearchMode{
+            return filteredMovs.count
+        }
+        else{
             return movs.count
+        }
+        
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -64,38 +80,42 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if selectedCellIndexPath == indexPath {
-            return 400
-        }
         return 55
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let currentCell = tableView.cellForRow(at: indexPath)! as UITableViewCell
-        if selectedCellIndexPath != nil && selectedCellIndexPath == indexPath {
-            
-            currentCell.backgroundColor = UIColor(red: 0.11, green: 0.10, blue: 0.10, alpha: 1.0)
-            selectedCellIndexPath = nil
-        } else {
-            selectedCellIndexPath = indexPath
-            currentCell.backgroundColor = UIColor(red:0.22, green:0.22, blue:0.22, alpha:1.0)
-        }
-        
-        tableView.beginUpdates()
-        tableView.endUpdates()
-        
-        
-        if selectedCellIndexPath != nil {
-            // This ensures, that the cell is fully visible once expanded
-            tableView.scrollToRow(at: indexPath, at: .none, animated: true)
-        }
     }
 
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        if let currentCell = tableView.cellForRow(at: indexPath) as UITableViewCell?{
-            currentCell.backgroundColor = UIColor(red: 0.11, green: 0.10, blue: 0.10, alpha: 1.0)
+
+        let exercise = movs[indexPath.row]
+        
+        performSegue(withIdentifier: "movVideoVC", sender: exercise)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? movVideoVC{
+            if let exerc = sender as? EXERCISE{
+                destination.exercise = exerc
+            }
         }
     }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        view.endEditing(true)
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if movSearchBar.text == nil || movSearchBar.text == "" {
+            inSearchMode = false
+            movTableView.reloadData()
+            view.endEditing(true)
+        }else{
+            inSearchMode = true
+            let entry = movSearchBar.text!.lowercased()
+            filteredMovs = movs.filter({$0.name.lowercased().range(of: entry) != nil })
+            movTableView.reloadData()
+        }
+    }
+
+    
 
 
 }
