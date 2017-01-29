@@ -57,6 +57,19 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 cell.updateUI(mov: mov)
             }
             
+            cell.tapAction = { (cell) in
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+               
+                    let vc = storyboard.instantiateViewController(withIdentifier: "movVideoVC") as! movVideoVC
+                self.present(vc, animated: true, completion: {
+
+                    vc.exercise = mov.name
+                   // print(vc.exercise)
+                })
+
+                
+            }
+            
             return cell
             
         }
@@ -83,7 +96,7 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         return 55
     }
 
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+/*    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
 
         let exercise = movs[indexPath.row]
         
@@ -96,7 +109,7 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 destination.exercise = exerc
             }
         }
-    }
+    }*/
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)

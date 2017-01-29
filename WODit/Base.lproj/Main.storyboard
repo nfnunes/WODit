@@ -806,6 +806,9 @@
                                                         <constraint firstAttribute="width" constant="35" id="VcE-4o-55l"/>
                                                     </constraints>
                                                     <state key="normal" image="iconPlay"/>
+                                                    <connections>
+                                                        <action selector="playBtnPressed:" destination="P3T-s7-vXb" eventType="touchUpInside" id="kin-YV-f4d"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -853,7 +856,7 @@
         <!--Mov VideoVC-->
         <scene sceneID="IlY-gh-GaF">
             <objects>
-                <viewController id="GPT-6k-fwy" customClass="movVideoVC" customModule="WODit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movVideoVC" id="GPT-6k-fwy" customClass="movVideoVC" customModule="WODit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uj3-XF-8Cx"/>
                         <viewControllerLayoutGuide type="bottom" id="Hf7-61-894"/>

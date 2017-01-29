@@ -21,20 +21,14 @@ class MovCell: UITableViewCell {
         // Initialization code
     }
     
- /*   override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        
-        // Configure the view for the selected state
-    }*/
-    
     func updateUI(mov: EXERCISE){
         
         movNameLbl.text = mov.name
     }
     
     
- /*   @IBAction func goBtnPressed(_ sender: Any) {
+    @IBAction func playBtnPressed(_ sender: Any) {
         tapAction?(self)
-    }*/
+    }
     
 }
