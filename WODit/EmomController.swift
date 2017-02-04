@@ -101,5 +101,17 @@ class EmomController: UIViewController, editAmrapControllerDelegate {
         let vc = storyboard.instantiateViewController(withIdentifier: "WODs") as UIViewController
         present(vc, animated: true, completion: nil)
     }
+    
+    @IBAction func goMOVsBtnPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MOVs") as UIViewController
+        present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func goMOVsBtn2Pressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MOVs") as UIViewController
+        present(vc, animated: true, completion: nil)
+    }
 
 }

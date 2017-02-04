@@ -15,6 +15,7 @@
 		BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */; };
 		BC0FB3B81DF4AC4600774A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3B61DF4AC4600774A38 /* LaunchScreen.storyboard */; };
 		BC1C90381E073A3900A9E2D8 /* AmrapEditProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C90371E073A3900A9E2D8 /* AmrapEditProtocol.swift */; };
+		BC3541431E45479400606476 /* MOVs.json in Resources */ = {isa = PBXBuildFile; fileRef = BC3541421E45479400606476 /* MOVs.json */; };
 		BC3683561E04DAD0006645E6 /* ForTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3683551E04DAD0006645E6 /* ForTimeController.swift */; };
 		BC3683581E057199006645E6 /* AmrapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3683571E057199006645E6 /* AmrapController.swift */; };
 		BC36835A1E05FB77006645E6 /* editAmrapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3683591E05FB77006645E6 /* editAmrapController.swift */; };
@@ -35,7 +36,6 @@
 		BCD1EE8C1E0B4CF200C104D7 /* TabataEditProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE8B1E0B4CF200C104D7 /* TabataEditProtocol.swift */; };
 		BCD1EE901E0EDE5000C104D7 /* goWODForTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */; };
 		BCF194681E2AB7CA00A3652D /* movVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF194671E2AB7CA00A3652D /* movVideoVC.swift */; };
-		BCF1946A1E2AD57900A3652D /* MOVs.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF194691E2AD57900A3652D /* MOVs.json */; };
 		BCF8740D1E0B2A0D00AEDFFD /* Timers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF8740C1E0B2A0D00AEDFFD /* Timers.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +64,7 @@
 		BC0FB3B71DF4AC4600774A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC0FB3B91DF4AC4600774A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC1C90371E073A3900A9E2D8 /* AmrapEditProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmrapEditProtocol.swift; sourceTree = "<group>"; };
+		BC3541421E45479400606476 /* MOVs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOVs.json; sourceTree = "<group>"; };
 		BC3683551E04DAD0006645E6 /* ForTimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForTimeController.swift; sourceTree = "<group>"; };
 		BC3683571E057199006645E6 /* AmrapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmrapController.swift; sourceTree = "<group>"; };
 		BC3683591E05FB77006645E6 /* editAmrapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editAmrapController.swift; sourceTree = "<group>"; };
@@ -85,7 +86,6 @@
 		BCD1EE8B1E0B4CF200C104D7 /* TabataEditProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabataEditProtocol.swift; sourceTree = "<group>"; };
 		BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goWODForTimeVC.swift; sourceTree = "<group>"; };
 		BCF194671E2AB7CA00A3652D /* movVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movVideoVC.swift; sourceTree = "<group>"; };
-		BCF194691E2AD57900A3652D /* MOVs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOVs.json; sourceTree = "<group>"; };
 		BCF8740C1E0B2A0D00AEDFFD /* Timers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timers.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -200,7 +200,7 @@
 		BCAA27871DF78CED00A9F37D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BCF194691E2AD57900A3652D /* MOVs.json */,
+				BC3541421E45479400606476 /* MOVs.json */,
 				BC866FCB1E25A90E00A8D54E /* WODs.json */,
 			);
 			name = Resources;
@@ -274,7 +274,7 @@
 				BC0FB3B81DF4AC4600774A38 /* LaunchScreen.storyboard in Resources */,
 				BCF8740D1E0B2A0D00AEDFFD /* Timers.storyboard in Resources */,
 				BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */,
-				BCF1946A1E2AD57900A3652D /* MOVs.json in Resources */,
+				BC3541431E45479400606476 /* MOVs.json in Resources */,
 				BC0FB3B01DF4AC4600774A38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

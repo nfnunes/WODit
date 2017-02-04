@@ -2,105 +2,538 @@
 
 {
   "name": "Air Squat",
-  "url": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/a_fb6Kz7FQg\" frameborder=\"0\" allowfullscreen></iframe>"
+  "url": "https://www.youtube.com/embed/a_fb6Kz7FQg"
+
 },
 
 {
   "name": "American Kettlebell Swing",
-  "url": "https://youtu.be/E6GoQYuZZT4"
+  "url": "https://www.youtube.com/embed/E6GoQYuZZT4"
 },
 
 {
   "name": "Back Extension",
-  "url": "https://youtu.be/Bw9YuQTTc58"
+  "url": "https://www.youtube.com/embed/Bw9YuQTTc58"
 },
 
 {
   "name": "Back Squats",
-  "url": "https://youtu.be/ultWZbUMPL8"
-},
-
-{
-  "name": "Barbell Thruster",
-  "url": "https://youtu.be/88jwDZtP35c?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
+  "url": "https://www.youtube.com/embed/ultWZbUMPL8"
 },
 
 {
   "name": "Bar Muscle-Up",
-  "url": "https://youtu.be/Al2P0nR2lB8"
+  "url": "https://www.youtube.com/embed/Al2P0nR2lB8"
 },
 
 {
   "name": "Bar-Facing Burpee",
-  "url": "https://youtu.be/KR65vNxss-4"
+  "url": "https://www.youtube.com/embed/KR65vNxss-4"
 },
 
 {
   "name": "Bear Crawl",
-  "url": "https://youtu.be/2yAWjVCT1VQ"
+  "url": "https://www.youtube.com/embed/2yAWjVCT1VQ"
 },
 
 {
   "name": "Bench Press",
-  "url": "https://youtu.be/FgVDxCxXkmc"
+  "url": "https://www.youtube.com/embed/FgVDxCxXkmc"
 },
 
 {
   "name": "Body Blaster",
-  "url": "https://youtu.be/a3Gmjz5hh7Y"
+  "url": "https://www.youtube.com/embed/a3Gmjz5hh7Y"
 },
 
 {
   "name": "Box Jump",
-  "url": "https://youtu.be/IxrzCG_7FH4"
+  "url": "https://www.youtube.com/embed/IxrzCG_7FH4"
 },
 
 {
   "name": "Box Step-Up",
-  "url": "https://youtu.be/-wm1O2DUg7I"
-},
-
-{
-  "name": "Broad-Jump",
-  "url": "https://youtu.be/MwiI72uFzNI?list=PL_DCGp8e67-ddG7j7bH-icpGObkuQ5cAK"
+  "url": "https://www.youtube.com/embed/-wm1O2DUg7I"
 },
 
 {
   "name": "Buddy Carry",
-  "url": "https://youtu.be/DXZ-p9ItJnY"
+  "url": "https://www.youtube.com/embed/DXZ-p9ItJnY"
 },
 
 {
   "name": "Burpee",
-  "url": "https://youtu.be/TU8QYVW0gDU"
+  "url": "https://www.youtube.com/embed/TU8QYVW0gDU"
 },
 
 {
   "name": "Burpee Bar Muscle-Up",
-  "url": "https://youtu.be/iAUzkrTsCDk"
+  "url": "https://www.youtube.com/embed/iAUzkrTsCDk"
 },
 
 {
   "name": "Burpee Box Jump",
-  "url": "https://youtu.be/bG2XsR2VqQw"
+  "url": "https://www.youtube.com/embed/bG2XsR2VqQw"
 },
 
 {
   "name": "Burpee Pull-Up",
-  "url": "https://youtu.be/jVzrLDIRqnE"
+  "url": "https://www.youtube.com/embed/jVzrLDIRqnE"
+},
+
+{
+  "name": "Chest-to-Bar Pull-Up",
+  "url": "https://www.youtube.com/embed/p9Stan68FYM"
+
+},
+
+{
+  "name": "Clapping Push-Up",
+  "url": "https://www.youtube.com/embed/sH6IGmw_dDg"
+},
+
+{
+  "name": "Clean",
+  "url": "https://www.youtube.com/embed/EKRiW9Yt3Ps"
+},
+
+{
+  "name": "Clean Thruster",
+  "url": "https://www.youtube.com/embed/IjJXwsbbk4w"
+},
+
+{
+  "name": "Clean-and-Jerk",
+  "url": "https://www.youtube.com/embed/rwMorlCDtis"
+},
+
+{
+  "name": "Curtis P's",
+  "url": "https://www.youtube.com/embed/S0pO8jOahNM"
+},
+
+
+{
+  "name": "Deadlift",
+  "url": "https://www.youtube.com/embed/op9kVnSso6Q"
+},
+
+{
+  "name": "Deficit Handstand Push-Up",
+  "url": "https://www.youtube.com/embed/OaPVqE-tZ3k"
+},
+
+{
+  "name": "Double Under",
+  "url": "https://www.youtube.com/embed/h7XjUbUpeHE"
+},
+
+{
+  "name": "Dumbbell Burpee Deadlift",
+  "url": "https://www.youtube.com/embed/o0G4NZo5VHA"
+},
+
+{
+  "name": "Dumbbell Hang Squat Clean",
+  "url": "https://www.youtube.com/embed/RT_MTXaLKxU"
+},
+
+{
+  "name": "Dumbbell Power Snatch",
+  "url": "https://www.youtube.com/embed/GhIJ5zORQ6I"
+},
+
+{
+  "name": "Dumbbell Snatch",
+  "url": "https://www.youtube.com/embed/R0mhHuVrLHA"
+},
+
+{
+  "name": "Dumbbell Split Clean",
+  "url": "https://www.youtube.com/embed/52Xai_rYsQI"
+},
+
+{
+  "name": "Dumbbell Swing",
+  "url": "https://www.youtube.com/embed/uB-fq0HqGK0"
+},
+
+{
+  "name": "Farmers Walk",
+  "url": "https://www.youtube.com/embed/Fkzk_RqlYig"
+
+},
+
+{
+  "name": "Floor Wipers",
+  "url": "https://www.youtube.com/embed/WUU0MVoszJc"
+},
+
+{
+  "name": "Forward Rolls",
+  "url": "https://www.youtube.com/embed/R0-xTcLg_ao"
+},
+
+{
+  "name": "Freestanding Handstand Push-Up",
+  "url": "https://www.youtube.com/embed/PobCQeuJwY8"
+},
+
+{
+  "name": "Front Squat",
+  "url": "https://www.youtube.com/embed/m4ytaCJZpl0"
+},
+
+{
+  "name": "GHD Sit-Up",
+  "url": "https://www.youtube.com/embed/pMS2dU0FuPk"
+},
+
+{
+  "name": "Ground to Overhead",
+  "url": "https://www.youtube.com/embed/5nyasj1quW0"
+},
+
+{
+  "name": "Hand Release Push-Up",
+  "url": "https://www.youtube.com/embed/kHtt49_Pljw"
+},
+
+{
+  "name": "Handstand Push-Up",
+  "url": "https://www.youtube.com/embed/hvoQiF0kBI8"
+},
+
+{
+  "name": "Handstand Push-Ups on Dumbbells",
+  "url": "https://www.youtube.com/embed/ixYYSw6MBFU"
+},
+
+{
+  "name": "Handstand Walk",
+  "url": "https://www.youtube.com/embed/nUEbp-cV_gA"
+},
+
+{
+  "name": "Hang Clean",
+  "url": "https://www.youtube.com/embed/TjTEOme9fvw"
+},
+
+{
+  "name": "Hang Power Clean",
+  "url": "https://www.youtube.com/embed/_iUFG1-H7d0"
+},
+
+{
+  "name": "Hang Power Snatch",
+  "url": "https://www.youtube.com/embed/8AyTzORaBM8"
+},
+
+{
+  "name": "Hang Split Snatch",
+  "url": "https://www.youtube.com/embed/xmErFvImjjQ"
+},
+
+{
+  "name": "Hang Squat Clean",
+  "url": "https://www.youtube.com/embed/bin0tFncQEo"
+},
+
+{
+  "name": "Hang Squat Snatch",
+  "url": "https://www.youtube.com/embed/WqGRUZ1E3CY"
+},
+
+{
+  "name": "Hanging Hip Touches",
+  "url": "https://www.youtube.com/embed/SJ3WqnnyvcQ"
+},
+
+{
+  "name": "Incline Push-Up",
+  "url": "https://www.youtube.com/embed/7emo_CK2r9U"
+},
+
+{
+  "name": "Jumping Jacks",
+  "url": "https://www.youtube.com/embed/iSSAk4XCsRA"
+
+},
+
+{
+  "name": "Jumping Pull-Up",
+  "url": "https://www.youtube.com/embed/HbUa7Q0PUTA"
+},
+
+{
+  "name": "Kettlebell Clean-and-Press",
+  "url": "https://www.youtube.com/embed/AvGEsrV1ssc"
+},
+
+{
+  "name": "Kettlebell Swing",
+  "url": "https://www.youtube.com/embed/vdezTMulJ-k"
+},
+
+{
+  "name": "Knees-to-Elbows",
+  "url": "https://www.youtube.com/embed/mxemkaycS44"
+},
+
+{
+  "name": "Legless Rope Climb",
+  "url": "https://www.youtube.com/embed/ySEQqVxKE7s"
+},
+
+{
+  "name": "L-Pull-Up",
+  "url": "https://www.youtube.com/embed/hHdD5Ksdnmk"
+},
+
+{
+  "name": "L-Sit Rope Climb",
+  "url": "https://www.youtube.com/embed/C9xAHrkQLpI"
+},
+
+{
+  "name": "Lunges",
+  "url": "https://www.youtube.com/embed/q-svZmbRN8k"
+},
+
+{
+  "name": "Man Maker",
+  "url": "https://www.youtube.com/embed/iMNnvhg1JcM"
+},
+
+{
+  "name": "Medicine Ball Clean",
+  "url": "https://www.youtube.com/embed/-nk0GqeSTJs"
+},
+
+{
+  "name": "Muscle-Up",
+  "url": "https://www.youtube.com/embed/rtF51pQB6Wc"
+},
+
+{
+  "name": "One-Arm Dumbbell Power Snatch",
+  "url": "https://www.youtube.com/embed/GhIJ5zORQ6I"
+},
+
+{
+  "name": "One-Arm Dumbbell Thruster",
+  "url": "https://www.youtube.com/embed/bCttX2AZfBA"
+},
+
+{
+  "name": "Over the Bar Burpee",
+  "url": "https://www.youtube.com/embed/nT7XXiqIWBY"
+},
+
+{
+  "name": "Overhead Squat",
+  "url": "https://www.youtube.com/embed/RD_vUnqwqqI"
+},
+
+{
+  "name": "Overhead Walking Lunge",
+  "url": "https://www.youtube.com/embed/m6MczOv_Ayg"
+},
+
+{
+  "name": "Parallette Handstand Push-Up",
+  "url": "https://www.youtube.com/embed/xK8Bj2teHng"
+
+},
+
+{
+  "name": "Pistol",
+  "url": "https://www.youtube.com/embed/qDcniqddTeE"
+},
+
+{
+  "name": "Power Clean",
+  "url": "https://www.youtube.com/embed/GVt4uQ0sDJE"
+},
+
+{
+  "name": "Power Snatch",
+  "url": "https://www.youtube.com/embed/tuOiNeTvLJs"
+},
+
+{
+  "name": "Pull-Up",
+  "url": "https://www.youtube.com/embed/aAggnpPyR6E"
+},
+
+{
+  "name": "Push Jerk",
+  "url": "https://www.youtube.com/embed/V-hKuAfWNUw"
+},
+
+{
+  "name": "Push Press",
+  "url": "https://www.youtube.com/embed/X6-DMh-t4nQ"
+},
+
+{
+  "name": "Ring Dip",
+  "url": "https://www.youtube.com/embed/Vt0lO4jpIDo"
+},
+
+{
+  "name": "Ring Handstand Push-Up",
+  "url": "https://www.youtube.com/embed/lYYn0QanoA0"
+},
+
+{
+  "name": "Ring Push-Up",
+  "url": "https://www.youtube.com/embed/FRiiZRhapeU"
+},
+
+{
+  "name": "Ring Row",
+  "url": "https://www.youtube.com/embed/xhlReCpAE9k"
+},
+
+{
+  "name": "Romanian Deadlift",
+  "url": "https://www.youtube.com/embed/GZAKFRNtxLY"
+},
+
+{
+  "name": "Rope Climb",
+  "url": "https://www.youtube.com/embed/qFE7pgOrj5w"
+},
+
+{
+  "name": "Row",
+  "url": "https://www.youtube.com/embed/UlWUPkXrq24"
+},
+
+{
+  "name": "Running Farmer Carry",
+  "url": "https://www.youtube.com/embed/jQ-r8bbPhdA"
+},
+
+{
+  "name": "Sandbag Carry",
+  "url": "https://www.youtube.com/embed/y4R5iO0eXXE"
+},
+
+{
+  "name": "Shoulder Press",
+  "url": "https://www.youtube.com/embed/xe19t2_6yis"
+},
+
+{
+  "name": "Shoulder-to-Overhead",
+  "url": "https://www.youtube.com/embed/8TceZ0p74h0"
+},
+
+{
+  "name": "Shuttle Sprint",
+  "url": "https://www.youtube.com/embed/lcsI7fxG5qM"
+},
+
+{
+  "name": "Single Arm Kettlebell Thruster",
+  "url": "https://www.youtube.com/embed/2O8VWlQrbvg"
+},
+
+{
+  "name": "Sit-Up",
+  "url": "https://www.youtube.com/embed/_HDZODOx7Zw"
+},
+
+{
+  "name": "Snatch",
+  "url": "https://www.youtube.com/embed/9xQp2sldyts"
+},
+
+{
+  "name": "Split Jerk",
+  "url": "https://www.youtube.com/embed/PsiO8lZTU2I"
+},
+
+{
+  "name": "Squat Clean",
+  "url": "https://www.youtube.com/embed/g9Y8QwctmhU"
+},
+
+{
+  "name": "Squat Clean Thruster",
+  "url": "https://www.youtube.com/embed/QC9_VE75gEg"
+},
+
+{
+  "name": "Squat Hang Clean",
+  "url": "https://www.youtube.com/embed/bin0tFncQEo"
+},
+
+{
+  "name": "Standing Broad-Jump",
+  "url": "https://www.youtube.com/embed/MwiI72uFzNI"
+},
+
+{
+  "name": "Sumo Deadlift High-Pull",
+  "url": "https://www.youtube.com/embed/o6QniJ9FaGA"
+},
+
+{
+  "name": "Thruster",
+  "url": "https://www.youtube.com/embed/aea5BGj9a8Y"
+},
+
+{
+  "name": "Toes Through Rings",
+  "url": "https://www.youtube.com/embed/qJYa9hmYcR8"
+},
+
+{
+  "name": "Toes-to-Bar",
+  "url": "https://www.youtube.com/embed/_03pCKOv4l4"
+},
+
+{
+  "name": "Triple-Under",
+  "url": "https://www.youtube.com/embed/OSMvoZnh_ng"
+},
+
+{
+  "name": "Turkish Get-Up",
+  "url": "https://www.youtube.com/embed/-_zTytmHM94"
+},
+
+{
+  "name": "Waiter Walk",
+  "url": "https://www.youtube.com/embed/Th41Un1J6oQ"
+},
+
+{
+  "name": "Walking Lunge",
+  "url": "https://www.youtube.com/embed/L8fvypPrzzs"
+},
+
+{
+  "name": "Wall Ball",
+  "url": "https://www.youtube.com/embed/fpUD0mcFp_0"
+},
+
+{
+  "name": "Wall Ball \"2-for-1s\"",
+  "url": "https://www.youtube.com/embed/WUHsut8Cd-g"
+},
+
+{
+  "name": "Wall Climb",
+  "url": "https://www.youtube.com/embed/Aprh33Qfmys"
+},
+
+{
+  "name": "Weighted Pull-Up",
+  "url": "https://www.youtube.com/embed/8n-Kw3piLpo"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ]

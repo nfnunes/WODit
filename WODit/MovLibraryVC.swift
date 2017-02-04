@@ -50,7 +50,6 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             if inSearchMode {
                 mov = filteredMovs[indexPath.row]
                 cell.updateUI(mov: mov)
-                
             }
             else{
                 mov = movs[indexPath.row]
@@ -62,12 +61,10 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                
                     let vc = storyboard.instantiateViewController(withIdentifier: "movVideoVC") as! movVideoVC
                 self.present(vc, animated: true, completion: {
-
-                    vc.exercise = mov.name
-                   // print(vc.exercise)
+                    vc.exercise = mov.url
+                    vc.name = mov.name
+                    vc.SetupView()
                 })
-
-                
             }
             
             return cell
@@ -95,21 +92,6 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 55
     }
-
-/*    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-
-        let exercise = movs[indexPath.row]
-        
-        performSegue(withIdentifier: "movVideoVC", sender: exercise)
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destination = segue.destination as? movVideoVC{
-            if let exerc = sender as? EXERCISE{
-                destination.exercise = exerc
-            }
-        }
-    }*/
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)
@@ -128,7 +110,17 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         }
     }
 
+    @IBAction func goTimersBtnPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Timers", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Timers") as UIViewController
+        present(vc, animated: true, completion: nil)
+    }
     
+    @IBAction func goTimersBtnPressed2(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Timers", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Timers") as UIViewController
+        present(vc, animated: true, completion: nil)
+    }
 
 
 }

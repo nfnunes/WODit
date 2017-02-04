@@ -38,6 +38,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2df-lS-xPG">
                                                 <rect key="frame" x="140" y="0.0" width="35" height="35"/>
                                                 <state key="normal" image="iconExercisesc"/>
+                                                <connections>
+                                                    <action selector="goMOVsBtnPressed:" destination="wo1-fR-AMf" eventType="touchUpInside" id="BH5-z5-DKE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17B-l6-E0e">
                                                 <rect key="frame" x="280" y="0.0" width="35" height="35"/>
@@ -82,6 +85,9 @@
                                             <constraint firstAttribute="height" constant="30" id="efG-ya-uEU"/>
                                         </constraints>
                                         <state key="normal" image="iconExercisesc"/>
+                                        <connections>
+                                            <action selector="goMVOsBtnPressed:" destination="wo1-fR-AMf" eventType="touchUpInside" id="clP-HG-cGq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.10980392160000001" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -188,6 +194,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fc4-ij-k7q">
                                                 <rect key="frame" x="140" y="0.0" width="35" height="35"/>
                                                 <state key="normal" image="iconExercisesc"/>
+                                                <connections>
+                                                    <action selector="goMOVsBtn2Pressed:" destination="ZjT-pf-63m" eventType="touchUpInside" id="IwU-2j-QGJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76L-aT-dpO">
                                                 <rect key="frame" x="280" y="0.0" width="35" height="35"/>
@@ -232,6 +241,9 @@
                                             <constraint firstAttribute="height" constant="30" id="rPq-8N-sBt"/>
                                         </constraints>
                                         <state key="normal" image="iconExercisesc"/>
+                                        <connections>
+                                            <action selector="goMOVsBtnPressed:" destination="ZjT-pf-63m" eventType="touchUpInside" id="85C-ml-SXB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.10980392160000001" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -418,6 +430,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2im-Ta-fXW">
                                                 <rect key="frame" x="140" y="0.0" width="35" height="35"/>
                                                 <state key="normal" image="iconExercisesc"/>
+                                                <connections>
+                                                    <action selector="goMOVsBtn2Pressed:" destination="B7d-Fu-37n" eventType="touchUpInside" id="ET5-oE-9h5"/>
+                                                    <action selector="goMOVsBtnPressed:" destination="B7d-Fu-37n" eventType="touchUpInside" id="XYn-6f-oO5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNf-ft-Hd9">
                                                 <rect key="frame" x="280" y="0.0" width="35" height="35"/>
@@ -462,6 +478,9 @@
                                             <constraint firstAttribute="width" constant="30" id="pbl-6o-e35"/>
                                         </constraints>
                                         <state key="normal" image="iconExercisesc"/>
+                                        <connections>
+                                            <action selector="goMOVsBtnPressed:" destination="B7d-Fu-37n" eventType="touchUpInside" id="r5a-mG-yOJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.10980392160000001" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -705,6 +724,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coG-Yn-nKc">
                                                         <rect key="frame" x="140" y="0.0" width="35" height="35"/>
                                                         <state key="normal" image="iconExercisesc"/>
+                                                        <connections>
+                                                            <action selector="goMOVsBtn2Pressed:" destination="VIg-gV-opy" eventType="touchUpInside" id="Jr9-lM-61N"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAF-dj-PLu">
                                                         <rect key="frame" x="280" y="0.0" width="35" height="35"/>
@@ -747,6 +769,9 @@
                                                     <constraint firstAttribute="width" constant="30" id="TxW-4U-4cW"/>
                                                 </constraints>
                                                 <state key="normal" image="iconExercisesc"/>
+                                                <connections>
+                                                    <action selector="goMOVsBtnPressed:" destination="VIg-gV-opy" eventType="touchUpInside" id="NFN-ga-OWh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.10980392160000001" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -965,6 +990,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AI1-aR-ITL">
                                                         <rect key="frame" x="140" y="0.0" width="35" height="35"/>
                                                         <state key="normal" image="iconExercisesc"/>
+                                                        <connections>
+                                                            <action selector="goMOVsBtn2Pressed:" destination="uHS-70-qbr" eventType="touchUpInside" id="cDL-8b-jmA"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFg-Fa-hqX">
                                                         <rect key="frame" x="280" y="0.0" width="35" height="35"/>
@@ -1007,6 +1035,9 @@
                                                     <constraint firstAttribute="width" constant="30" id="o2O-Zg-GFR"/>
                                                 </constraints>
                                                 <state key="normal" image="iconExercisesc"/>
+                                                <connections>
+                                                    <action selector="goMOVsBtnPressed:" destination="uHS-70-qbr" eventType="touchUpInside" id="0vQ-ip-Yba"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.10980392160000001" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1321,10 +1352,10 @@
         <image name="iconWOD" width="35" height="35"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ya9-Se-OCR"/>
-        <segue reference="wJ4-tJ-PnW"/>
-        <segue reference="1sh-77-m20"/>
         <segue reference="4gR-Ra-Xgs"/>
+        <segue reference="1sh-77-m20"/>
+        <segue reference="wJ4-tJ-PnW"/>
+        <segue reference="Ya9-Se-OCR"/>
         <segue reference="A1b-SS-Hnv"/>
     </inferredMetricsTieBreakers>
 </document>
