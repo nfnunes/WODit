@@ -75,12 +75,13 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 heroesWods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod, timer: timer!, time: time! ))
                 
             }
+            
+            self.wodtableView.rowHeight = UITableViewAutomaticDimension
+            self.wodtableView.estimatedRowHeight = 55
        
             scoresWod.removeAll()
             exercisesWod.removeAll()
         }
-       // wodtableView.rowHeight = UITableViewAutomaticDimension
-        
         allBtn.isSelected = true
     }
     
@@ -173,15 +174,24 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         return 1
     }
 
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+  /*  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if selectedCellIndexPath == indexPath {
-            return 400
+            //return 400
+           // tableView.estimatedRowHeight = 400
+            tableView.rowHeight = UITableViewAutomaticDimension
+            print(tableView.rowHeight)
+            return tableView.rowHeight
         }
         return 55
-    }
-    
+    }*/
+ 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let currentCell = tableView.cellForRow(at: indexPath)! as UITableViewCell
+        
+        guard let currentCell = tableView.cellForRow(at: indexPath) as? WodCell else { return }
+        
+        currentCell.changeState()
+
+      //  let currentCell = tableView.cellForRow(at: indexPath)! as UITableViewCell
         if selectedCellIndexPath != nil && selectedCellIndexPath == indexPath {
             
             currentCell.backgroundColor = UIColor(red: 0.11, green: 0.10, blue: 0.10, alpha: 1.0)
@@ -190,23 +200,25 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             selectedCellIndexPath = indexPath
             currentCell.backgroundColor = UIColor(red:0.22, green:0.22, blue:0.22, alpha:1.0)
         }
-        
+ 
         tableView.beginUpdates()
         tableView.endUpdates()
         
+       // tableView.reloadData()
         
+        /*
         if selectedCellIndexPath != nil {
             // This ensures, that the cell is fully visible once expanded
             tableView.scrollToRow(at: indexPath, at: .none, animated: true)
-        }
+        }*/
     }
-    
+ /*
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         if let currentCell = tableView.cellForRow(at: indexPath) as UITableViewCell?{
             currentCell.backgroundColor = UIColor(red: 0.11, green: 0.10, blue: 0.10, alpha: 1.0)
         }
     }
-    
+ */
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)
     }

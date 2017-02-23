@@ -24,6 +24,13 @@
 			remoteGlobalIDString = B86E516D9A2C46C3F1F39CC9472B40BE;
 			remoteInfo = SwiftyJSON;
 		};
+		BC2E75271E57B962002049BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2E75231E57B961002049BC /* SelfSizingTableViewCells.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B4788F61E56F23C00031CDB;
+			remoteInfo = SelfSizingTableViewCells;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -33,20 +40,21 @@
 		21A514B5D4C6013783D51326A405602D /* Pods-WODit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WODit-frameworks.sh"; sourceTree = "<group>"; };
 		2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		387CA4C65A3EC9674332A65C08036868 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		387CA4C65A3EC9674332A65C08036868 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5541992964708F41C5B57EEC2B7582CE /* Pods-WODit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WODit-umbrella.h"; sourceTree = "<group>"; };
 		56786C169F210D633D2182D9EB5EC77C /* Pods-WODit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WODit.debug.xcconfig"; sourceTree = "<group>"; };
 		65F6273535B78BA7322F2F8FF2FFF772 /* Pods-WODit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WODit.release.xcconfig"; sourceTree = "<group>"; };
 		708DF5E6CB431D36783F01C6CE1110BD /* Pods-WODit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WODit-acknowledgements.plist"; sourceTree = "<group>"; };
-		886D7E226770DF2CF15C722FAE8CC1F0 /* Pods_WODit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WODit.framework; path = "Pods-WODit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		886D7E226770DF2CF15C722FAE8CC1F0 /* Pods_WODit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WODit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A167E320F86C601BD576D306E8D4BF64 /* Pods-WODit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WODit-resources.sh"; sourceTree = "<group>"; };
-		B9827757D0BFC2C51E05DDF9DE51CD52 /* Pods-WODit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WODit.modulemap"; sourceTree = "<group>"; };
+		B9827757D0BFC2C51E05DDF9DE51CD52 /* Pods-WODit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WODit.modulemap"; sourceTree = "<group>"; };
 		BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BC2E75231E57B961002049BC /* SelfSizingTableViewCells.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SelfSizingTableViewCells.xcodeproj; path = ../WODit/SelfRezising3LabelCells/SelfSizingTableViewCells.xcodeproj; sourceTree = "<group>"; };
 		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		F2E18AE60EC0629B373343595BE3212E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +110,6 @@
 				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
 				8EC39E1DC11846207722B71AAFE40F98 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -117,6 +124,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				BC2E75231E57B961002049BC /* SelfSizingTableViewCells.xcodeproj */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
@@ -146,6 +154,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		BC2E75241E57B961002049BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E75281E57B962002049BC /* SelfSizingTableViewCells.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -240,6 +256,12 @@
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 892119D4D21F7AB5EF6DE3C291CC18F3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BC2E75241E57B961002049BC /* Products */;
+					ProjectRef = BC2E75231E57B961002049BC /* SelfSizingTableViewCells.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EB10678EA7905C4FFDD8C45300E17C01 /* Pods-WODit */,
@@ -247,6 +269,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BC2E75281E57B962002049BC /* SelfSizingTableViewCells.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SelfSizingTableViewCells.app;
+			remoteRef = BC2E75271E57B962002049BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28E33F7EC3659C495162496F6FD77495 /* Sources */ = {
