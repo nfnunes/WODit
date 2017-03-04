@@ -13,6 +13,8 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     var instanceOfForTimeVC = goWODForTimeVC()
     
+    var expandedCells = [IndexPath]()
+    
     var wods = [WOD]()
     var scoresWod = [String]()
     var exercisesWod = [String]()
@@ -87,7 +89,8 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "wodCell", for: indexPath) as? WodCell{
+        if expandedCells.contains(indexPath) {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "wodCellExpanded", for: indexPath) as! WodCell//{
             
             let wod: WOD!
             
@@ -149,10 +152,74 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             
             return cell
             
-        }
-        else{
-            return UITableViewCell()
-        }
+            
+            }
+            else{
+            let Ecell = tableView.dequeueReusableCell(withIdentifier: "wodCell", for: indexPath) as! WodCell//{
+            
+            let wod: WOD!
+            
+            if inSearchMode {
+                wod = filteredWods[indexPath.row]
+                Ecell.updateUI(wod: wod)
+                
+            }
+            else if girlsSelected{
+                wod = girlsWods[indexPath.row]
+                Ecell.updateUI(wod: wod)
+            }
+            else if heroesSelected{
+                wod = heroesWods[indexPath.row]
+                Ecell.updateUI(wod: wod)
+            }
+            else{
+                wod = wods[indexPath.row]
+                Ecell.updateUI(wod: wod)
+            }
+            
+            Ecell.tapAction = { (cell) in
+                print(wod.timer)
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                if wod.timer == "For Time"{
+                    let vc = storyboard.instantiateViewController(withIdentifier: "WODForTime") as! goWODForTimeVC
+                    self.present(vc, animated: true, completion: {
+                        vc.WodName = wod.name
+                        for item in wod.exercise{
+                            vc.WodExercises = vc.WodExercises + item + "\r\n"
+                        }
+                        vc.SetupView()
+                    })
+                }
+                else if wod.timer == "AMRAP"{
+                    let vc = storyboard.instantiateViewController(withIdentifier: "WODAmrap") as! goWODAmrapVC
+                    self.present(vc, animated: true, completion: {
+                        vc.WodName = wod.name
+                        for item in wod.exercise{
+                            vc.WodExercises = vc.WodExercises + item + "\r\n"
+                        }
+                        vc.CurrentTime = wod.time
+                        vc.SetupView()
+                    })
+                }
+                else if wod.timer == "EMOM"{
+                    let vc = storyboard.instantiateViewController(withIdentifier: "WODEmom") as! goWodEmomVC
+                    self.present(vc, animated: true, completion: {
+                        vc.WodName = wod.name
+                        for item in wod.exercise{
+                            vc.WodExercises = vc.WodExercises + item + "\r\n"
+                        }
+                        vc.CurrentTime = wod.time
+                        vc.SetupView()
+                    })
+                }
+                
+            }
+            
+            return Ecell
+            
+            //return tableView.dequeueReusableCell(withIdentifier: "wodCell", for: indexPath)
+            }
+      //  }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -173,52 +240,17 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-
-  /*  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if selectedCellIndexPath == indexPath {
-            //return 400
-           // tableView.estimatedRowHeight = 400
-            tableView.rowHeight = UITableViewAutomaticDimension
-            print(tableView.rowHeight)
-            return tableView.rowHeight
-        }
-        return 55
-    }*/
  
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        guard let currentCell = tableView.cellForRow(at: indexPath) as? WodCell else { return }
-        
-        currentCell.changeState()
-
-      //  let currentCell = tableView.cellForRow(at: indexPath)! as UITableViewCell
-        if selectedCellIndexPath != nil && selectedCellIndexPath == indexPath {
-            
-            currentCell.backgroundColor = UIColor(red: 0.11, green: 0.10, blue: 0.10, alpha: 1.0)
-            selectedCellIndexPath = nil
+        if expandedCells.contains(indexPath){
+            expandedCells.remove(at: expandedCells.index(of: indexPath)!)
         } else {
-            selectedCellIndexPath = indexPath
-            currentCell.backgroundColor = UIColor(red:0.22, green:0.22, blue:0.22, alpha:1.0)
+            expandedCells.append(indexPath)
         }
+        
+        tableView.reloadRows(at: [indexPath], with: UITableViewRowAnimation.automatic)
+    }
  
-        tableView.beginUpdates()
-        tableView.endUpdates()
-        
-       // tableView.reloadData()
-        
-        /*
-        if selectedCellIndexPath != nil {
-            // This ensures, that the cell is fully visible once expanded
-            tableView.scrollToRow(at: indexPath, at: .none, animated: true)
-        }*/
-    }
- /*
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        if let currentCell = tableView.cellForRow(at: indexPath) as UITableViewCell?{
-            currentCell.backgroundColor = UIColor(red: 0.11, green: 0.10, blue: 0.10, alpha: 1.0)
-        }
-    }
- */
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)
     }
