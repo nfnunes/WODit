@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class AmrapController: UIViewController, editAmrapControllerDelegate {
     
@@ -16,6 +17,8 @@ class AmrapController: UIViewController, editAmrapControllerDelegate {
     @IBOutlet weak var amrapDisplay: UILabel!
     @IBOutlet weak var amrapToggleBtn: UIButton!
     @IBOutlet weak var AmrapSelected: UIButton!
+    
+    let somFinalTimer: SystemSoundID = 1010
     
     
     override func viewDidLoad() {
@@ -42,6 +45,7 @@ class AmrapController: UIViewController, editAmrapControllerDelegate {
                 self.amrapDisplay.text = "\(minutes) : \(seconds)"
                 
                 if self.currentTime == 0{
+                    AudioServicesPlaySystemSound(self.somFinalTimer)
                     self.amrapToggleBtn.setImage(#imageLiteral(resourceName: "iconStart"), for: .normal)
                     self.timer?.invalidate()
                     self.timer = nil

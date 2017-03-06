@@ -41,37 +41,15 @@ class MainViewController: UIViewController {
 }
 
 
-extension UIView {
-    
-    func addShadow(){
-        
-        let shadow = NSShadow()
-        shadow.shadowColor = UIColor.white.cgColor
-        shadow.shadowBlurRadius = 20
-        shadow.shadowOffset = CGSize(width: 0.0, height: 5.0)
-        //layer.shadowOpacity = 0.5
-        //layer.shadowPath = shadowPath.cgPath
-        //self.setNeedsLayout()  //Indica que esta view precisa de ser actualizada no próximo ciclo de actualização
-        //self.layoutIfNeeded()  //Verifica se a view precisa de ser actualizada (linha acima) e chama o layoutSubview se precisar. É assim que o layout Subviews deve ser chamado
-        let myAttribute = [ NSShadowAttributeName: shadow ]
-        
+/*
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
     }
     
-}
-
-extension UILabel{
-    
-    func requiredHeight() -> CGFloat{
-        
-        let label:UILabel = UILabel(frame: CGRect(origin: CGPoint(x: 0,y :0), size: CGSize(width: self.frame.width, height: CGFloat.greatestFiniteMagnitude)))
-        label.numberOfLines = 0
-        label.lineBreakMode = NSLineBreakMode.byWordWrapping
-        label.font = self.font
-        label.text = self.text
-        
-        label.sizeToFit()
-        
-        return label.frame.height
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
 }
-
+*/

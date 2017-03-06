@@ -9,6 +9,7 @@
 import UIKit
 import SwiftyJSON
 
+
 class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
     var instanceOfForTimeVC = goWODForTimeVC()
@@ -42,6 +43,7 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    //    self.hideKeyboardWhenTappedAround()
         
         wodtableView.delegate = self
         wodtableView.dataSource = self

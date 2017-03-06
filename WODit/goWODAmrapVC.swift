@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class goWODAmrapVC: UIViewController {
 
     var timer: Timer?
@@ -24,6 +25,8 @@ class goWODAmrapVC: UIViewController {
     private var _wodExercises: String = ""
     private var currentTime: Int = 0
     private var initTime: Int = 0
+    
+    
     
     var WodName: String
         {

@@ -23,6 +23,7 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     override func viewDidLoad() {
         super.viewDidLoad()
+   //     self.hideKeyboardWhenTappedAround()
 
         movSearchBar.delegate = self
         movTableView.dataSource = self

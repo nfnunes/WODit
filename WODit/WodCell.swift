@@ -19,6 +19,7 @@ class WodCell: UITableViewCell {
     @IBOutlet weak var wodLabelToBottom: NSLayoutConstraint!
     
     @IBOutlet weak var wodExercToBottom: NSLayoutConstraint!
+    
     var tapAction: ((UITableViewCell) -> Void)?
     
     override func awakeFromNib() {

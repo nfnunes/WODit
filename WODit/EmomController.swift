@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class EmomController: UIViewController, editAmrapControllerDelegate {
 
@@ -14,6 +15,9 @@ class EmomController: UIViewController, editAmrapControllerDelegate {
     @IBOutlet weak var emonMinuteDisplay: UILabel!
     @IBOutlet weak var emonToggleBtn: UIButton!
     @IBOutlet weak var EmonSelected: UIButton!
+    
+    let somFinalTimer: SystemSoundID = 1010
+    let somMinuto: SystemSoundID = 1005
     
     
     var timer: Timer?
@@ -50,10 +54,12 @@ class EmomController: UIViewController, editAmrapControllerDelegate {
                 self.emonMinuteDisplay.text = "\(minutesSec) : \(secondsSec)"
                 
                 if self.currentMinute == 0 && self.currentTime > 0{
+                    AudioServicesPlaySystemSound(self.somMinuto)
                     self.currentMinute = 60
                 }
                 
                 if self.currentTime == 0{
+                    AudioServicesPlaySystemSound(self.somFinalTimer)
                     self.emonToggleBtn.setImage(#imageLiteral(resourceName: "iconStart"), for: .normal)
                     self.timer?.invalidate()
                     self.timer = nil

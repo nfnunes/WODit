@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class TabataController: UIViewController, editTabataControllerDelegate {
     
@@ -24,7 +25,9 @@ class TabataController: UIViewController, editTabataControllerDelegate {
     @IBOutlet weak var lastRepLbl: UILabel!
     @IBOutlet weak var TabataSelected: UIButton!
     
-    
+    let somFinalTimer: SystemSoundID = 1010
+    let somStartRest: SystemSoundID = 1005
+    let somStartWork: SystemSoundID = 1023
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,10 +52,14 @@ class TabataController: UIViewController, editTabataControllerDelegate {
                         self.workDisplay.text = String(format: "%02d", self.workTime)
                     }
                     else if self.workTime == 0 && self.restTime > 0{
+                        if self.restTime == 10{
+                        AudioServicesPlaySystemSound(self.somStartRest)
+                        }
                         self.restTime -= 1
                         self.restDisplay.text = String(format: "%02d", self.restTime)
                     }
                     else if self.workTime == 0 && self.restTime == 0 && self.reps < Int(self.lastRepLbl.text!)!{
+                        AudioServicesPlaySystemSound(self.somStartWork)
                         self.reps += 1
                         self.workTime = 20
                         self.restTime = 10
@@ -63,6 +70,7 @@ class TabataController: UIViewController, editTabataControllerDelegate {
                     }
                         
                     else if self.restTime == 0 && self.reps >= Int(self.lastRepLbl.text!)!{
+                        AudioServicesPlaySystemSound(self.somFinalTimer)
                         self.toggleBtn.setImage(#imageLiteral(resourceName: "iconStart"), for: .normal)
                         self.timer?.invalidate()
                         self.timer = nil
