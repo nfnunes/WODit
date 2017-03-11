@@ -9,5 +9,5 @@
 import Foundation
 
 protocol editTabataControllerDelegate: class {
-    func editTabataRounds(_ rounds: String)
+    func editTabataRounds(_ rounds: Int)
 }

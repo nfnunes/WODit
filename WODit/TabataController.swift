@@ -97,9 +97,9 @@ class TabataController: UIViewController, editTabataControllerDelegate {
         
     }
     
-    func editTabataRounds(_ rounds: String) {
-        if rounds > "0"{
-            lastRepLbl.text = rounds
+    func editTabataRounds(_ rounds: Int) {
+        if rounds > 0{
+            lastRepLbl.text = "\(rounds)"
         }
         else{
             lastRepLbl.text = "1"

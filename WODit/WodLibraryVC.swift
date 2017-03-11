@@ -115,7 +115,7 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             }
             
             cell.tapAction = { (cell) in
-                print(wod.timer)
+                //print(wod.timer)
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 if wod.timer == "For Time"{
                     let vc = storyboard.instantiateViewController(withIdentifier: "WODForTime") as! goWODForTimeVC
