@@ -43,7 +43,7 @@ class TabataEditVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSour
         let pickerLabel = UILabel()
         pickerLabel.textColor = UIColor.orange
         pickerLabel.text = String(format: "%02d",roundsDatabase[row])
-        pickerLabel.font = UIFont(name: "Avenir Medium", size: 60) // In this use your custom font
+        pickerLabel.font = UIFont(name: "Avenir Medium", size: 60)
         pickerLabel.textAlignment = NSTextAlignment.center
         return pickerLabel
     }
@@ -61,8 +61,5 @@ class TabataEditVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSour
         delegate?.editTabataRounds(rounds)
         self.dismiss(animated: true, completion: nil)
     }
-    
-
-
 
 }

@@ -36,10 +36,6 @@ class editAmrapController: UIViewController, UIPickerViewDataSource, UIPickerVie
         return timeDatabase[component].count
     }
     
-   /* func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return "\(timeDatabase[component][row])"
-    }
-    */
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
         switch(component){

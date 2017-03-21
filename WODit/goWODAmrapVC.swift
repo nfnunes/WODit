@@ -19,7 +19,6 @@ class goWODAmrapVC: UIViewController {
     @IBOutlet weak var wodExercisesLbl: UITextView!
     @IBOutlet weak var amrapDisplay: UILabel!
     @IBOutlet weak var amrapToggleBtn: UIButton!
-    //@IBOutlet weak var AmrapSelected: UIButton!
     
     private var _wodName: String = ""
     private var _wodExercises: String = ""
@@ -115,7 +114,5 @@ class goWODAmrapVC: UIViewController {
     @IBAction func backBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-    
-
 
 }

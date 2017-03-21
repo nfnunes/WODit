@@ -23,7 +23,6 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     override func viewDidLoad() {
         super.viewDidLoad()
-   //     self.hideKeyboardWhenTappedAround()
 
         movSearchBar.delegate = self
         movTableView.dataSource = self
@@ -35,11 +34,13 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
         for (_,subJson):(String,JSON) in readableJSON{
             let name = subJson["name"].string
-            
             let url = subJson["url"].string
             
             movs.append(EXERCISE(name: name!, url: url! ))
         }
+        
+        self.movTableView.rowHeight = UITableViewAutomaticDimension
+        self.movTableView.estimatedRowHeight = 55
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -50,17 +51,16 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             
             if inSearchMode {
                 mov = filteredMovs[indexPath.row]
-                cell.updateUI(mov: mov)
             }
             else{
                 mov = movs[indexPath.row]
-                cell.updateUI(mov: mov)
             }
+            cell.updateUI(mov: mov)
             
             cell.tapAction = { (cell) in
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                
-                    let vc = storyboard.instantiateViewController(withIdentifier: "movVideoVC") as! movVideoVC
+                let vc = storyboard.instantiateViewController(withIdentifier: "movVideoVC") as! movVideoVC
                 self.present(vc, animated: true, completion: {
                     vc.exercise = mov.url
                     vc.name = mov.name
@@ -90,9 +90,9 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         return 1
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+  /*  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 55
-    }
+    }*/
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)

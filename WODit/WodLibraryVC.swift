@@ -25,8 +25,6 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     @IBOutlet weak var searchBar: UISearchBar!
     
     var inSearchMode = false
-    
-    //var wodSearchController: UISearchController!
 
     @IBOutlet weak var allBtn: UIButton!
     @IBOutlet weak var girlsBtn: UIButton!
@@ -43,7 +41,6 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    //    self.hideKeyboardWhenTappedAround()
         
         wodtableView.delegate = self
         wodtableView.dataSource = self
@@ -71,13 +68,11 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             if (subJson["type"].string == "Girls"){
                 
                 girlsWods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod, timer: timer!, time: time! ))
-                
             }
             
             if (subJson["type"].string == "Heroes"){
                 
                 heroesWods.append(WOD(name: name!, score: scoresWod, exercise: exercisesWod, timer: timer!, time: time! ))
-                
             }
             
             self.wodtableView.rowHeight = UITableViewAutomaticDimension
@@ -92,30 +87,25 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         if expandedCells.contains(indexPath) {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "wodCellExpanded", for: indexPath) as! WodCell//{
+            let cell = tableView.dequeueReusableCell(withIdentifier: "wodCellExpanded", for: indexPath) as! WodCell
             
             let wod: WOD!
             
             if inSearchMode {
                 wod = filteredWods[indexPath.row]
-                cell.updateUI(wod: wod)
-                
             }
             else if girlsSelected{
                 wod = girlsWods[indexPath.row]
-                cell.updateUI(wod: wod)
             }
             else if heroesSelected{
                 wod = heroesWods[indexPath.row]
-                cell.updateUI(wod: wod)
             }
             else{
                 wod = wods[indexPath.row]
-                cell.updateUI(wod: wod)
             }
+            cell.updateUI(wod: wod)
             
             cell.tapAction = { (cell) in
-                //print(wod.timer)
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 if wod.timer == "For Time"{
                     let vc = storyboard.instantiateViewController(withIdentifier: "WODForTime") as! goWODForTimeVC
@@ -149,35 +139,28 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                         vc.SetupView()
                     })
                 }
-                
             }
-            
             return cell
-            
-            
             }
+            
             else{
-            let Ecell = tableView.dequeueReusableCell(withIdentifier: "wodCell", for: indexPath) as! WodCell//{
+            let Ecell = tableView.dequeueReusableCell(withIdentifier: "wodCell", for: indexPath) as! WodCell
             
             let wod: WOD!
             
             if inSearchMode {
                 wod = filteredWods[indexPath.row]
-                Ecell.updateUI(wod: wod)
-                
             }
             else if girlsSelected{
                 wod = girlsWods[indexPath.row]
-                Ecell.updateUI(wod: wod)
             }
             else if heroesSelected{
                 wod = heroesWods[indexPath.row]
-                Ecell.updateUI(wod: wod)
             }
             else{
                 wod = wods[indexPath.row]
-                Ecell.updateUI(wod: wod)
             }
+            Ecell.updateUI(wod: wod)
             
             Ecell.tapAction = { (cell) in
                 print(wod.timer)
@@ -214,14 +197,9 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                         vc.SetupView()
                     })
                 }
-                
             }
-            
             return Ecell
-            
-            //return tableView.dequeueReusableCell(withIdentifier: "wodCell", for: indexPath)
             }
-      //  }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -275,7 +253,6 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             else if heroesSelected{
                 filteredWods = heroesWods.filter({$0.name.lowercased().range(of: entry) != nil })
             }
-            
             wodtableView.reloadData()
         }
         

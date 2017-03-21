@@ -59,9 +59,6 @@ class goWodEmomVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // AmrapSelected.isSelected = true
-        
-        
         SetupView()
     }
 

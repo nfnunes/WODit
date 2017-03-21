@@ -74,10 +74,6 @@ class TabataController: UIViewController, editTabataControllerDelegate {
                         self.toggleBtn.setImage(#imageLiteral(resourceName: "iconStart"), for: .normal)
                         self.timer?.invalidate()
                         self.timer = nil
-                   //     self.workDisplay.text = String(format: "%02d", self.workTime)
-                   //     self.restDisplay.text = String(format: "%02d", self.restTime)
-                   //     self.currentRepLbl.text = "\(self.reps)"
-                        
                     }
                 }
         }
@@ -112,7 +108,6 @@ class TabataController: UIViewController, editTabataControllerDelegate {
             TabataEditVC.delegate = self
         }
     }
-    
     
     @IBAction func goWODsBtnPressed(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)

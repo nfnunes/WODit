@@ -48,7 +48,6 @@ class goWODForTimeVC: UIViewController {
         super.viewDidLoad()
         
         SetupView()
-        
     }
     
     func SetupView() {
@@ -85,7 +84,4 @@ class goWODForTimeVC: UIViewController {
     @IBAction func backBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-
-
-
 }
