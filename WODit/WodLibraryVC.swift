@@ -163,7 +163,6 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             Ecell.updateUI(wod: wod)
             
             Ecell.tapAction = { (cell) in
-                print(wod.timer)
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 if wod.timer == "For Time"{
                     let vc = storyboard.instantiateViewController(withIdentifier: "WODForTime") as! goWODForTimeVC
@@ -257,10 +256,6 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         }
         
     }
-    
-    @IBAction func backBtn(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
 
     @IBAction func selectAllBtn(_ sender: Any) {
         
@@ -293,12 +288,6 @@ class WodLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         girlsSelected = false
         heroesSelected = true
         wodtableView.reloadData()
-    }
-    
-    @IBAction func goTimersBtnPressed(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Timers", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "Timers") as UIViewController
-        present(vc, animated: true, completion: nil)
     }
 
 }

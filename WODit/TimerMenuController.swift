@@ -14,37 +14,12 @@ class TimerMenuController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-
-
-    @IBAction func goWODsBtnPressed(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "WODs") as UIViewController
-        present(vc, animated: true, completion: nil)
-    }
-
-    @IBAction func goWODsBtn2Pressed(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "WODs") as UIViewController
-        present(vc, animated: true, completion: nil)
-    }
-    
-    @IBAction func goMVOsBtnPressed(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "MOVs") as UIViewController
-        present(vc, animated: true, completion: nil)
-    }
-    
-    @IBAction func goMOVsBtnPressed(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "MOVs") as UIViewController
-        present(vc, animated: true, completion: nil)
     }
     
 }

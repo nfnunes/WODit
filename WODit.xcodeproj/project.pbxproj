@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		41356DED8C971A092F6B9F2A /* Pods_WODit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373B74C6FD45577AC24D574F /* Pods_WODit.framework */; };
 		BC0FB3AB1DF4AC4600774A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3AA1DF4AC4600774A38 /* AppDelegate.swift */; };
-		BC0FB3AD1DF4AC4600774A38 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3AC1DF4AC4600774A38 /* MainViewController.swift */; };
 		BC0FB3B01DF4AC4600774A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3AE1DF4AC4600774A38 /* Main.storyboard */; };
 		BC0FB3B31DF4AC4600774A38 /* WODit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC0FB3B11DF4AC4600774A38 /* WODit.xcdatamodeld */; };
 		BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */; };
@@ -36,7 +35,6 @@
 		BCD1EE8C1E0B4CF200C104D7 /* TabataEditProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE8B1E0B4CF200C104D7 /* TabataEditProtocol.swift */; };
 		BCD1EE901E0EDE5000C104D7 /* goWODForTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */; };
 		BCF194681E2AB7CA00A3652D /* movVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF194671E2AB7CA00A3652D /* movVideoVC.swift */; };
-		BCF8740D1E0B2A0D00AEDFFD /* Timers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF8740C1E0B2A0D00AEDFFD /* Timers.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,7 +55,6 @@
 		373B74C6FD45577AC24D574F /* Pods_WODit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WODit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62964E44B31D0F873894E537 /* Pods-WODit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WODit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WODit/Pods-WODit.release.xcconfig"; sourceTree = "<group>"; };
 		BC0FB3AA1DF4AC4600774A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC0FB3AC1DF4AC4600774A38 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BC0FB3AF1DF4AC4600774A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC0FB3B21DF4AC4600774A38 /* WODit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WODit.xcdatamodel; sourceTree = "<group>"; };
 		BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,7 +83,6 @@
 		BCD1EE8B1E0B4CF200C104D7 /* TabataEditProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabataEditProtocol.swift; sourceTree = "<group>"; };
 		BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goWODForTimeVC.swift; sourceTree = "<group>"; };
 		BCF194671E2AB7CA00A3652D /* movVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movVideoVC.swift; sourceTree = "<group>"; };
-		BCF8740C1E0B2A0D00AEDFFD /* Timers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timers.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +136,6 @@
 				BC59405E1DF7680200716735 /* Controller */,
 				BC0FB3AA1DF4AC4600774A38 /* AppDelegate.swift */,
 				BC0FB3AE1DF4AC4600774A38 /* Main.storyboard */,
-				BCF8740C1E0B2A0D00AEDFFD /* Timers.storyboard */,
 				BC0FB3B41DF4AC4600774A38 /* Assets.xcassets */,
 				BC0FB3B61DF4AC4600774A38 /* LaunchScreen.storyboard */,
 				BC0FB3B91DF4AC4600774A38 /* Info.plist */,
@@ -170,7 +165,6 @@
 		BC59405E1DF7680200716735 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BC0FB3AC1DF4AC4600774A38 /* MainViewController.swift */,
 				BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */,
 				BC3683591E05FB77006645E6 /* editAmrapController.swift */,
 				BC3683551E04DAD0006645E6 /* ForTimeController.swift */,
@@ -237,7 +231,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Nuno;
 				TargetAttributes = {
 					BC0FB3A61DF4AC4600774A38 = {
@@ -272,7 +266,6 @@
 			files = (
 				BC866FCC1E25A90E00A8D54E /* WODs.json in Resources */,
 				BC0FB3B81DF4AC4600774A38 /* LaunchScreen.storyboard in Resources */,
-				BCF8740D1E0B2A0D00AEDFFD /* Timers.storyboard in Resources */,
 				BC0FB3B51DF4AC4600774A38 /* Assets.xcassets in Resources */,
 				BC3541431E45479400606476 /* MOVs.json in Resources */,
 				BC0FB3B01DF4AC4600774A38 /* Main.storyboard in Resources */,
@@ -338,7 +331,6 @@
 				BCD1EE8A1E0B4C2000C104D7 /* TabataEditVC.swift in Sources */,
 				BC59D9E41E075F8F00445FCD /* EmomController.swift in Sources */,
 				BC59D9E61E07739000445FCD /* TimerMenuController.swift in Sources */,
-				BC0FB3AD1DF4AC4600774A38 /* MainViewController.swift in Sources */,
 				BC3F46311E17E37100B2DCBA /* MovLibraryVC.swift in Sources */,
 				BCD1EE901E0EDE5000C104D7 /* goWODForTimeVC.swift in Sources */,
 				BC3683561E04DAD0006645E6 /* ForTimeController.swift in Sources */,
