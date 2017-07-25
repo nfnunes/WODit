@@ -1,5 +1,5 @@
 //
-//  goWODAmrapVC.swift
+//  GoWODAmrapVC.swift
 //  WODit
 //
 //  Created by Nuno on 28/12/2016.
@@ -9,7 +9,7 @@
 import UIKit
 
 
-class goWODAmrapVC: UIViewController {
+class GoWODAmrapVC: UIViewController {
 
     var timer: Timer?
     //var currentTime = 1200 // 20min = 20*60

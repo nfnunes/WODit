@@ -1,5 +1,5 @@
 //
-//  movVideoVC.swift
+//  MovVideoVC.swift
 //  WODit
 //
 //  Created by Nuno on 14/01/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class movVideoVC: UIViewController, UIWebViewDelegate {
+class MovVideoVC: UIViewController, UIWebViewDelegate {
 
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var videoName: UILabel!

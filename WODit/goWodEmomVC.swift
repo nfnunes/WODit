@@ -1,5 +1,5 @@
 //
-//  goWodEmomVC.swift
+//  GoWodEmomVC.swift
 //  WODit
 //
 //  Created by Nuno on 01/01/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class goWodEmomVC: UIViewController {
+class GoWodEmomVC: UIViewController {
     
     var timer: Timer?
     var currentMinute = 60

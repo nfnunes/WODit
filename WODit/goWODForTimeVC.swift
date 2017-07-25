@@ -1,5 +1,5 @@
 //
-//  goWODForTimeVC.swift
+//  GoWODForTimeVC.swift
 //  WODit
 //
 //  Created by Nuno on 24/12/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class goWODForTimeVC: UIViewController {
+class GoWODForTimeVC: UIViewController {
     
     var timer: Timer?
     var currentTime = 0

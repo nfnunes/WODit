@@ -17,7 +17,9 @@
 		BC3541431E45479400606476 /* MOVs.json in Resources */ = {isa = PBXBuildFile; fileRef = BC3541421E45479400606476 /* MOVs.json */; };
 		BC3683561E04DAD0006645E6 /* ForTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3683551E04DAD0006645E6 /* ForTimeController.swift */; };
 		BC3683581E057199006645E6 /* AmrapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3683571E057199006645E6 /* AmrapController.swift */; };
-		BC36835A1E05FB77006645E6 /* editAmrapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3683591E05FB77006645E6 /* editAmrapController.swift */; };
+		BC3A1DF21F27DB0F00770EA2 /* GoWODForTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A1DF11F27DB0F00770EA2 /* GoWODForTimeVC.swift */; };
+		BC3A1DF61F27DF2200770EA2 /* EditAmrapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A1DF51F27DF2200770EA2 /* EditAmrapVC.swift */; };
+		BC3A1DF81F27DFE200770EA2 /* EditTabataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A1DF71F27DFE200770EA2 /* EditTabataVC.swift */; };
 		BC3F462D1E17E09B00B2DCBA /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F462C1E17E09A00B2DCBA /* Exercise.swift */; };
 		BC3F462F1E17E2C200B2DCBA /* MovCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F462E1E17E2C200B2DCBA /* MovCell.swift */; };
 		BC3F46311E17E37100B2DCBA /* MovLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F46301E17E37100B2DCBA /* MovLibraryVC.swift */; };
@@ -26,15 +28,13 @@
 		BC5940641DF76EE200716735 /* WOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5940631DF76EE200716735 /* WOD.swift */; };
 		BC59D9E41E075F8F00445FCD /* EmomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59D9E31E075F8F00445FCD /* EmomController.swift */; };
 		BC59D9E61E07739000445FCD /* TimerMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59D9E51E07739000445FCD /* TimerMenuController.swift */; };
-		BC656E631E19406C00B5CB1F /* goWodEmomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC656E621E19406C00B5CB1F /* goWodEmomVC.swift */; };
 		BC866FCC1E25A90E00A8D54E /* WODs.json in Resources */ = {isa = PBXBuildFile; fileRef = BC866FCB1E25A90E00A8D54E /* WODs.json */; };
-		BC980E4D1E146ED70038B867 /* goWODAmrapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC980E4C1E146ED70038B867 /* goWODAmrapVC.swift */; };
 		BCAA278B1DF9A81300A9F37D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */; };
 		BCBFE5A21E089C520056BC1F /* TabataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBFE5A11E089C520056BC1F /* TabataController.swift */; };
-		BCD1EE8A1E0B4C2000C104D7 /* TabataEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE891E0B4C2000C104D7 /* TabataEditVC.swift */; };
+		BCCE54F51F27E69E00B0CA75 /* GoWODAmrapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE54F41F27E69E00B0CA75 /* GoWODAmrapVC.swift */; };
+		BCCE54F71F27E71900B0CA75 /* GoWodEmomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE54F61F27E71900B0CA75 /* GoWodEmomVC.swift */; };
+		BCCE54F91F27E7B100B0CA75 /* MovVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE54F81F27E7B100B0CA75 /* MovVideoVC.swift */; };
 		BCD1EE8C1E0B4CF200C104D7 /* TabataEditProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE8B1E0B4CF200C104D7 /* TabataEditProtocol.swift */; };
-		BCD1EE901E0EDE5000C104D7 /* goWODForTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */; };
-		BCF194681E2AB7CA00A3652D /* movVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF194671E2AB7CA00A3652D /* movVideoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,7 +64,9 @@
 		BC3541421E45479400606476 /* MOVs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOVs.json; sourceTree = "<group>"; };
 		BC3683551E04DAD0006645E6 /* ForTimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForTimeController.swift; sourceTree = "<group>"; };
 		BC3683571E057199006645E6 /* AmrapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmrapController.swift; sourceTree = "<group>"; };
-		BC3683591E05FB77006645E6 /* editAmrapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editAmrapController.swift; sourceTree = "<group>"; };
+		BC3A1DF11F27DB0F00770EA2 /* GoWODForTimeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoWODForTimeVC.swift; sourceTree = "<group>"; };
+		BC3A1DF51F27DF2200770EA2 /* EditAmrapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAmrapVC.swift; sourceTree = "<group>"; };
+		BC3A1DF71F27DFE200770EA2 /* EditTabataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTabataVC.swift; sourceTree = "<group>"; };
 		BC3F462C1E17E09A00B2DCBA /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		BC3F462E1E17E2C200B2DCBA /* MovCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovCell.swift; sourceTree = "<group>"; };
 		BC3F46301E17E37100B2DCBA /* MovLibraryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovLibraryVC.swift; sourceTree = "<group>"; };
@@ -73,16 +75,14 @@
 		BC5940631DF76EE200716735 /* WOD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOD.swift; sourceTree = "<group>"; };
 		BC59D9E31E075F8F00445FCD /* EmomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmomController.swift; sourceTree = "<group>"; };
 		BC59D9E51E07739000445FCD /* TimerMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerMenuController.swift; sourceTree = "<group>"; };
-		BC656E621E19406C00B5CB1F /* goWodEmomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goWodEmomVC.swift; sourceTree = "<group>"; };
 		BC866FCB1E25A90E00A8D54E /* WODs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WODs.json; sourceTree = "<group>"; };
-		BC980E4C1E146ED70038B867 /* goWODAmrapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goWODAmrapVC.swift; sourceTree = "<group>"; };
 		BCAA27861DF7873900A9F37D /* WODit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WODit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAA278A1DF9A81300A9F37D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/WODit-bruhtocnkmuaqiequhhochmullet/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		BCBFE5A11E089C520056BC1F /* TabataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabataController.swift; sourceTree = "<group>"; };
-		BCD1EE891E0B4C2000C104D7 /* TabataEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabataEditVC.swift; sourceTree = "<group>"; };
+		BCCE54F41F27E69E00B0CA75 /* GoWODAmrapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoWODAmrapVC.swift; sourceTree = "<group>"; };
+		BCCE54F61F27E71900B0CA75 /* GoWodEmomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoWodEmomVC.swift; sourceTree = "<group>"; };
+		BCCE54F81F27E7B100B0CA75 /* MovVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovVideoVC.swift; sourceTree = "<group>"; };
 		BCD1EE8B1E0B4CF200C104D7 /* TabataEditProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabataEditProtocol.swift; sourceTree = "<group>"; };
-		BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goWODForTimeVC.swift; sourceTree = "<group>"; };
-		BCF194671E2AB7CA00A3652D /* movVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movVideoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,19 +165,19 @@
 		BC59405E1DF7680200716735 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BCD1EE8F1E0EDE5000C104D7 /* goWODForTimeVC.swift */,
-				BC3683591E05FB77006645E6 /* editAmrapController.swift */,
+				BCCE54F81F27E7B100B0CA75 /* MovVideoVC.swift */,
+				BCCE54F61F27E71900B0CA75 /* GoWodEmomVC.swift */,
+				BCCE54F41F27E69E00B0CA75 /* GoWODAmrapVC.swift */,
+				BC3A1DF71F27DFE200770EA2 /* EditTabataVC.swift */,
+				BC3A1DF51F27DF2200770EA2 /* EditAmrapVC.swift */,
+				BC3A1DF11F27DB0F00770EA2 /* GoWODForTimeVC.swift */,
 				BC3683551E04DAD0006645E6 /* ForTimeController.swift */,
 				BC5940611DF76E1F00716735 /* WodLibraryVC.swift */,
 				BC3683571E057199006645E6 /* AmrapController.swift */,
 				BC59D9E31E075F8F00445FCD /* EmomController.swift */,
 				BC59D9E51E07739000445FCD /* TimerMenuController.swift */,
 				BCBFE5A11E089C520056BC1F /* TabataController.swift */,
-				BCD1EE891E0B4C2000C104D7 /* TabataEditVC.swift */,
-				BC980E4C1E146ED70038B867 /* goWODAmrapVC.swift */,
 				BC3F46301E17E37100B2DCBA /* MovLibraryVC.swift */,
-				BC656E621E19406C00B5CB1F /* goWodEmomVC.swift */,
-				BCF194671E2AB7CA00A3652D /* movVideoVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -328,25 +328,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5940641DF76EE200716735 /* WOD.swift in Sources */,
-				BCD1EE8A1E0B4C2000C104D7 /* TabataEditVC.swift in Sources */,
 				BC59D9E41E075F8F00445FCD /* EmomController.swift in Sources */,
 				BC59D9E61E07739000445FCD /* TimerMenuController.swift in Sources */,
 				BC3F46311E17E37100B2DCBA /* MovLibraryVC.swift in Sources */,
-				BCD1EE901E0EDE5000C104D7 /* goWODForTimeVC.swift in Sources */,
 				BC3683561E04DAD0006645E6 /* ForTimeController.swift in Sources */,
-				BC656E631E19406C00B5CB1F /* goWodEmomVC.swift in Sources */,
+				BCCE54F51F27E69E00B0CA75 /* GoWODAmrapVC.swift in Sources */,
+				BC3A1DF81F27DFE200770EA2 /* EditTabataVC.swift in Sources */,
 				BC5940621DF76E1F00716735 /* WodLibraryVC.swift in Sources */,
+				BC3A1DF21F27DB0F00770EA2 /* GoWODForTimeVC.swift in Sources */,
 				BCBFE5A21E089C520056BC1F /* TabataController.swift in Sources */,
 				BC0FB3AB1DF4AC4600774A38 /* AppDelegate.swift in Sources */,
-				BC36835A1E05FB77006645E6 /* editAmrapController.swift in Sources */,
-				BCF194681E2AB7CA00A3652D /* movVideoVC.swift in Sources */,
 				BC3F462F1E17E2C200B2DCBA /* MovCell.swift in Sources */,
+				BCCE54F71F27E71900B0CA75 /* GoWodEmomVC.swift in Sources */,
+				BC3A1DF61F27DF2200770EA2 /* EditAmrapVC.swift in Sources */,
 				BC3683581E057199006645E6 /* AmrapController.swift in Sources */,
 				BCD1EE8C1E0B4CF200C104D7 /* TabataEditProtocol.swift in Sources */,
-				BC980E4D1E146ED70038B867 /* goWODAmrapVC.swift in Sources */,
 				BC5940601DF76AA700716735 /* WodCell.swift in Sources */,
 				BC0FB3B31DF4AC4600774A38 /* WODit.xcdatamodeld in Sources */,
 				BC1C90381E073A3900A9E2D8 /* AmrapEditProtocol.swift in Sources */,
+				BCCE54F91F27E7B100B0CA75 /* MovVideoVC.swift in Sources */,
 				BC3F462D1E17E09B00B2DCBA /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

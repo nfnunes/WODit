@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol editAmrapControllerDelegate: class {
+protocol EditAmrapControllerDelegate: class {
     func editAmrapTime(_ minutes: Int, _ seconds: Int)
 }

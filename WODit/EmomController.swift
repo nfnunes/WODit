@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class EmomController: UIViewController, editAmrapControllerDelegate {
+class EmomController: UIViewController, EditAmrapControllerDelegate {
 
     @IBOutlet weak var emonMainDisplay: UILabel!
     @IBOutlet weak var emonMinuteDisplay: UILabel!
@@ -91,7 +91,7 @@ class EmomController: UIViewController, editAmrapControllerDelegate {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let editAmrapController = segue.destination as? editAmrapController{
+        if let editAmrapController = segue.destination as? EditAmrapVC{
             editAmrapController.delegate = self
         }
     }  

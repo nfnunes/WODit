@@ -53,12 +53,5 @@ class WodCell: UITableViewCell {
         tapAction?(self)
     }
     
-/*    func changeState(){
-        wodLabelToBottom.isActive = !wodLabelToBottom.isActive
-        wodExercToBottom.isActive = !wodExercToBottom.isActive
-
-        self.setNeedsLayout()
-
-    }*/
 
 }

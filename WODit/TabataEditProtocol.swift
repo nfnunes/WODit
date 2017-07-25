@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol editTabataControllerDelegate: class {
-    func editTabataRounds(_ rounds: Int)
+protocol EditTabataControllerDelegate: class {
+    func EditTabataRounds(_ rounds: Int)
 }

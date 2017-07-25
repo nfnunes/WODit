@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class TabataController: UIViewController, editTabataControllerDelegate {
+class TabataController: UIViewController, EditTabataControllerDelegate {
     
     var timer: Timer?
     var workTime = 20
@@ -93,7 +93,7 @@ class TabataController: UIViewController, editTabataControllerDelegate {
         
     }
     
-    func editTabataRounds(_ rounds: Int) {
+    func EditTabataRounds(_ rounds: Int) {
         if rounds > 0{
             lastRepLbl.text = "\(rounds)"
         }
@@ -104,8 +104,8 @@ class TabataController: UIViewController, editTabataControllerDelegate {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let TabataEditVC = segue.destination as? TabataEditVC{
-            TabataEditVC.delegate = self
+        if let tabataEditVC = segue.destination as? EditTabataVC{
+            tabataEditVC.delegate = self
         }
     }
 }

@@ -32,6 +32,7 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         let jsonData = NSData(contentsOfFile: path!) as Data!
         let readableJSON = JSON(data: jsonData!)
         
+        // Get list of exercises and its video urls
         for (_,subJson):(String,JSON) in readableJSON{
             let name = subJson["name"].string
             let url = subJson["url"].string
@@ -43,6 +44,7 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         self.movTableView.estimatedRowHeight = 55
     }
     
+    // Fill the tableview with the list of movements
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         if let cell = tableView.dequeueReusableCell(withIdentifier: "movCell", for: indexPath) as? MovCell{
@@ -57,10 +59,11 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             }
             cell.updateUI(mov: mov)
             
+            //When Play button is pressed
             cell.tapAction = { (cell) in
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                
-                let vc = storyboard.instantiateViewController(withIdentifier: "movVideoVC") as! movVideoVC
+                let vc = storyboard.instantiateViewController(withIdentifier: "movVideoVC") as! MovVideoVC
                 self.present(vc, animated: true, completion: {
                     vc.exercise = mov.url
                     vc.name = mov.name
@@ -76,6 +79,7 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         }
     }
     
+    // Set number of rows
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if inSearchMode{
             return filteredMovs.count
@@ -86,18 +90,17 @@ class MovLibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
     }
 
+    // Set number of sections
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-  /*  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 55
-    }*/
-    
+    // Cancel the text search
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)
     }
     
+    // Search for a movement
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if movSearchBar.text == nil || movSearchBar.text == "" {
             inSearchMode = false

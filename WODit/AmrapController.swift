@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class AmrapController: UIViewController, editAmrapControllerDelegate {
+class AmrapController: UIViewController, EditAmrapControllerDelegate {
     
     var timer: Timer?
     var currentTime = 1200 // 20min = 20*60
@@ -73,7 +73,7 @@ class AmrapController: UIViewController, editAmrapControllerDelegate {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let editAmrapController = segue.destination as? editAmrapController{
+        if let editAmrapController = segue.destination as? EditAmrapVC{
             editAmrapController.delegate = self
         }
     }
